@@ -155,7 +155,7 @@ Per tentoonstelling zijn er één of meerdere `Exhibits`. Elke exhibit is binnen
 een `Museum` en binnen een `Tentoonstelling` uniek en vormt functioneel gezien
 een eenheid. Exhibits komen daarom ook terug in de functionele ontwerpen van de
 tentoonstellingsontwerpers en bouwers. Daarnaast zal de `Exhibit` de eenheid
-zijn waar incidentmeldingen en rapportages worden geadministreerd.
+zijn waar incidentmeldingen en rapportages aan worden gekoppeld.
 
 De opbouw van de naam is daarom simpelweg:
 
@@ -165,7 +165,7 @@ Voor de namen van `Exhibits` gelden de volgende regels:
 
 * Is uniek binnen het `Museum`.
 * Heeft een maximale lengte van 24 karakters.
-* Bestaat uitsluitend uit alfanumerieke karakters. 
+* Bestaat uitsluitend uit alfanumerieke karakters.
 * Bevat geen hoofdletters.
 * Is makkelijk leesbaar en bruikbaar in de mondelinge communicatie.
 
@@ -179,7 +179,7 @@ Per `Tentoonstelling` of per `Infrastructuur` zijn er één of meerdere
 `<naamondersteunend systeem>`
 
 Voor de namen van `Ondersteunende systemen` gelden dezelfde naamgevingsregels
-als die bij een `Exhibit`.
+als die van een `Exhibit`.
 
 ## Component
 
@@ -213,7 +213,7 @@ Welke typen `Componenten` onderscheiden we?
 * Monitor: `mon`
 * Computer: `cmp`
 * Versterker: `amp`
-* Beamer / projector: `prj`
+* Projector: `prj`
 * Stekkerdoos: `pwr`
 * Lamp: `lmp`
 
@@ -221,7 +221,102 @@ Voorbeeld: `animalkeeper-mon-1`
 
 ## Labels
 
-Rekening houden met variabel namen in Ansible.
+
+### Datapunten
+
+Met `Datapunten` worden de data outlets bedoeld die in de zalen en overige ruimten zijn
+aangebracht waarop UTP-kabels met RJ-45 connectoren kunnen worden aangesloten.
+
+Bij het bepalen van de opbouw van de namen van `Datapunten` zijn de volgende
+uitgangspunten gehanteerd:
+
+* De administratieve last in de vorm van een patchlijst moet minimaal zijn.
+  Idealiter is er buiten de switchconfiguratie überhaupt geen noodzaak voor een dergelijke
+  (foutgevoelige) administratie.
+* In principe worden alle datapunten gepatched.
+
+De naamgeving van datapunten is als volgt:
+
+`<lettertechnischeruimte><nummerpatchkast>.<letterpatchpaneel><volgnummer
+outlet>`
+
+Hierdoor weet je op basis van de naam op welke poort in welke switch in welke
+kast in welke technische ruimte het datapunt uitkomt. Het is niet nodig om een
+patchlijst bij te houden.
+
+Voorbeeld: `B2.D24`
+
+Het datapunt in dit voorbeeld is aangesloten op poort `24` in patchpaneel `D` in
+kast 2 in de SER `B`.
+
+### Switches
+
+Met `Switches` worden de netwerkswitches bedoeld waarop datapunten worden
+gepatched en waarmee het museum van netwerkconnectiviteit wordt voorzien.
+
+De specificatie van de naamgeving van de switches volgt.
+
+### Labels bij wandcontactdozen
+
+
+### Labels van kabels
+
+
+### Labels van onderdelen van componenten
+
+
+### Labels van componenten
+
+
+
+`Componenten` en kabels tussen `Componenten` dienen te worden voorzien
+van fysieke labels. Daarnaast zijn er allerlei variabelen van toepassing op de
+groepen en objecten in Ansible, die meestal in de vorm van key-value pairs
+worden genoteerd.
+
+Voor de namen van `Variabelen` gelden de volgende regels:
+
+* Bestaat uitsluitend uit alfanumerieke tekens of *underscore* (liggend
+  streepje).
+* Begint altijd met een letter.
+* Underscores worden uitsluitend gebruikt om de leesbaarheid tussen twee 
+  woorden / delen te vergroten.
+
+Voorbeeld: `http_port`
+
+Voor de waarden van `Variabelen` gelden de volgende regels:
+
+* Strings (stukken tekst) worden in Ansible altijd met dubbele aanhalingstekens
+  (") geschreven.
+
+Het uitgangspunt bij de naamgeving van `Labels` is om dezelfde notatie te
+hanteren als de notatie in Ansible. Dat betekent dat ze in beginsel bestaan uit
+een combinatie van hostname (hetzelfde als `Component`), de naam van een
+`Variabele` en de waarde van die `Variabele`.
+
+De opbouw van de tekst op een `Label` is daarom:
+
+<naamcomponent>.<naamvariabele>:<waardevariabele>
+
+Voor de teksten op `Labels` gelden de volgende regels:
+
+* Heeft een maximale lengte van 56 karakters
+* Bevat altijd een punt (`.`) en een dubbele punt (`:`).
+* Het deel voor de punt bestaat uit de naam van het component waar naar wordt
+  verwezen.
+* Het deel tussen de punt en de dubbele punt bestaat uit de naam van de
+  variabele.
+* Het deel na de dubbele punt bestaat uit de waarde van de variabele.
+
+Voorbeeld: `animalkeeper-cmp-1.nic:eth0`
+
+animalkeeper-cmp-1.nic:eth0
+Self-laminating Wire Wraps
+
+In dit voorbeeld wordt met het label de netwerkinterface (`nic`) genaamd `eth0`
+van het `Component` `animalkeeper-cmp-1` aangeduid.
+
+
 
 ## Dankwoord
 
