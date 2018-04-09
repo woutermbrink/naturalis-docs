@@ -219,35 +219,46 @@ Welke typen `Componenten` onderscheiden we?
 
 Voorbeeld: `animalkeeper-mon-1`
 
-## Labels
+## Gebouwgebonden voorzieningen
 
+### Outlet
 
-### Datapunten
+Met `Outlets` worden de fysieke aansluitpunten bedoeld die zijn aangebracht in
+de zalen en overige ruimten en waarop UTP-kabels met RJ-45 connectoren kunnen
+worden aangesloten.
 
-Met `Datapunten` worden de data outlets bedoeld die in de zalen en overige ruimten zijn
-aangebracht waarop UTP-kabels met RJ-45 connectoren kunnen worden aangesloten.
-
-Bij het bepalen van de opbouw van de namen van `Datapunten` zijn de volgende
+Bij het bepalen van de opbouw van de namen van `Outlets` zijn de volgende
 uitgangspunten gehanteerd:
 
 * De administratieve last in de vorm van een patchlijst moet minimaal zijn.
-  Idealiter is er buiten de switchconfiguratie überhaupt geen noodzaak voor een dergelijke
-  (foutgevoelige) administratie.
+  Idealiter is er buiten de switchconfiguratie überhaupt geen noodzaak voor een
+  dergelijke (foutgevoelige) administratie.
 * In principe worden alle datapunten gepatched.
 
-De naamgeving van datapunten is als volgt:
+De naamgeving van `Outlets` is als volgt:
 
 `<lettertechnischeruimte><nummerpatchkast>.<letterpatchpaneel><volgnummer
 outlet>`
 
-Hierdoor weet je op basis van de naam op welke poort in welke switch in welke
-kast in welke technische ruimte het datapunt uitkomt. Het is niet nodig om een
-patchlijst bij te houden.
+Voor de namen van `Outlets` gelden de volgende regels:
+
+* Heeft een maximale lengte van 6 karakters.
+* De letter van de technische ruimte bestaat altijd uit één hoofdletter.
+* Het nummer van de patchkast bestaat altijd uit één cijfer.
+* De letter van het patchpaneel bestaat altijd uit één hoofdletter.
+* De volgnummers van de outlets bestaan altijd uit twee cijfers en lopen van 01
+  t/m 48.
 
 Voorbeeld: `B2.D24`
 
-Het datapunt in dit voorbeeld is aangesloten op poort `24` in patchpaneel `D` in
-kast 2 in de SER `B`.
+Op basis van deze naamgeving weet je op basis van de naam op welke poort in
+welke patchpaneel in welke kast in welke technische ruimte de outlet uitkomt.
+Omdat alle outlets worden gepatched en bij de naamgeving van de switches wordt
+gebaseerd op dezelfde uitgangspunten is het niet nodig om een patchlijst bij te
+houden.
+
+De outlet in bovenstaand voorbeeld is aangesloten op poort `24` in patchpaneel
+`D` in kast 2 in de SER `B`.
 
 ### Switches
 
@@ -255,9 +266,6 @@ Met `Switches` worden de netwerkswitches bedoeld waarop datapunten worden
 gepatched en waarmee het museum van netwerkconnectiviteit wordt voorzien.
 
 De specificatie van de naamgeving van de switches volgt.
-
-### Labels bij wandcontactdozen
-
 
 ### Labels van kabels
 
@@ -311,6 +319,7 @@ Voor de teksten op `Labels` gelden de volgende regels:
 Voorbeeld: `animalkeeper-cmp-1.nic:eth0`
 
 animalkeeper-cmp-1.nic:eth0
+animalkeeper-cmp-1.outlet:B2.D24
 Self-laminating Wire Wraps
 
 In dit voorbeeld wordt met het label de netwerkinterface (`nic`) genaamd `eth0`
