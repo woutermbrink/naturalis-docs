@@ -260,6 +260,70 @@ houden.
 De outlet in bovenstaand voorbeeld is aangesloten op poort `24` in patchpaneel
 `D` in kast 2 in de SER `B`.
 
+### Wandcontactdozen
+
+In het museum, onderverdeeld in de zalen voor de tentoonstellingen en de overige
+ruimten, zijn (meestal in de vorm van een grid) een grote hoeveelheid
+wandcontactdozen beschikbaar waarmee de diverse componenten van stroom kunnen
+worden voorzien.
+
+Bij het bepalen van de opbouw van de namen van `Wandcontactdozen` (kort: `WCD`'s)
+zijn de volgende uitgangspunten gehanteerd:
+
+* Op basis van de naam van een wandcontactdoos wil je weten in welke eindgroep
+  de wandcontactdoos staat en met welk relais de wantcontactdoos wordt
+  geschakeld.
+* De naamgeving moet aansluiten bij de bij de bouw van de E-installatie
+  gehanteerde nummering.
+* Elke 'eindgroep' wordt geschakeld met één relais.
+
+De codering die vanuit de bouw wordt gehanteerd voor groepnummers (eindgroepen)
+is als volgt:
+
+`<afkortingtypeeindgroep><volgnummer>`
+
+In de E-installatie worden de volgende type eindgroepen en afkortingen
+onderscheiden:
+
+* Licht: `L`
+* Noodlicht: `NL`
+* Kracht: `K`
+* Noodkracht: `NK`
+
+Het volgnummer bestaat altijd uit één of meerdere cijfers en loopt van 1 t/m 99.
+
+Voorbeeld: `L3`
+
+Daarnaast wordt voor de kastcode van de verdeelinrichtingen (elke zaal heeft één
+verdeelkast) de volgende codering gebruikt:
+
+`LK<volgnummer>`
+
+Het volgnummer bestaat altijd uit één of meerdere cijfers en loopt van 1 t/m 99.
+
+Voorbeeld: `LK2`
+
+Op lasdozen en kabels wordt de volgende codering gehanteerd:
+
+`<kastcode>-<eindgroepcode>`
+
+Voorbeeld: `LK2-L3`
+
+De wandcontactdozen krijgen vanuit de installateur geen aparte codering. We
+willen echter wel bij kunnen houden welke apparatuur op welke wandcontactdozen
+is aangesloten. We hanteren daarom, in navolging op de door de installateur
+gehanteerde codering, de volgende naamgeving voor wandcontactdozen:
+
+`<kastcode>-<eindgroepcode>-<volgnummer>`
+
+Voor de namen van `WCD's` gelden de volgende regels:
+
+* Heeft een maximale lengte van 12 karakters.
+* Het volgnummer bestaat altijd uit één of meerdere cijfers en loopt van 1 t/m
+  99.
+
+Voorbeeld: `LK1-L51-9`
+
 ### Switches
 
 Met `Switches` worden de netwerkswitches bedoeld waarop datapunten worden
