@@ -31,7 +31,7 @@ Om deze doelen te bereiken hanteren we de volgende regels:
   Een voorbeeld van een `UUID` is: `f2b5fa22-7cdf-4b30-af26-be81b673e56d`.
 
 * `Naam`: Een niet-lege string die, op een bepaald moment in de tijd, uniek
-  is binnen de scope van het museum. 
+  is binnen de scope van het museum.
 
   Namen voldoen in ieder geval aan de voorwaarden voor
   labels in domeinnamen (zie
@@ -53,21 +53,43 @@ Om deze doelen te bereiken hanteren we de volgende regels:
 
 ### Typen objecten
 
-In het museum onderscheiden we de volgende typen objecten:
+De indeling van het museum in typen objecten is gebaseerd op de basisstructuur
+die (in concept is uitgewerkt) voor asset management binnen Naturalis. Deze
+structuur gaat uit van drie niveau's:
 
-* `Museum`
-* `Tentoonstelling`
-* `Infrastructuur`
-* `Exhibit`
-* `Ondersteunend systeem`
-* `Component`
+* `Groepen`
+* `Functionele eenheden`
+* `Componenten`
+
+De relatie tussen deze objecten is als volgt:
+
+* Een `Component` hoort altijd bij één `Functionele eenheid`.
+* Een `Functionele eenheid` hoort altijd bij één `Groep`.
+* Een `Groep` valt ten hoogste onder één andere groep.
+
+Voor elk niveau dienen, afhankelijk van de toepassing, typen te worden
+gedefinieerd. In het museum onderscheiden we de volgende typen objecten:
+
+* Groepen:
+  - `Museum`
+  - `Tentoonstelling`
+  - `Infrastructuur`
+* Functionele eenheden:
+  - `Exhibit`
+  - `Ondersteunend systeem` (concept)
+* Componenten (concept):
+  - `Monitor`
+  - `Computer`
+  - `Versterker`
+  - `Projector`
+  - `Lamp`
 
 De relatie tussen deze objecten is als volgt:
 
 * Een `Museum` bestaat uit één of meerdere `Tentoonstellingen` en een
   `Infrastructuur`
-* Een `Tentoonstelling` bestaat uit één of meerdere `Exhibits` en een aantal
-  `Ondersteunend systemen`.
+* Een `Tentoonstelling` bestaat uit één of meerdere functionele eenheden
+  waaronder `Exhibits` en `Ondersteunend systemen`.
 * Een `Infrastructuur` bestaat uit één of meerdere `Ondersteunende systemen`.
 * Een `Exhibit` bestaat uit één of meerdere `Componenten`.
 * Een `Ondersteunend systeem` bestaat uit één of meerdere `Componenten`.
@@ -89,19 +111,21 @@ typen in Ansible:
   [`host`](http://docs.ansible.com/ansible/latest/glossary.html#term-host)
   wordt aangeduid.
 
-* Een `Exhibit` bestaat uit een verzameling van `Componenten`. Het equivalent in
-  Ansible voor een dergelijke verzameling is de
+* Een `Functionele eenheid` zoals een `Exhibit` bestaat uit een verzameling van
+  `Componenten`. Het equivalent in Ansible voor een dergelijke verzameling is de
   [`group`](http://docs.ansible.com/ansible/latest/glossary.html#term-group).
 
-* Een `Tentoonstelling` bestaat uit een verzameling van `Exhibits`. Het equivalent
-  in Ansible is eveneens de [`group`](http://docs.ansible.com/ansible/latest/glossary.html#term-group).
+* Een `Tentoonstelling` of `Infrastructuur` bestaat uit een verzameling van
+  `Functionele eenheden`. Het equivalent in Ansible is eveneens de
+  [`group`](http://docs.ansible.com/ansible/latest/glossary.html#term-group).
   Omdat `Exhibits` onderdeel van een `Tentoonstelling`, is meer specifiek sprake
   van een `parent group`.
 
-* Het `Museum` is het hoogste niveau in de hiërarchie en bevat daarmee alle overige
-  objecten. In Ansible terminologie is het equivalent van het Museum de
-  `inventory`. Een inventory bestaat uit een opsomming van hosts (`Componenten`) en
-  groups (`Exhibits` en `Tentoonstellingen`).
+* Het `Museum`-object is binnen het museum het hoogste niveau in de hiërarchie
+  en bevat daarmee alle overige objecten. In Ansible terminologie is het
+  equivalent van het Museum de `inventory`. Een inventory bestaat uit een
+  opsomming van hosts (`Componenten`) en groups (zoals `Exhibits` en
+  `Tentoonstellingen`).
 
 * `Variabelen` die van toepassing zijn op `Tentoonstellingen`, `Exhibits` en
   `Componenten` in een `Museum` hebben dezelfde naam in Ansible.
@@ -164,7 +188,7 @@ De opbouw van de naam is daarom simpelweg:
 Voor de namen van `Exhibits` gelden de volgende regels:
 
 * Is uniek binnen het `Museum`.
-* Heeft een maximale lengte van 24 karakters.
+* Heeft een maximale lengte van 22 karakters.
 * Bestaat uitsluitend uit alfanumerieke karakters.
 * Bevat geen hoofdletters.
 * Is makkelijk leesbaar en bruikbaar in de mondelinge communicatie.
@@ -181,14 +205,15 @@ Per `Tentoonstelling` of per `Infrastructuur` zijn er één of meerdere
 Voor de namen van `Ondersteunende systemen` gelden dezelfde naamgevingsregels
 als die van een `Exhibit`.
 
-## Component
+## Componenten
 
-Elke `Exhibit` bestaat uit één of meerdere `Componenten`. `Componenten` zijn
-het laagste type object in de hiërarchie. Omdat zowel bij de configuratie van de
-componenten, als de documentatie en de fysieke aansluiting de samenhang met de
-exhibit belangrijk is, is de naamgeving van `Componenten` als volgt:
+Elke `Functionele eenheid` bestaat uit één of meerdere `Componenten`.
+`Componenten` zijn het laagste type object in de hiërarchie. Omdat zowel bij de
+configuratie van de componenten, als de documentatie en de fysieke aansluiting
+de samenhang met de `Functionele eenheid` belangrijk is, is de naamgeving van
+`Componenten` als volgt:
 
-`<naamexhibit>-<drieletterigeafkortingtypecomponent>-<volgnummer>`
+`<naamfunctioneleeenheid>-<drieletterigeafkortingtypecomponent>-<volgnummer>`
 
 De naam van een `Component` is gedurende de levensloop van het museum niet
 noodzakelijkerwijs gekoppeld aan één specifiek stuk hardware. Wanneer
@@ -200,10 +225,10 @@ worden aangepast bij het vervangen van een computer.
 Voor de namen van `Componenten` gelden de volgende regels:
 
 * Is uniek binnen het `Museum`.
-* Heeft een maximale lengte van 32 karakters.
+* Heeft een maximale lengte van 30 karakters.
 * Bevat altijd precies twee afbreektekens.
-* Het deel voor het eerste afbreekteken bestaat uit de naam van de `Exhibit` waar het
-  `Component` onderdeel vanuit maakt.
+* Het deel voor het eerste afbreekteken bestaat uit de naam van de `Functionele
+  eenheid` waar het `Component` onderdeel vanuit maakt.
 * Het deel tussen de twee afbreektekens is altijd drie letters lang en bestaat
   uit één van de hieronder opgesomde afkortingen voor typen `Componenten`.
 * Het deel na het tweede afbreekteken is een opvolgnummer [0-999].
@@ -219,7 +244,12 @@ Welke typen `Componenten` onderscheiden we?
 
 Voorbeeld: `animalkeeper-mon-1`
 
-## Gebouwgebonden voorzieningen
+## Externe voorzieningen
+
+Naast de bovengenoemde componenten is de museuminfrastructuur afhankelijk van
+een aantal 'externe' voorzieningen. Deze voorzieningen behoren strikt
+genomen niet tot de museuminfrastructuur maar vormen wel belangrijke
+bouwstenen. Hieronder staan deze voorzieningen en hun naamgeving toegelicht.
 
 ### Outlet
 
@@ -338,8 +368,6 @@ De specificatie van de naamgeving van de switches volgt.
 
 
 ### Labels van componenten
-
-
 
 `Componenten` en kabels tussen `Componenten` dienen te worden voorzien
 van fysieke labels. Daarnaast zijn er allerlei variabelen van toepassing op de
