@@ -157,14 +157,18 @@ In het geval van de productie-omgeving van het museum van Naturalis is de naam b
 
 Per museum, of inventory zijn er één of meerdere `Tentoonstellingen`. Omdat
 `Tentoonstellingen` als parent group in Ansible terugkomen en er nooit sprake is
-van twee gelijke tentoonstellingen op hetzelfde moment is de opbouw van de naam
+van twee identieke tentoonstellingen op hetzelfde moment is de opbouw van de naam
 als volgt:
 
 `<naamtentoonstelling>`
 
 Regels voor `Tentoonstelling` namen:
 
-* De naam is uniek binnen het `Museum`
+* Is uniek binnen het `Museum`.
+* Heeft een maximale lengte van 22 karakters.
+* Bestaat uitsluitend uit alfanumerieke karakters.
+* Bevat geen hoofdletters.
+* Is makkelijk leesbaar en bruikbaar in de mondelinge communicatie.
 
 Bijvoorbeeld: `trexintown`
 
