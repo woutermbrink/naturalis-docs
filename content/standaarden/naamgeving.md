@@ -180,7 +180,7 @@ Regels voor `Tentoonstelling` namen:
 * Heeft een maximale lengte van 22 karakters.
 * Bestaat uitsluitend uit alfanumerieke karakters.
 * Bevat geen hoofdletters.
-* Is makkelijk leesbaar en bruikbaar in de mondelinge communicatie.
+* Is duidelijk en bruikbaar in de mondelinge communicatie.
 
 Bijvoorbeeld: `trexintown`
 
@@ -217,7 +217,7 @@ naamgevingsregels:
 * Heeft een maximale lengte van 22 karakters.
 * Bestaat uitsluitend uit alfanumerieke karakters.
 * Bevat geen hoofdletters.
-* Is makkelijk leesbaar en bruikbaar in de mondelinge communicatie.
+* Is duidelijk en bruikbaar in de mondelinge communicatie.
 
 ### Interactive
 
