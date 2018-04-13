@@ -17,7 +17,14 @@ Dit betekend dat we bijna alle services nodig voor het museum in het datacenter 
 services op draaien die nodig zijn. Er is misschien uitbreiding nodig voor dat cluster. Verder zal er fisieke server draaien in Darwinweg. Deze server heeft 
 twee taken
 * Deployment van museum devices
+* DHCP Service
+* DNS Service
 * Bastion node voor het uitvoeren van taken vanaf Ansible Tower.
+
+Er zal dus een service op draaien die de deployment van museum devices doet. Deze servies is niet kritiek, hij mag dus uitvallen. 
+De bastion node, DHCP en DNS rollen zijn wel kritiek. Het is dus verstandig om twee servers te kopen. 
+Eventuele andere services die nodig zijn kunnen in docker container draaien, deze worden dan gemanaged
+via *docker-compose*.
 
 Mocht er in de toekomst nog blijken dat er nog meer lokale services nodig zijn dan kunnen die toegevoegd worden aan de lokale server.
 
@@ -27,4 +34,6 @@ De lokale server heeft geen zware systeem eisen. De minimale eisen zijn:
 * Dual NIC
 * 256GB storage
 * Rack mountable
+
+
 
