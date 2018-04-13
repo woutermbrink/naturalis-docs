@@ -132,7 +132,9 @@ typen in Ansible:
 
 ![alt text](../afbeeldingen/taxonomiemuseum.png "Taxonomie museum")
 
-## Museum
+## Groepen
+
+### Museum
 
 Hoewel er over het algemeen slechts sprake zal zijn van één museum moet wel
 rekening gehouden worden met de volgende zaken:
@@ -153,7 +155,7 @@ In het geval van de productie-omgeving van het museum van Naturalis is de naam b
 
 `naturalis-productie`
 
-## Tentoonstelling
+### Tentoonstelling
 
 Per museum, of inventory zijn er één of meerdere `Tentoonstellingen`. Omdat
 `Tentoonstellingen` als parent group in Ansible terugkomen en er nooit sprake is
@@ -172,20 +174,29 @@ Regels voor `Tentoonstelling` namen:
 
 Bijvoorbeeld: `trexintown`
 
-## Infrastructuur
+### Infrastructuur
 
 Per museum is er één `Infrastructuur`. Deze heeft altijd de naam:
 `museuminfra`.
 
-## Exhibit
+## Functionele eenheden
 
-Per tentoonstelling zijn er één of meerdere `Exhibits`. Elke exhibit is binnen
-een `Museum` en binnen een `Tentoonstelling` uniek en vormt functioneel gezien
-een eenheid. Exhibits komen daarom ook terug in de functionele ontwerpen van de
-tentoonstellingsontwerpers en bouwers. Daarnaast zal de `Exhibit` de eenheid
-zijn waar incidentmeldingen en rapportages aan worden gekoppeld.
+`Functionele eenheden` zijn de klasse objecten in het museum die centraal staan
+bij de afhandeling van incidenten, rapportages over incidenten en documentatie.
+In het museum worden (vooralsnog) de volgende functionele eenheden onderscheiden:
+* Exhibits
+* Ondersteunende systemen
 
-De opbouw van de naam is daarom simpelweg:
+### Exhibit
+
+`Exhibits` vormen een centrale functionele eenheid in de tentoonstellingen.
+`Exhibits` zijn altijd bedoelt voor interactie met het publiek, bevatten vaak
+een interactief element en bestaan over het algemeen uit een aantal technische
+componenten. Exhibits komen daarom ook terug in de functionele ontwerpen van de
+tentoonstellingsontwerpers en bouwers.
+
+Elke exhibit is binnen een `Museum` en binnen een `Tentoonstelling` uniek. De
+opbouw van de naam is daarom simpelweg:
 
 `<naamexhibit>`
 
@@ -199,7 +210,7 @@ Voor de namen van `Exhibits` gelden de volgende regels:
 
 Voorbeeld: `animalkeeper`
 
-## Ondersteunend systeem
+### Ondersteunend systeem
 
 Per `Tentoonstelling` of per `Infrastructuur` zijn er één of meerdere
 `Ondersteunende systemen`. De opbouw van de naam is als volgt:
@@ -211,11 +222,13 @@ als die van een `Exhibit`.
 
 ## Componenten
 
+### Museum specifieke componenten
+
 Elke `Functionele eenheid` bestaat uit één of meerdere `Componenten`.
 `Componenten` zijn het laagste type object in de hiërarchie. Omdat zowel bij de
 configuratie van de componenten, als de documentatie en de fysieke aansluiting
 de samenhang met de `Functionele eenheid` belangrijk is, is de naamgeving van
-`Componenten` als volgt:
+`Componenten`, tenzij anders aangegeven, als volgt:
 
 `<naamfunctioneleeenheid>-<drieletterigeafkortingtypecomponent>-<volgnummer>`
 
@@ -248,14 +261,14 @@ Welke typen `Componenten` onderscheiden we?
 
 Voorbeeld: `animalkeeper-mon-1`
 
-## Externe voorzieningen
+### Overige componenten
 
 Naast de bovengenoemde componenten is de museuminfrastructuur afhankelijk van
 een aantal 'externe' voorzieningen. Deze voorzieningen behoren strikt
 genomen niet tot de museuminfrastructuur maar vormen wel belangrijke
 bouwstenen. Hieronder staan deze voorzieningen en hun naamgeving toegelicht.
 
-### Outlet
+#### Outlet
 
 Met `Outlets` worden de fysieke aansluitpunten bedoeld die zijn aangebracht in
 de zalen en overige ruimten en waarop UTP-kabels met RJ-45 connectoren kunnen
@@ -294,7 +307,7 @@ houden.
 De outlet in bovenstaand voorbeeld is aangesloten op poort `24` in patchpaneel
 `D` in kast 2 in de SER `B`.
 
-### Wandcontactdozen
+#### Wandcontactdozen
 
 In het museum, onderverdeeld in de zalen voor de tentoonstellingen en de overige
 ruimten, zijn (meestal in de vorm van een grid) een grote hoeveelheid
