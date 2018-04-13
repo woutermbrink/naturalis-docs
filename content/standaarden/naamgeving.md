@@ -228,7 +228,7 @@ Elke `Functionele eenheid` bestaat uit één of meerdere `Componenten`.
 `Componenten` zijn het laagste type object in de hiërarchie. Omdat zowel bij de
 configuratie van de componenten, als de documentatie en de fysieke aansluiting
 de samenhang met de `Functionele eenheid` belangrijk is, is de naamgeving van
-`Componenten`, tenzij anders aangegeven, als volgt:
+`Componenten` in het museum (tenzij anders aangegeven) als volgt:
 
 `<naamfunctioneleeenheid>-<drieletterigeafkortingtypecomponent>-<volgnummer>`
 
@@ -239,7 +239,7 @@ van het `Component` over van de oude computer. Praktisch gezien betekent dit dat
 in de Ansible configuratie, het fysieke label op de machine en de hostnaam
 worden aangepast bij het vervangen van een computer.
 
-Voor de namen van `Componenten` gelden de volgende regels:
+Voor de namen van deze `Componenten` gelden de volgende regels:
 
 * Is uniek binnen het `Museum`.
 * Heeft een maximale lengte van 30 karakters.
@@ -250,7 +250,7 @@ Voor de namen van `Componenten` gelden de volgende regels:
   uit één van de hieronder opgesomde afkortingen voor typen `Componenten`.
 * Het deel na het tweede afbreekteken is een opvolgnummer [0-999].
 
-Welke typen `Componenten` onderscheiden we?
+Welke typen museumspecifieke `Componenten` worden er onderscheiden?
 
 * Monitor: `mon`
 * Computer: `cmp`
