@@ -354,12 +354,51 @@ Voor de namen van `WCD's` gelden de volgende regels:
 
 Voorbeeld: `LK1-L51-9`
 
-### Switches
+### Switches (concept)
 
 Met `Switches` worden de netwerkswitches bedoeld waarop datapunten worden
 gepatched en waarmee het museum van netwerkconnectiviteit wordt voorzien.
 
-De specificatie van de naamgeving van de switches volgt.
+Er zijn drie verschillende typen switches:
+* Spine switch: `spine`
+* Leaf switch: `leaf`
+* Out of band switch: `oob`
+
+Voor alle drie de verschillende typen switches is de algemene opbouw van de naam
+hetzelfde:
+
+`<naamnetwerkdeel>-<typecomponent>-<identifier>`
+
+Het netwerkdeel is de `Functionele eenheid` waarvan de switches (de
+`Componenten`) deel uitmaken, bijvoorbeeld `netdw2` voor het netwerk op de
+Darwinweg 2.
+
+Per type switch verschilt het `identifier` deel van de naam:
+
+* Afhankelijk van de situatie verschilt het aantal spine switches. In het
+  campusnetwerk op de Darwinweg worden twee spine switches voorzien waarbij op
+  één van de spine switches alle glasvezelverbindingen over de A-feed zijn
+  aangesloten, en één op de B-feed. De identifier is in het geval van spine
+  switches om die reden een 'volgletter'.
+
+  Voorbeeld: `netdw2-spine-b`
+
+* Voor de leaf switches dient het identifier deel aan te sluiten op de
+  naamgeving van de outlets. Uitgangspunt is dat op basis van de outletnaam
+  vastgesteld kan worden op welke switch een outlet is gepatcht. De identifier
+  van een leaf switch is daarom als volgt opgebouwd:
+
+  `<lettertechnischeruimte><nummerpatchkast><letterpatchpaneel>`
+
+  Voorbeeld: `netdw2-leaf-b2d`
+
+* Voor out of band switches geldt dat er per technische ruimte in principe
+  altijd maar één out of band switch nodig is. De identifier van een out of band
+  switch is daarom altijd:
+
+  `<lettertechnischeruimte>`
+
+  Voorbeeld: `netdw2-oob-e`
 
 ### Labels van kabels
 
