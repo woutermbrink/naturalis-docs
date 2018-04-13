@@ -53,9 +53,11 @@ Om deze doelen te bereiken hanteren we de volgende regels:
 
 ### Typen objecten
 
-De indeling van het museum in typen objecten is gebaseerd op de basisstructuur
-die (in concept is uitgewerkt) voor asset management binnen Naturalis. Deze
-structuur gaat uit van drie niveau's:
+De indeling van het museum in objecten is gebaseerd op de
+[basisstructuur](https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Basisstructuur%20asset%20management.html#Uhttps%3A%2F%2Fdrive.google.com%2Fa%2Fnaturalis.nl%2Fuc%3Fid%3D1ACQXokXSEinMQh4xevBAxH_Ommmr0MGV%26export%3Ddownload)
+en
+[basisclassificatie](https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Classificatie%20assets.html#Uhttps%3A%2F%2Fdrive.google.com%2Fa%2Fnaturalis.nl%2Fuc%3Fid%3D1PuhYO4GAXsBrJNIiNC7NqwbjNy6fs1dF%26export%3Ddownload) voor asset management binnen Naturalis. Deze
+structuur gaat uit van drie hoofdklassen / niveau's:
 
 * `Groepen`
 * `Functionele eenheden`
@@ -67,8 +69,8 @@ De relatie tussen deze objecten is als volgt:
 * Een `Functionele eenheid` hoort altijd bij één `Groep`.
 * Een `Groep` valt ten hoogste onder één andere groep.
 
-Voor elk niveau dienen, afhankelijk van de toepassing, typen te worden
-gedefinieerd. In het museum onderscheiden we de volgende typen objecten:
+Voor elk niveau dienen, afhankelijk van de toepassing, subklassen te worden
+gedefinieerd. In het museum onderscheiden we de volgende subklassen:
 
 * Groepen:
   - `Museum`
