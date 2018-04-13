@@ -41,7 +41,11 @@ containers draaien, deze worden dan gemanaged via *docker-compose*.
 Mocht er in de toekomst blijken dat er nog meer lokale services nodig zijn
 dan kunnen die toegevoegd worden aan de lokale server.
 
-De lokale server heeft geen zware systeem eisen. De minimale eisen zijn:
+Een aangepast overzicht van de architectuur voor het museum is [hier te
+bekijken](https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Concept%20architectuur#Uhttps%3A%2F%2Fdrive.google.com%2Fa%2Fnaturalis.nl%2Fuc%3Fid%3D1RomBQh7ZkrwinCGtg_9AVVreia6EF595%26export%3Ddownload).
+
+De lokale server heeft geen zware systeemeisen. De minimale eisen zijn:
+
 * Intel Xeon E3
 * 32GB RAM
 * Dual NIC
