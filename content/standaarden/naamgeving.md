@@ -282,16 +282,6 @@ daarom simpelweg:
 
 Voorbeeld: `scanzuilen`
 
-### Ondersteunend systeem
-
-Per `Tentoonstelling` of per `Infrastructuur` zijn er één of meerdere
-`Ondersteunende systemen`. De opbouw van de naam is als volgt:
-
-`<naamondersteunend systeem>`
-
-Voor de namen van `Ondersteunende systemen` gelden dezelfde naamgevingsregels
-als die van een `Exhibit`.
-
 ## Componenten
 
 ### Museum specifieke componenten
