@@ -141,8 +141,8 @@ de verantwoordelijkheden als volgt:
 2. De webinterface geeft een commando richting Ansible Tower dat het museum moet
    worden aangezet.
 3. Ansible Tower zorgt dat alle apparaten in de juist volgorde worden aangezet,
-   en controleert alle software instellingen. Op dit moment staan alle
-   componenten klaar om content af te spelen.
+   controleert alle software instellingen en activeert de monitoring. Op dit
+   moment staan alle componenten klaar om content af te spelen.
 4. Afhankelijk van de voorkeur kan nu in de webinterface een voorkeursstand
    worden geactiveerd voor elke tentoonstelling in het museum. Dit kan
    bijvoorbeeld een teststand zijn of een reguliere stand.
@@ -158,7 +158,7 @@ de verantwoordelijkheden als volgt:
 
 De workflow bij het afsluiten van het museum is als volgt:
 
-1. Een medewerker van Naturalsi drukt via een webinterface op de knop
+1. Een medewerker van Naturalis drukt via een webinterface op de knop
    'Uitschakelen museum'.
 2. De webinterface geeft een commando richting Ansible Tower dat het museum moet
    worden uitgezet.
