@@ -56,8 +56,8 @@ De verhouding tussen *museum control* en *show control* is als volgt:
 
 * **Show controller**: Per tentoonstelling of experience is er één
   show controller die verantwoordelijk is voor het real time activeren en
-  controleren van video- en audiocontent, animatronics, interactives en (via een
-  lichtcontroller) licht.
+  controleren van video- en audiocontent, animatronics, interactives en (al dan
+  niet via een dedicated lichtcontroller) showlicht.
 
 Met het startklaar zetten van de componenten door de museum controller wordt
 specifiek bedoeld dat het component klaar staat om opdrachten te ontvangen van
@@ -67,14 +67,14 @@ dat alle componenten ook daadwerkelijk aan staan en het netwerk functioneert zod
 opdrachten verstuurd over het netwerk ook daadwerkelijk aankomen.
 
 De onderstaande diagram (bij gebrek aan `mermaid` integratie op Github [hier te
-bekijken](https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW1VzZXJzXSAtLT4gQihXZWIgaW50ZXJmYWNlKVxuICAgIEFbVXNlcnNdIC0tPiBDKEFuc2libGUgQVdYIFVJKVxuICAgIHN1YmdyYXBoIE11c2V1bSBjb250cm9sbGVyXG4gICAgQiAtLT4gRChBbnNpYmxlIFRvd2VyIEFQSSlcbiAgICBDIC0tPiBEXG4gICAgZW5kXG4gICAgRCAtLT58QWN0aXZlcmVuIHN0YW5kIHNob3cgdGVudG9vbnN0ZWxsaW5nfCBFKFNob3cgY29udHJvbClcbiAgICBEIC0tPnxTcGFubmluZyBzY2hha2VsZW58IEcoQW5pbWF0cm9uaWNzKVxuICAgIEQgLS0-fFNwYW5uaW5nIHNjaGFrZWxlbjxici8-Q29uZmlndXJlcmVuIHNvZnR3YXJlPGJyLz5JbnN0YWxsZXJlbiBsYWF0c3RlIGNvbnRlbnR8IEYoQ29tcHV0ZXJzKVxuICAgIHN1YmdyYXBoIFZvbGxlZGlnIGNlbnRyYWxlIGFhbnN0dXJpbmdcbiAgICBEIC0tPnxTcGFubmluZyBzY2hha2VsZW58IEgoUG93ZXIgcmVsYXlzKVxuICAgIEQgLS0-fFNwYW5uaW5nIHNjaGFrZWxlbjxici8-QWN0aXZlcmVuIGlucHV0c3wgSShQcm9qZWN0b3JzKVxuICAgIEQgLS0-fERIQ1AgcmVzZXJ2ZXJpbmdlbjxici8-SW5zdGVsbGVuIFZMQU4nc3wgSihOZXR3ZXJrKVxuICAgIGVuZFxuICAgIHN1YmdyYXBoIEdlZGVlbGRlIGFhbnN0dXJpbmdcbiAgICBFIC0tPnxBY3RpdmVyZW4gbGljaHRzaG93c3wgSyhMaWNodCBjb250cm9sbGVyKVxuICAgIEUgLS0-fEFjdGl2ZXJlbiBzdGFuZCBhdWRpby92aWRlb3wgRlxuICAgIEUgLS0-fEFjdGl2ZXJlbiBzdGFuZCBhbmltYXRyb25pY3wgR1xuICAgIEsgLS0-fERNWHwgTChTaG93bGljaHQpXG4gICAgZW5kIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0)
+bekijken](https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW1VzZXJzXSAtLT4gQihXZWIgaW50ZXJmYWNlKVxuICAgIEFbVXNlcnNdIC0tPiBDKEFuc2libGUgVG93ZXIgVUkpXG4gICAgc3ViZ3JhcGggTXVzZXVtIGNvbnRyb2xsZXJcbiAgICBCIC0tPiBEKEFuc2libGUgVG93ZXIgQVBJKVxuICAgIEMgLS0-IERcbiAgICBlbmRcbiAgICBEIC0tPnxBY3RpdmVyZW4gc3RhbmQgc2hvdyB0ZW50b29uc3RlbGxpbmd8IEUoU2hvdyBjb250cm9sKVxuICAgIEQgLS0-fFNwYW5uaW5nIHNjaGFrZWxlbnwgRyhBbmltYXRyb25pY3MpXG4gICAgRCAtLT58U3Bhbm5pbmcgc2NoYWtlbGVuPGJyLz5Db25maWd1cmVyZW4gc29mdHdhcmU8YnIvPkluc3RhbGxlcmVuIGxhYXRzdGUgY29udGVudHwgRihDb21wdXRlcnMpXG4gICAgc3ViZ3JhcGggVm9sbGVkaWcgY2VudHJhbGUgYWFuc3R1cmluZ1xuICAgIEQgLS0-fFNwYW5uaW5nIHNjaGFrZWxlbnwgSChQb3dlciByZWxheXMpXG4gICAgRCAtLT58U3Bhbm5pbmcgc2NoYWtlbGVuPGJyLz5BY3RpdmVyZW4gaW5wdXRzfCBJKFByb2plY3RvcnMpXG4gICAgRCAtLT58REhDUCByZXNlcnZlcmluZ2VuPGJyLz5JbnN0ZWxsZW4gVkxBTidzfCBKKE5ldHdlcmspXG4gICAgZW5kXG4gICAgc3ViZ3JhcGggR2VkZWVsZGUgYWFuc3R1cmluZ1xuICAgIEUgLS0-fEFjdGl2ZXJlbiBsaWNodHNob3dzfCBLKExpY2h0IGNvbnRyb2xsZXIpXG4gICAgRSAtLT58QWN0aXZlcmVuIHN0YW5kIGF1ZGlvL3ZpZGVvfCBGXG4gICAgRSAtLT58QWN0aXZlcmVuIHN0YW5kIGFuaW1hdHJvbmljfCBHXG4gICAgSyAtLT58RE1YfCBMKFNob3dsaWNodClcbiAgICBlbmQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
 visualiseert de relatie tussen de museum controller, de show controller en de
 diverse componenten:
 
 ```mermaid
 graph TD
     A[Users] --> B(Web interface)
-    A[Users] --> C(Ansible AWX UI)
+    A[Users] --> C(Ansible Tower UI)
     subgraph Museum controller
     B --> D(Ansible Tower API)
     C --> D
@@ -109,7 +109,8 @@ Concreet is de museum controller verantwoordelijk voor:
 * Interfaces voor het inschakelen en beheren van het museum
 * Monitoring van alle componenten
 * Aansturing relays voor het schakelen van stroom
-* Schakelen van spanning van alle componenten
+* Schakelen van spanning van alle componenten, waar nodig na afkoeltijd of
+  shutdown van apparaat.
 * Schakelen van het werklicht
 * Het activeren van de juiste inputs op monitoren en projectoren
 
@@ -127,8 +128,8 @@ Deze verdeling van de verantwoordelijkheden betekent dat:
   enige manier is om een animatronic deze deel te laten nemen aan de 'show', kan
   hierop een uitzondering worden gemaakt.
 * Het voor de snelle integratie van componenten in de museum infrastructuur
-  noodzakelijk is de basisgegevens (denk aan IP-adres, naam en MAC-adres) zo
-  vroeg mogelijk in het proces uit te voeren.
+  noodzakelijk is de administratie van de basisgegevens (denk aan IP-adres, naam
+  en MAC-adres) zo vroeg mogelijk in het proces uit te voeren.
 
 ## Workflow
 
@@ -154,3 +155,16 @@ de verantwoordelijkheden als volgt:
 7. De show controller activeert op tijd in de juiste omstandigheden (het
    afspelen van de juiste content op) alle componenten zoals geconfigureerd voor
    de betreffende stand.
+
+De workflow bij het afsluiten van het museum is als volgt:
+
+1. Een medewerker van Naturalsi drukt via een webinterface op de knop
+   'Uitschakelen museum'.
+2. De webinterface geeft een commando richting Ansible Tower dat het museum moet
+   worden uitgezet.
+3. Ansible Tower geeft het commando aan de show controllers van alle
+   tentoonstellingen en experiences dat de lopende show moet worden afgerond.
+4. De showcontrollers stoppen de shows.
+5. Ansible Tower schakelt de monitoring uit, zorgt dat alle apparaten in de
+   juist volgorde worden afgesloten en rekening houdend met evt. afkoelperiodes
+   de spanning wordt uitgeschakeld.
