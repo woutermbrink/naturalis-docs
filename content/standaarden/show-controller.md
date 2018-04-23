@@ -2,6 +2,17 @@
 Per zaal is er 1 show controller. De show controller stuurt het licht, geluid en andere effecten
 aan die variabel zijn gedurende de dag, of variabel zijn als reactie op een actie.
 
+1. [Input control](#input-control)
+2. [Output control](#output-control)
+3. [OS](#os)
+4. [Poorten](#poorten)
+5. [Aanpasbaarheid](#aanpasbaarheid)
+6. [Backup](#backup)
+7. [Formfactor](#formfactor)
+8. [Updates](#updates)
+
+
+
 ## Specificaties types
 * Input control
 * Output control
@@ -12,7 +23,7 @@ aan die variabel zijn gedurende de dag, of variabel zijn als reactie op een acti
 * Formfactor
 * Updates
 
-### Input control
+## Input control
 De showcontroller moet extern via ethernet bestuurd kunnen worden.
 
 #### Opties
@@ -30,7 +41,7 @@ De REST api moet in iedergeval de volgende functies ondersteuen:
 * Straten/stoppen van een show
 
 
-### Output
+## Output control
 De showcontroller moet devices kunnen aansturen. Veel output protocollen is gewenst.
 
 #### Opties
@@ -44,7 +55,7 @@ De showcontroller moet devices kunnen aansturen. Veel output protocollen is gewe
 #### Keuze
 Minimaal REST
 
-### OS
+## OS
 Omdat elk stuk software op een OS draait moet er een OS gekozen worden. Soms is het een all in one 
 box en en is het OS al geintegreerd. Keuze van OS enigszinds van belang.
 
@@ -57,7 +68,7 @@ box en en is het OS al geintegreerd. Keuze van OS enigszinds van belang.
 #### Keuze
 Linux of Integraded.
 
-### Poorten
+## Poorten
 Er moet een aantal poorten zitten waarmee de showcontroller met kan sturen.
 
 #### Opties
@@ -69,7 +80,7 @@ Er moet een aantal poorten zitten waarmee de showcontroller met kan sturen.
 #### Keuze
 Minimaal Ethernet
 
-### Aanpasbaarheid
+## Aanpasbaarheid
 De shows moeten misschien worden aangepast, bv door het vervangen van een device.
 
 #### Opties
@@ -79,7 +90,7 @@ De shows moeten misschien worden aangepast, bv door het vervangen van een device
 De software om de shows aan te passen moet bij de koop inbegrepen zijn. Dit zorgt voor
 een redelijke onafhankelijheidan de leverancier
 
-### Backup
+## Backup
 Dit gaat over het backuppen van de showcontroller en alle relevantie gegevens
 
 #### Opties
@@ -89,7 +100,7 @@ Dit gaat over het backuppen van de showcontroller en alle relevantie gegevens
 Alle(!) instellingen van een show controller zouden via een backup gerestored moeten kunnen
 orden. Bij voorkeur zijn de configuraties text based zodat er versie controle mogelijk is.
 
-### Formfactor
+## Formfactor
 Dit gaat over de fysieke eigenschappen van het apparaat
 
 #### Opties
@@ -100,7 +111,7 @@ Dit gaat over de fysieke eigenschappen van het apparaat
 #### Keuze
 19 inch rackmountable zo dat het netjes kan worden opgehangen.
 
-### Updates
+## Updates
 Dit gaat over updates van de software
 
 #### Opties
