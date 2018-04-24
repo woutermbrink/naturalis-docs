@@ -40,7 +40,7 @@ de museum controller aangestuurd kunnen worden.
 
 Show controllers zijn via een HTTP gebaseerd protocol aan te sturen, bij
 voorkeur via een REST API. REST is een breed ondersteunde IT standaard voor het
-gecontroleerd aansturen van software. 
+gecontroleerd aansturen van software.
 
 De REST API moet in ieder geval de volgende functies ondersteunen:
 
@@ -68,6 +68,7 @@ veel output protocollen is daarom gewenst.
 * [Serial/RS-232](https://en.wikipedia.org/wiki/RS-232)
 * [Telnet](https://en.wikipedia.org/wiki/Telnet)
 * [DMX](https://en.wikipedia.org/wiki/DMX512)
+* [sACN](https://en.wikipedia.org/wiki/Architecture_for_Control_Networks)
 * Nog heel veel
 
 ### Keuze
