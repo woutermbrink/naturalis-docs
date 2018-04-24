@@ -1,17 +1,21 @@
-# show controller
+# Technische eisen show controller
 
 ## Omschrijving
 
 Per tentoonstelling of experience is er één show controller. De show controller
-stuurt (vaak via een dedicated lichtcontroller) het licht, geluid en andere
+stuurt (via een dedicated lichtcontroller) het licht, geluid en andere
 effecten aan die variabel zijn gedurende de dag, of variabel zijn als reactie op
 een actie.
+
+Een toelichting op de rolverdeling tussen de show controllers in de
+tentoonstellingen en een overkoepelende museum controller [lees je
+hier](../design/showcontrol.md).
 
 ## Technische eisen
 
 1. [Input control](#input-control)
 2. [Output control](#output-control)
-3. [OS](#os)
+3. [Besturingssysteem](#besturingssysteem)
 4. [Poorten](#poorten)
 5. [Aanpasbaarheid](#aanpasbaarheid)
 6. [Backup](#backup)
@@ -20,110 +24,119 @@ een actie.
 
 ## Input control
 
-De show controller moet extern via Ethernet bestuurd kunnen worden.
+Zoals [hier beschreven](../design/showcontrol.md) moeten show controllers door
+de museum controller aangestuurd kunnen worden.
 
 ### Opties
 
-* REST API
-* OSC
-* Serial
-* Telnet
+* [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
+* [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control)
+* [Serial/RS-232](https://en.wikipedia.org/wiki/RS-232)
+* [Telnet](https://en.wikipedia.org/wiki/Telnet)
 * Een of ander ander protocol
 
 ### Keuze
 
-show controllers zijn aan te sturen via een REST API. Dit is de IT standaard
-voor het aansturen van software. Het biedt een logische structuur. De REST API
-moet in ieder geval de volgende functies ondersteunen:
+Show controllers zijn via een HTTP gebaseerd protocol aan te sturen, bij
+voorkeur via een REST API. REST is een breed ondersteunde IT standaard voor het
+gecontroleerd aansturen van software. 
+
+De REST API moet in ieder geval de volgende functies ondersteunen:
 
 * Uitlezen van lijst van shows
-* Welke show op dit moment in werking is
+* Uitlezen welke show op dit moment actief is
 * Starten/stoppen van een show
+
+Bij voorkeur ondersteunt de REST API van de show controller JSON als response
+format.
 
 ## Output control
 
-In het museum is sprake van een grote diversiteit aan devices waarvan een groot
-deel moet worden aangestuurd door show controllers. De ondersteuning van veel
-output protocollen is daarom gewenst.
+In het museum is sprake van een grote diversiteit aan componenten waarvan een
+groot deel moet worden aangestuurd door show controllers. De ondersteuning van
+veel output protocollen is daarom gewenst.
 
 ### Opties
 
-* REST
-* OSC
-* Serial
-* Telnet
-* DMX
+* [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
+* [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
+* [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
+* [OSC](https://en.wikipedia.org/wiki/Open_Sound_Control)
+* [Art-Net](https://en.wikipedia.org/wiki/Art-Net)
+* [Serial/RS-232](https://en.wikipedia.org/wiki/RS-232)
+* [Telnet](https://en.wikipedia.org/wiki/Telnet)
+* [DMX](https://en.wikipedia.org/wiki/DMX512)
 * Nog heel veel
 
 ### Keuze
 
-show controllers ondersteunen minimaal het aansturen van REST API's.
+Show controllers ondersteunen minimaal het aansturen van componenten door middel
+van HTTP gebaseerde protocollen (waaronder REST API's), UDP en TCP.
 
-## OS
+Voor de aansturing van DMX signalen richting DMX-gestuurd licht wordt in
+principe een dedicated licht controller gebruikt.
 
-Omdat elk stuk software op een OS draait moet er een OS gekozen worden. Soms
-worden show controllers als all-in-one-box geleverd en is het OS al
-geïntegreerd. Keuze van OS enigzins van belang.
+## Besturingssysteem
+
+Softwareapplicaties draaien over het algemeen op een besturingssysteem (OS).
+Show controllers vormen daarop geen uitzondering. In sommige gevallen is het wel
+zo dat show controllers als all-in-one-box worden geleverd en het OS al
+geïntegreerd is.
 
 ### Opties
 
 * Integrated
 * Windows
 * Linux
-* Mac
+* Mac OSX
 
 ### Keuze
 
-show controllers draaien op Linux of draaien op basis van een all-in-one
+Show controllers draaien op Linux of draaien op basis van een all-in-one
 oplossing met integrated besturingssysteem.
-
-## Poorten
-
-Er moet een aantal poorten zitten waarmee de show controller met kan sturen.
-
-### Opties
-
-* Ethernet
-* Serial
-* Parallel
-* DMX
-
-### Keuze
-
-show controllers hebben minimaal een Ethernet poort voor communicatie over het
-datanetwerk.
 
 ## Aanpasbaarheid
 
-De shows moeten misschien worden aangepast, bijvoorbeeld wanneer een component
-in de tentoonstelling vervangen moet worden.
+Wanneer een component in de tentoonstelling vervangen moet worden of in het
+geval van een kleine functionele wijziging moet Naturalis zelf de configuratie
+van de show in de show controller kunnen aanpassen.
 
 ### Opties
 
-* nvt
+* N.v.t.
 
 ### Keuze
 
-De software om de shows aan te passen moet bij de koop inbegrepen zijn. Dit
-zorgt voor een redelijke onafhankelijheid van de leverancier.
+De software om de shows aan te passen moet meegeleverd worden bij show
+controllers. Op deze manier wordt aan de minimale voorwaarde voor aanpasbaarheid
+voldaan.
 
 ## Backup
 
-Dit gaat over het backuppen van de show controller en alle relevante gegevens.
+Een (hardware) defect of foutieve aanpassing van de configuratie van de show
+controller heeft in potentie impact op de gehele tentoonstelling. Dergelijke
+incidenten moeten om die reden snel opgelost kunnen worden.
 
 ### Opties
 
-* nvt
+* N.v.t.
 
 ### Keuze
 
 Alle (!) instellingen van een show controller moeten via een backup gerestored
-kunnen worden. Bij voorkeur zijn de configuraties text based zodat er versie
+kunnen worden. Bij voorkeur zijn de configuraties *text based* zodat er versie
 controle op basis van [Git](https://git-scm.com/) mogelijk is.
+
+Daarnaast bieden show controllers bij voorkeur de mogelijkheid om configuraties
+via het netwerk te restoren.
 
 ## Formfactor
 
-Dit gaat over de fysieke eigenschappen van het apparaat.
+Show controllers vormen een essentieel onderdeel van de technische
+infrastructuur van tentoonstellingen en experiences. De hardware van de show
+controller moet om die reden op een veilige manier geplaatst kunnen worden.
 
 ### Opties
 
@@ -133,18 +146,22 @@ Dit gaat over de fysieke eigenschappen van het apparaat.
 
 ### Keuze
 
-Show controllers zijn 19 inch rackmountable zodat ze in een gecontroleerde
-technische ruimte opgehangen kunnen worden.
+Show controllers zijn 19 inch rackmountable zodat ze in de serverkasten in de
+klimaatgecontroleerde SER (secondary equipment room) van de betreffende
+tentoonstellingszaal kunnen worden opgehangen.
 
 ## Updates
 
-Dit gaat over updates van de software.
+Software vergt vanwege het verhelpen van (security) bugs continue onderhoud. Om
+die reden is het makkelijk en gecontroleerd kunnen updaten van de software van
+show controllers van belang.
 
 ### Opties
 
-* nvt
+* N.v.t.
 
 ### Keuze
 
-De software moet met enige regelmaat geupdated kunnen worden. Daarnaast dient de
-software te blijven werken in het geval van updates van het OS.
+De software van de applicatie én het onderliggende besturingssysteem moet met
+enige regelmaat geupdated kunnen worden op een manier dat de configuratie van de
+show controller blijft werken.
