@@ -114,6 +114,9 @@ De software om de shows aan te passen moet meegeleverd worden bij show
 controllers. Op deze manier wordt aan de minimale voorwaarde voor aanpasbaarheid
 voldaan.
 
+Daarnaast heeft het de voorkeur dat show controllers zijn te benaderen en te
+configureren via een web interface.
+
 ## Backup
 
 Een (hardware) defect of foutieve aanpassing van de configuratie van de show
@@ -147,9 +150,10 @@ controller moet om die reden op een veilige manier geplaatst kunnen worden.
 
 ### Keuze
 
-Show controllers zijn 19 inch rackmountable zodat ze in de serverkasten in de
-klimaatgecontroleerde SER (secondary equipment room) van de betreffende
-tentoonstellingszaal kunnen worden opgehangen.
+Show controllers draaien op hardware die is gebouwd om 24/7 operationeel te
+zijn. Daarnaast is de hardware 19 inch rackmountable zodat deze in de
+serverkasten in de klimaatgecontroleerde SER (secondary equipment room) van de
+betreffende tentoonstellingszaal kunnen worden opgehangen.
 
 ## Updates
 
