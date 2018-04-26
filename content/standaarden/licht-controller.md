@@ -3,8 +3,8 @@
 ## Omschrijving
 
 Zoals beschreven in de documentatie ten aanzien van de [technische eisen voor
-show controllers](show-controller.md) is er per tentoonstelling of experience is
-er altijd één licht controller. In tentoonstellingen met weinig technische
+show controllers](show-controller.md) is er per tentoonstelling of experience
+altijd één licht controller. In tentoonstellingen met weinig technische
 complexiteit is de licht controller ook verantwoordelijk voor de show control.
 
 De eisen ten aanzien van de show control alsmede algemene eisen op het vlak van
@@ -15,15 +15,13 @@ beschreven.
 ## Technische eisen
 
 1. [Protocol aansturing licht](#protocol-aansturing-licht)
-4. [Poorten](#poorten)
-5. [Aanpasbaarheid](#aanpasbaarheid)
-6. [Backup](#backup)
+2. [Programmering](#programmering)
 
 ## Protocol aansturing licht
 
-In het museum is sprake van een grote diversiteit aan componenten waarvan een
-groot deel moet worden aangestuurd door licht controllers. De ondersteuning van
-veel output protocollen is daarom gewenst.
+Voor de aansturing van lichtspots (kleurwaarde, intensiteit, positie etc.)
+bestaan er uiteenlopende protocollen. De licht controller moet de juiste
+protocollen ondersteunen.
 
 ### Opties
 
@@ -34,21 +32,23 @@ veel output protocollen is daarom gewenst.
 
 ### Keuze
 
-Licht controllers ondersteunen minimaal het aansturen van lichtbronnen door
-middel van DMX, Art-Net en sACN.
+Licht controllers ondersteunen minimaal de aansturing van lichtspots door middel
+van DMX, Art-Net en sACN.
 
-Hierdoor zijn we vrij om de distributie van DMX richting de spanningsrails
-direct over UTP als over het datanetwerk (via Art-Net of sACN) plaats te laten
-vinden. Het heeft de voorkeur om voor de distributie van het licht in het museum
-één standaard te gebruiken.
+De aan te sturen lichtspots die voor de tentoonstelling zijn geselecteerd kunnen
+allemaal door middel van DMX worden aangestuurd. Door ondersteuning te eisen van
+bovenstaande protocollen zijn we vrij om de distributie van DMX richting de
+spanningsrails direct over UTP als over het datanetwerk (via Art-Net of sACN)
+plaats te laten vinden. Het heeft de voorkeur om voor de distributie van het
+licht in het museum één standaard te gebruiken.
 
 ## Programmering
 
-Bij de bouw van de tentoonstellingen zullen, mogelijk door meerdere
-lichtprogrammeurs de lichtshows instellen. Dit is een creatief proces waarbij de
+Bij de bouw van de tentoonstellingen zullen de lichtshows door meerdere
+lichtprogrammeurs worden ingesteld. Dit is een creatief proces waarbij de
 programmeurs moeten kunnen 'verven met licht'. Tegelijkertijd moet het na
 oplevering van het museum ook mogelijk zijn dat beheerders van Naturalis zelf
-simpele aanpassingen of toevoegingen maken in de lichtstanden.
+simpele aanpassingen of toevoegingen kunnen maken in de lichtstanden.
 
 ### Opties
 
