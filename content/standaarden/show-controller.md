@@ -3,9 +3,18 @@
 ## Omschrijving
 
 Per tentoonstelling of experience is er één show controller. De show controller
-stuurt (via een dedicated lichtcontroller) het licht, geluid en andere
-effecten aan die variabel zijn gedurende de dag, of variabel zijn als reactie op
-een actie.
+is verantwoordelijk voor het op tijd, in de juiste volgorde en de juiste
+omstandigheden activeren van geluid, licht, en andere AV-onderdelen.
+
+In zalen met weinig technische complexiteit wordt de show en licht control door
+één en hetzelfde apparaat uitgevoerd. In zalen met een hoge mate van technische
+complexiteit wordt daarentegen gewerkt met een aparte show controller die een
+dedicated licht controller aanstuurt voor de bediening van het licht.
+
+De technische eisen in dit document gelden voor zowel gecombineerde show en
+licht controllers als voor dedicated show controllers. Eisen die specifiek voor
+de aansturing van licht gelden staan [in dit document](licht-controller.md)
+toegelicht.
 
 Een toelichting op de rolverdeling tussen de show controllers in de
 tentoonstellingen en een overkoepelende museum controller [lees je
@@ -75,9 +84,6 @@ veel output protocollen is daarom gewenst.
 
 Show controllers ondersteunen minimaal het aansturen van componenten door middel
 van HTTP gebaseerde protocollen (waaronder REST API's), UDP en TCP.
-
-Voor de aansturing van DMX signalen richting DMX-gestuurd licht wordt in
-principe een dedicated licht controller gebruikt.
 
 ## Besturingssysteem
 
