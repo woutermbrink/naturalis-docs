@@ -433,7 +433,7 @@ Voor de namen van `WCD's` gelden de volgende regels:
 
 Voorbeeld: `LK1-L51-9`
 
-### Switches (concept)
+### Switches
 
 Met `Switches` worden de netwerkswitches bedoeld waarop datapunten worden
 gepatched en waarmee het museum van netwerkconnectiviteit wordt voorzien.
@@ -479,20 +479,53 @@ Per type switch verschilt het `identifier` deel van de naam:
 
   Voorbeeld: `netdw2-oob-e`
 
-### Labels van kabels
+## Variabelen en labels
 
+### Variabelen
 
-### Labels van onderdelen van componenten
+Bij het beheer en configuratie van de `Componenten` en `Functionele eenheden` in
+het museum zullen per object variabelen en kenmerken worden geadministreerd. Dit
+kan variëren van het volume van de audio van een apparaat tot bijvoorbeeld een
+MAC-adres.
 
+Deze variabelen of kenmerken van een apparaat komen terug op veel plekken:
 
-### Labels van componenten
+* Het asset management systeem (Topdesk)
+* Het config management systeem (Ansible)
+* De documentatie
+* De labels op `Componenten` en kabels.
 
-`Componenten` en kabels tussen `Componenten` dienen te worden voorzien
-van fysieke labels. Daarnaast zijn er allerlei variabelen van toepassing op de
-groepen en objecten in Ansible, die meestal in de vorm van key-value pairs
-worden genoteerd.
+Uitgangspunt bij de naamgeving van `Variabelen` of meer algemeen kenmerken van
+onderdelen in het museum is dat in alle bovengenoemde systemen en plekken
+dezelfde namen worden gebruikt.
 
-Voor de namen van `Variabelen` gelden de volgende regels:
+In Ansible worden variabelen voor hosts en groups meestal in de vorm van
+key-value pairs genoteerd, bijvoorbeeld:
+
+```yaml
+http_port: 80
+gather_facts: no
+```
+
+Daarnaast is het mogelijk om in Ansible dictionaries te gebruiken om keys en
+values te koppelen:
+
+```yaml
+foo:
+  field1: one
+  field2: two
+```
+
+Op basis hiervan kun je op de volgende manier refereren aan een specifiek veld:
+
+```yaml
+foo['field1']
+foo.field1
+```
+
+Aangezien Ansible de meest stringente regels heeft ten aanzien van namen voor
+`Variabelen` hanteren we de Ansible-regels als standaard. Dat betekent dat voor
+de namen van `Variabelen` de volgende regels gelden:
 
 * Bestaat uitsluitend uit alfanumerieke tekens of *underscore* (liggend
   streepje).
@@ -507,35 +540,65 @@ Voor de waarden van `Variabelen` gelden de volgende regels:
 * Strings (stukken tekst) worden in Ansible altijd met dubbele aanhalingstekens
   (") geschreven.
 
-Het uitgangspunt bij de naamgeving van `Labels` is om dezelfde notatie te
+### Labels
+
+Het uitgangspunt bij het gebruik van `Labels` is om dezelfde notatie te
 hanteren als de notatie in Ansible. Dat betekent dat ze in beginsel bestaan uit
 een combinatie van hostname (hetzelfde als `Component`), de naam van een
 `Variabele` en de waarde van die `Variabele`.
 
-De opbouw van de tekst op een `Label` is daarom:
+Er worden echter op verschillende plaatsen in het museum labels voorzien. Het is
+niet altijd praktisch mogelijk of van toegevoegde waarde om al die informatie op
+een label te zetten. Hieronder staan per toepassing de regels voor `Labels`
+gespecificeerd.
 
-<naamcomponent>.<naamvariabele>:<waardevariabele>
+### Labeling van kabels
 
-Voor de teksten op `Labels` gelden de volgende regels:
+`Componenten` in het museum zijn onderling verbonden door middel van
+(verschillende typen) kabels. Deze kabels dienen van labels te worden voorzien
+om zo, zonder dat de kabel gevolgd hoeft te worden, ter plekke te kunnen zien
+van en naar welk component een kabel loopt. Daarnaast dient de labeling van
+kabels de vervanging van componenten te vergemakkelijken / versnellen.
+
+De opbouw van de tekst op een `Label` die wordt toegepast op een kabel is:
+
+`<naamcomponent>.<naamvariabele>:<waardevariabele>`
+
+Voor de teksten van deze `Labels` gelden de volgende regels:
 
 * Heeft een maximale lengte van 56 karakters
-* Bevat altijd een punt (`.`) en een dubbele punt (`:`).
-* Het deel voor de punt bestaat uit de naam van het component waar naar wordt
+* Bevat bij het uitschrijven op één regel altijd een punt (`.`) en een dubbele
+  punt (`:`). Wanneer de tekst te lang is voor één regel dan wordt de punt
+  vervangen door een linebreak.
+* Het deel voor de punt bestaat uit de naam van het `Component` waar naar wordt
   verwezen.
 * Het deel tussen de punt en de dubbele punt bestaat uit de naam van de
   variabele.
 * Het deel na de dubbele punt bestaat uit de waarde van de variabele.
 
 Voorbeeld: `animalkeeper-cmp-1.nic:eth0`
+```
 
-animalkeeper-cmp-1.nic:eth0
-animalkeeper-cmp-1.outlet:B2.D24
-Self-laminating Wire Wraps
+Voor `Labels` die verwijzen naar de hierboven bedoelde 'overige componenten',
+zoals `Wandcontactdozen` en `Outlets` gelden afwijkende regels:
 
-In dit voorbeeld wordt met het label de netwerkinterface (`nic`) genaamd `eth0`
-van het `Component` `animalkeeper-cmp-1` aangeduid.
+* Heeft een maximale lengte van 56 karakters
+* Bevat altijd een dubbele punt (`:`).
+* Het deel voor de dubbele punt bestaat uit het type `Component`.
+* Het deel na de dubbele punt bestaat uit de naam van het `Component`.
 
+Voorbeeld: `outlet:B2.D24`
 
+Kabels worden op de volgende plaatsen van labels voorzien:
+
+* In de nabijheid van beide componenten
+* Boven een eventuele doorvoer in de vloer
+
+Op al deze plekken dient een kabel van twee labels te worden voorzien. Het label
+dat zich het dichtst bij component A bevindt refereert aan dat component en het
+label dat zich het dichtst bij component B bevindt refereert daaraan. In [dit
+diagram](https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Labels.html#Uhttps%3A%2F%2Fdrive.google.com%2Fa%2Fnaturalis.nl%2Fuc%3Fid%3D1yHieQT567oCd_ZBZ8qTfL7mGpYjQrG3g%26export%3Ddownload)
+is deze werkwijze gevisualiseerd.
 
 ## Dankwoord
 
