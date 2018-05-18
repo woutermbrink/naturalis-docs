@@ -29,6 +29,7 @@
 Functionele omschrijving
 
 ## Ontwerp: hoe doet ie dat?
+
 ### Technische omschrijving
 ### Technische tekeningen
 ### Code
