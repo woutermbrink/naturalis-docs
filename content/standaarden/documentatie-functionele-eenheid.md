@@ -56,10 +56,10 @@ Functionele omschrijving
 * SLAs
 * Leveranciers informatie
 
-Aandachts punten / vragen:
 
-Hoe doen we de templating?
 
-Moet er mogelijkheid komen om comments te maken ten aanzien van de documentatie zodat de eigenaar daar naar kan kijken?
+## Aandachts punten / vragen:
 
-Hoe maken we de documentatie makkelijk beschikbaar in Topdesk & Mattermost?
+* Hoe doen we de templating?
+* Moet er mogelijkheid komen om comments te maken ten aanzien van de documentatie zodat de eigenaar daar naar kan kijken?
+* Hoe maken we de documentatie makkelijk beschikbaar in Topdesk & Mattermost?
