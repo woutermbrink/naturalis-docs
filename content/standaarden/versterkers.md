@@ -351,13 +351,38 @@ maken uit:
 
 #### Opties
 
-<table> <tr> <td></td> <td>Voordelen</td> <td>Nadelen</td> </tr> <tr> <td>Blote
-draad (klemaansluiting)</td> <td>goedkoop</td> <td>oxideren</td> </tr> <tr>
-<td>Banaanstekker</td> <td>met één hand te (ont-)koppelen</td> <td>minder goede
-verbinding</td> </tr> <tr> <td>Spades (schroefaansluiting)</td> <td>zeer goede
-verbinding</td> <td>duur</td> </tr> <tr> <td>XLR</td> <td>stevige plug</td>
-<td>duur, verwarrend met audiokabels</td> </tr> <tr> <td>Speakon</td>
-<td>robuust, geen kans op kortsluiting</td> <td>duur</td> </tr> </table>
+<table>
+  <tr>
+    <td></td>
+    <td>Voordelen</td>
+    <td>Nadelen</td>
+  </tr>
+  <tr>
+    <td>Blote draad (klemaansluiting)</td>
+    <td>goedkoop</td>
+    <td>oxideren</td>
+  </tr>
+  <tr>
+    <td>Banaanstekker</td>
+    <td>met één hand te (ont-)koppelen</td>
+    <td>minder goede verbinding</td>
+  </tr>
+  <tr>
+    <td>Spades (schroefaansluiting)</td>
+    <td>zeer goede verbinding</td>
+    <td>duur</td>
+  </tr>
+  <tr>
+    <td>XLR</td>
+    <td>stevige plug</td>
+    <td>duur, verwarrend met audiokabels</td>
+  </tr>
+  <tr>
+    <td>Speakon</td>
+    <td>robuust, geen kans op kortsluiting</td>
+    <td>duur</td>
+  </tr>
+</table>
 
 #### Keuze
 
