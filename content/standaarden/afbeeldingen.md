@@ -14,7 +14,7 @@ Source: https://imgs.xkcd.com/comics/digital_data.png
 * GIF
 * JPG
 
-En nog veel meer: https://en.wikipedia.org/wiki/List_of_file_formats#Graphics
+And lots and lots more: https://en.wikipedia.org/wiki/List_of_file_formats#Graphics
 
 ### Which File Format Should You Choose?
 
