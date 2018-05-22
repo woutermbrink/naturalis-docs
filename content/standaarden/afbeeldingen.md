@@ -5,9 +5,9 @@
 
 Source: https://imgs.xkcd.com/comics/digital_data.png
 
-## Standaarden
-Photographs and realistic images: JPG
-Line art, text-heavy images, and images with few colors: PNG
+## Standaard
+* Photographs and realistic images: JPG
+* Line art, text-heavy images, and images with few colors: PNG
 
 ## Opties
 * PNG
