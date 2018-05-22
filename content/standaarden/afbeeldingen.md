@@ -14,6 +14,8 @@ Source: https://imgs.xkcd.com/comics/digital_data.png
 * GIF
 * JPG
 
+En nog veel meer: https://en.wikipedia.org/wiki/List_of_file_formats#Graphics
+
 ### Which File Format Should You Choose?
 
 * "GIF format is limited to 256 colors and is a lossless compression file format, a common choice for use on the Web. GIF is a good choice for storing line drawings, text, and iconic graphics at a small file size."
