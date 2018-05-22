@@ -25,10 +25,11 @@ Zie voor een totaal overzicht: https://en.wikipedia.org/wiki/List_of_file_format
  
 ## Argumentatie
 
-Eisen:
+### Eisen
 * Conversie naar Markdown 
 * Conversie naar HTML
 
+### Pro's & Con's
 * CSV
 
 CSV to MD
