@@ -30,11 +30,9 @@ Zie voor een totaal overzicht: https://en.wikipedia.org/wiki/List_of_file_format
 ### Import mogelijkheden
 
 Alle drie de fileformats zijn geschikt voor het importeren in een database mits:
-* In de eerste rij de kollommen worden gedefineerd
+* In de eerste rij de (juiste) kollommen worden gedefineerd
 * Er alleen gebruik wordt gemaakt van kolommen en rijen die gelden in de hele tabel 
 * Alleen alfa nummerieke tekens, anders de data / tekst tussen "ḧaakjes" plaatsen
-
-Wanneer lijsten geimporteerd moeten worden zal Naturalis de gewenste colommen sturctuur definieren.
 
 ### Conversie
 Overzicht van verschillende open source software beschikbaar voor conversie.
@@ -64,4 +62,4 @@ Overzicht van webbased weergave opties.
 
 ## Conclusie
 
-CSV, ODS & XLSX voldoen alle drie. Daarnaast zijn er voldoende conversie mogelijkheden. Wel moeten de tabellen dusdanig gestructureerd zijn en syntax hebben dat ze importeerbaar zijn. 
+CSV, ODS & XLSX voldoen alle drie. Daarnaast zijn er voldoende conversie mogelijkheden. Wel moeten de tabellen dusdanig gestructureerd zijn en syntax hebben dat ze importeerbaar zijn. Naturalis zal de gewenste colommen sturctuur definieren.
