@@ -11,7 +11,7 @@
 Zie voor een totaal overzicht: https://en.wikipedia.org/wiki/List_of_file_formats#Spreadsheet
 
 ### Viewers: 
-* [Mardown Tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+* [Markdown Tables](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
 * [EtherCalc](https://ethercalc.net/#)
 * [Google Sheets](https://www.google.com/sheets/about/)
 * [JavaScript Open-Source Spreadsheets and Data Grids](https://jspreadsheets.com/)
