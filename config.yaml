@@ -1,0 +1,20 @@
+title: "Test Documentation Site"
+baseURL: https://example.com/
+footnoteReturnLinkContents: ↩
+languageCode: "en-us"
+params:
+  AuthorName: Jon Doe
+  GitHubUser: spf13
+  SidebarRecentLimit: 5
+  Subtitle: Hugo is Absurdly Fast!
+  pluralizeListTitles: false
+  disableInlineCopyToClipBoard: true
+permalinks:
+  post: /:year/:month/:title/
+title: My Hugo Site
+theme: "hugo-theme-learn"
+taxonomies:
+  tentoonstelling: tentoonstellingen
+  experience: experiences
+  interactive: interactives
+  component: componenten
