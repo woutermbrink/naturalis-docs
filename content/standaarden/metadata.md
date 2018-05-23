@@ -1,9 +1,5 @@
 # Metadata
 
-## Standaard 
+## Eisen
 
-## Opties
-
-## Argumentatie
-
-## Conclusie
+## Design 
