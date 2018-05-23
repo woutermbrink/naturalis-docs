@@ -29,8 +29,7 @@ Source: https://www.labnol.org/software/tutorials/jpeg-vs-png-image-quality-or-b
 "There is also an interlaced progressive JPEG format, in which data is compressed in multiple passes of progressively higher detail. This is ideal for large images that will be displayed while downloading over a slow connection, allowing a reasonable preview after receiving only a portion of the data."
 
 Source: https://en.wikipedia.org/wiki/JPEG#JPEG_compression
-
-More info: https://www.liquidweb.com/kb/what-is-a-progressive-jpeg/
+Verdere uitleg over progressive JPEG: https://www.liquidweb.com/kb/what-is-a-progressive-jpeg/
 
 ## Conclusion
 
