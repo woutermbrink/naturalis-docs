@@ -6,7 +6,7 @@
 Source: https://imgs.xkcd.com/comics/digital_data.png
 
 ## Standaard
-* Photographs and realistic images: JPG
+* Photographs and realistic images: interlaced progressive JPG (aka JPEG)
 * Line art, text-heavy images, and images with few colors: PNG
 
 ## Opties
@@ -23,6 +23,14 @@ And lots and lots more: https://en.wikipedia.org/wiki/List_of_file_formats#Graph
 * "PNG format is a lossless compression file format, which makes it a common choice for use on the Web. PNG is a good choice for storing line drawings, text, and iconic graphics at a small file size."
  
 * "JPG format is a lossy compressed file format. This makes it useful for storing photographs at a smaller size than a BMP. JPG is a common choice for use on the Web because it is compressed. For storing line drawings, text, and iconic graphics at a smaller file size, GIF or PNG are better choices because they are lossless."
+
+Source: https://www.labnol.org/software/tutorials/jpeg-vs-png-image-quality-or-bandwidth/5385/
+
+"There is also an interlaced progressive JPEG format, in which data is compressed in multiple passes of progressively higher detail. This is ideal for large images that will be displayed while downloading over a slow connection, allowing a reasonable preview after receiving only a portion of the data."
+
+Source: https://en.wikipedia.org/wiki/JPEG#JPEG_compression
+
+More info: https://www.liquidweb.com/kb/what-is-a-progressive-jpeg/
 
 ## Conclusion
 
