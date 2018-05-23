@@ -2,6 +2,10 @@
 
 ## Standaard
 
+* CSV, ODS of XLSX
+* Naturalis definieert structuur
+* Bestanden zijn importeerbaar
+
 ## Opties
 
 ### File formats: 
@@ -30,7 +34,7 @@ Alle drie de fileformats zijn geschikt voor het importeren in een database mits:
 * Er alleen gebruik wordt gemaakt van kolommen en rijen die gelden in de hele tabel 
 * Alleen alfa nummerieke tekens, anders de data / tekst tussen "ḧaakjes" plaatsen
 
-Wanneer lijsten geimporteerd moeten worden zal Naturalis de gewenste colommen sturctuur aanleveren 
+Wanneer lijsten geimporteerd moeten worden zal Naturalis de gewenste colommen sturctuur definieren.
 
 ### Conversie
 Overzicht van verschillende open source software beschikbaar voor conversie.
