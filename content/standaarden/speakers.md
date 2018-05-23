@@ -1,4 +1,8 @@
-# Technische eisen speakers
+---
+title: "Speakers"
+date: 2018-05-23T14:34:13+02:00
+draft: true
+---
 
 ## Omschrijving type component
 

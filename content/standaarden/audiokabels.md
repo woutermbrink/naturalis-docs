@@ -1,4 +1,8 @@
-# Technische eisen audiokabels
+---
+title: "Audiokabels"
+date: 2018-05-23T14:32:11+02:00
+draft: true
+---
 
 ## Omschrijving type component
 

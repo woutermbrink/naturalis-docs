@@ -1,4 +1,8 @@
-# Technische eisen monitoren
+---
+title: "Monitoren"
+date: 2018-05-23T14:33:17+02:00
+draft: true
+---
 
 ## Omschrijving type component
 

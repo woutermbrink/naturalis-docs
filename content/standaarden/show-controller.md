@@ -1,4 +1,8 @@
-# Technische eisen show controller
+---
+title: "Show Controller"
+date: 2018-05-23T14:33:46+02:00
+draft: true
+---
 
 ## Omschrijving
 

@@ -1,4 +1,8 @@
-# Technische eisen licht controller
+---
+title: "Licht Controller"
+date: 2018-05-23T14:33:04+02:00
+draft: true
+---
 
 ## Omschrijving
 

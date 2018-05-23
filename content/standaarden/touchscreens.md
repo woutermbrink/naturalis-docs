@@ -1,4 +1,8 @@
-# Technische eisen touchscreens
+---
+title: "Touchscreens"
+date: 2018-05-23T14:34:33+02:00
+draft: true
+---
 
 ## Omschrijving type component
 

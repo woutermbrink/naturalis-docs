@@ -1,4 +1,8 @@
-# Technische eisen video op afstand
+---
+title: "Video Op Afstand"
+date: 2018-05-23T14:34:51+02:00
+draft: true
+---
 
 ## Omschrijving type component
 

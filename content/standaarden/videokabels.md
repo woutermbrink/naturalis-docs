@@ -1,4 +1,8 @@
-# Technische eisen videokabels
+---
+title: "Videokabels"
+date: 2018-05-23T14:34:46+02:00
+draft: true
+---
 
 ## Omschrijving type component
 

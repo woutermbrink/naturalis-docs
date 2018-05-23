@@ -1,4 +1,8 @@
-# Namen
+---
+title: "Naamgeving"
+date: 2018-05-23T14:33:22+02:00
+draft: true
+---
 
 ## Algemeen
 

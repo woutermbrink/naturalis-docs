@@ -1,4 +1,8 @@
-# Technische eisen netwerkkabel
+---
+title: "Netwerkkabels"
+date: 2018-05-23T14:33:29+02:00
+draft: true
+---
 
 ## Omschrijving
 

@@ -1,4 +1,9 @@
-# Technische eisen versterkers
+---
+title: "Versterkers"
+date: 2018-05-23T14:34:37+02:00
+draft: true
+---
+
 
 ## Omschrijving type apparaat
 
