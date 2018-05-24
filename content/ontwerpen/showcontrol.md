@@ -1,4 +1,8 @@
-# Design show control museum
+---
+title: "Showcontrol"
+date: 2018-05-23T14:52:07+02:00
+draft: true
+---
 
 De tentoonstellingen en experiences bestaan uit een grote diversiteit aan
 technische componenten. Dit document beschrijft de wijze waarop al die componenten

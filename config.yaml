@@ -1,4 +1,4 @@
-title: "Test Documentation Site"
+title: "Museum documentatie Naturalis"
 baseURL: https://example.com/
 footnoteReturnLinkContents: ↩
 languageCode: "en-us"
@@ -6,12 +6,11 @@ params:
   AuthorName: Jon Doe
   GitHubUser: spf13
   SidebarRecentLimit: 5
-  Subtitle: Hugo is Absurdly Fast!
+  Subtitle: Documentatie t.b.v. ontwikkeling en beheer tentoonstellingen
   pluralizeListTitles: false
   disableInlineCopyToClipBoard: true
 permalinks:
   post: /:year/:month/:title/
-title: My Hugo Site
 theme: "hugo-theme-learn"
 taxonomies:
   tentoonstelling: tentoonstellingen

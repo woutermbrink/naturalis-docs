@@ -1,4 +1,8 @@
-# Server Architectuur - FEM-32
+---
+title: "Server Architectuur"
+date: 2018-05-24T10:13:04+02:00
+draft: true
+---
 
 ## Kader
 Dit document beschrijft de oplossing van *userstory* FEM32:

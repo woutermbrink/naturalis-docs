@@ -1,4 +1,8 @@
-# Design documentatie museum
+---
+title: "Documentatie"
+date: 2018-05-23T14:52:15+02:00
+draft: true
+---
 
 ## Uitgangspunten
 
