@@ -12,6 +12,11 @@ params:
 permalinks:
   post: /:year/:month/:title/
 theme: "hugo-theme-learn"
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
 taxonomies:
   tentoonstelling: tentoonstellingen
   experience: experiences
