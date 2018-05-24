@@ -131,7 +131,7 @@ alle audio vermogensversterkers hebben deze constructie.
   bijvoorbeeld batterij-gevoede apparaten, waar stroomverbruik een kritische
   factor is (walkie talkie, draagbare radio). Rendement is rond de 75%.
 
-  ![image alt text](../afbeeldingen/versterker-klasseb-blokschema.png)
+  ![Blokschema van een klasse B versterker](/images/versterker-klasseb-blokschema.png)
 
 * Klasse AB
 
@@ -168,7 +168,7 @@ alle audio vermogensversterkers hebben deze constructie.
   warmteproductie is laag, waardoor minder zware koellichamen en ventilators nodig
   zijn. Rendement kan 85-90% zijn.
 
-  ![image alt text](../afbeeldingen/versterker-klassed-blokschema.png)
+  ![image alt text](/images/versterker-klassed-blokschema.png)
 
 * Subklasse T
 

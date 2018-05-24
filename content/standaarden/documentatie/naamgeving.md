@@ -144,7 +144,7 @@ typen in Ansible:
 * `Variabelen` die van toepassing zijn op `Tentoonstellingen`, `Exhibits` en
   `Componenten` in een `Museum` hebben dezelfde naam in Ansible.
 
-![alt text](../afbeeldingen/taxonomiemuseum.png "Taxonomie museum")
+![alt text](/images/taxonomiemuseum.png "Taxonomie museum")
 
 ## Groepen
 
