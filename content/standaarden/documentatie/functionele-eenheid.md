@@ -8,11 +8,11 @@ draft: true
 
 ## Algemene informatie
 
-1. naam
-2. locatie
+1. Naam functionele eenheid
+2. Locatie functionele eenheid (tentoonstellings naam)
+
 
 ## Algemene omschrijving
-
 
 
 ## Componenten 
