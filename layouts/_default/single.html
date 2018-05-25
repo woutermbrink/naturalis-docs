@@ -1,0 +1,4 @@
+{{ partial "header.html" . }}
+<p>Deze pagina is voor het laatst aangepast op {{ .Lastmod.Format "02/01/06 15:04" }} door {{ .GitInfo.AuthorName }}</p>
+{{ .Content }}
+{{ partial "footer.html" . }}

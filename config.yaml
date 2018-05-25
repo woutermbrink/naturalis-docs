@@ -1,10 +1,9 @@
 title: "Museum documentatie Naturalis"
-baseURL: https://example.com/
+baseURL: http://docs.museum.naturalis.nl
 footnoteReturnLinkContents: ↩
 languageCode: "en-us"
 params:
-  AuthorName: Jon Doe
-  GitHubUser: spf13
+  AuthorName: Naturalis Biodiversity Center
   SidebarRecentLimit: 5
   Subtitle: Documentatie t.b.v. ontwikkeling en beheer tentoonstellingen
   editURL: https://github.com/MakeExpose/naturalis-docs/edit/master/content/
