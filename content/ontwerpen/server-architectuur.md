@@ -1,7 +1,7 @@
 ---
 title: "Server Architectuur"
 date: 2018-05-24T10:13:04+02:00
-draft: true
+draft: false
 ---
 
 ## Kader

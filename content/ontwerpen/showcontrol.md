@@ -1,7 +1,7 @@
 ---
 title: "Showcontrol"
 date: 2018-05-23T14:52:07+02:00
-draft: true
+draft: false
 ---
 
 De tentoonstellingen en experiences bestaan uit een grote diversiteit aan
