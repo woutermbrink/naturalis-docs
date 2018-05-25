@@ -8,7 +8,7 @@ draft: true
 
 * Vermelding van de tekenfase (VO,DO,bestek, werk of revisie)
 * Schaal aanduiding
-* conform NEN 114, NEN 128-50, NEN 47, NEN-ISO 128-23 (nl),  
+* conform NEN 114, NEN 128-50, NEN 47 & NEN-ISO 128-23 (nl),  
 
 ## Metadata standaard
 
