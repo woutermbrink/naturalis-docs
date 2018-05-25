@@ -4,15 +4,15 @@ date: 2018-05-23T14:32:32+02:00
 draft: true
 ---
 
-# Standaard inhoudsopgave
+# Standaard pagina indeling 
 
 ## Algemene informatie
 
-1. naam
-2. locatie
+1. Naam functionele eenheid
+2. Locatie functionele eenheid (tentoonstellings naam)
+
 
 ## Algemene omschrijving
-
 
 
 ## Componenten 
