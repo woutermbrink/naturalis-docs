@@ -33,15 +33,25 @@ Conform: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieke
 ##### [Schaal](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken#Schaal)
 
 1:10000 - 1:5000 - 1:2000	Stedenbouwkundige Tekeningen
+
 1:1000	Stedenbouwkundige Tekeningen & Situatie Tekeningen
+
 1:500	Situatie Tekeningen
+
 1:200	Grote Gebouwen, Overzichtstekeningen (bv. woningblokken)
+
 1:100	Gebouwen
+
 1:50	Kleine Gebouwen (bv. woningen) & Fragmenten van Gebouwen
+
 1:20	Fragmenten van Gebouwen
+
 1:10	Meubels, Kasten, Trappen, e.d. Details, Constructieve Knooppunten
+
 1:5	Details
+
 1:2	Details, vanwege verwarring met de schaal 1:1 wordt deze vaak afgeraden
+
 1:1	Details
 
 ##### [Gebouwdelen](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken#Gebouwdelen)
