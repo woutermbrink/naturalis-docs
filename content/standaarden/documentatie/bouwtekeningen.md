@@ -8,13 +8,13 @@ draft: true
 
 * Vermelding van de tekenfase (VO,DO,bestek, werk of revisie)
 * Schaal aanduiding
-* conform NEN 114, NEN 128-50, NEN 47 & NEN-ISO 128-23 (nl),  
-
-## Metadata standaard
+* Conform NEN 114, NEN 128-50, NEN 47 & NEN-ISO 128-23 (nl)
+* Bevat: plattegrond, doorsnede, gevelaanzicht & isometrische projectie
+* Bestandsformaat: ??????
 
 ## Argumentatie
 
-### Opties 
+### Inhoud
 
 #### Tekenfasen
 
@@ -94,18 +94,24 @@ Bron: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken
 #### Tekensystemen
 
 Vlakke projecties
+  
   Plattegrond
+  
   Doorsnede
+  
   Gevelaanzicht
   
 Axonometrische Projecties
+  
   Isometrisch 
+  
   Planimetrisch
+  
   Cavelier
+  
   Cabinet
 
 Uitleg: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekensystemen
-
 
 
 ## Conclusie
