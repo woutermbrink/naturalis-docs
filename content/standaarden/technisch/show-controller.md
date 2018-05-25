@@ -1,7 +1,7 @@
 ---
 title: "Show Controller"
 date: 2018-05-23T14:33:46+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving
@@ -27,13 +27,13 @@ hier](../design/showcontrol.md).
 ## Technische eisen
 
 1. [Input control](#input-control)
-2. [Output control](#output-control)
-3. [Besturingssysteem](#besturingssysteem)
-4. [Poorten](#poorten)
-5. [Aanpasbaarheid](#aanpasbaarheid)
-6. [Backup](#backup)
-7. [Formfactor](#formfactor)
-8. [Updates](#updates)
+1. [Output control](#output-control)
+1. [Besturingssysteem](#besturingssysteem)
+1. [Poorten](#poorten)
+1. [Aanpasbaarheid](#aanpasbaarheid)
+1. [Backup](#backup)
+1. [Formfactor](#formfactor)
+1. [Updates](#updates)
 
 ## Input control
 

@@ -1,7 +1,7 @@
 ---
 title: "Audiokabels"
 date: 2018-05-23T14:32:11+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving type component

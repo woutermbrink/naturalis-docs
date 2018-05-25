@@ -1,7 +1,7 @@
 ---
 title: "Afbeeldingen"
 date: 2018-05-23T14:32:04+02:00
-draft: true
+draft: false
 ---
 
 ![digital data](https://imgs.xkcd.com/comics/digital_data.png)

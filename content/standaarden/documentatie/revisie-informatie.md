@@ -1,7 +1,7 @@
 ---
 title: "Versiebeheer"
 date: 2018-05-25T11:15:17+02:00
-draft: true
+draft: false
 ---
 
 ## Functionaliteit

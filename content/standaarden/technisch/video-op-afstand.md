@@ -1,19 +1,19 @@
 ---
 title: "Video Op Afstand"
 date: 2018-05-23T14:34:51+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving type component
 
 Onze standaard voor video overdracht van een "player" naar een projector of
-monitor is HDMI. HDMI kabels hebben echter een maximum lengte van 15m. (NOTE:
-https://en.wikipedia.org/wiki/HDMI#Cables) Er zijn situaties waarbij het de
-voorkeur heeft of noodzakelijk is om de "player" te plaatsen op een locatie
-waarvoor een kabellengte van meer dan 15 meter nodig is. In deze gevallen moet
-er gebruikt gaan worden van een alternatief voor een HDMI kabel. Ter
-verduidelijking, het gaat hier over een alternatief voor de kabel en niet over
-HDMI als High-Definition Multimedia Interface.
+monitor is HDMI. HDMI kabels hebben echter een maximum lengte van 15m. (Zie:
+[Wikipedia](https://en.wikipedia.org/wiki/HDMI#Cables)) Er zijn situaties
+waarbij het de voorkeur heeft of noodzakelijk is om de "player" te plaatsen op
+een locatie waarvoor een kabellengte van meer dan 15 meter nodig is. In deze
+gevallen moet er gebruikt gaan worden van een alternatief voor een HDMI kabel.
+Ter verduidelijking, het gaat hier over een alternatief voor de kabel en niet
+over HDMI als High-Definition Multimedia Interface.
 
 ## Technische eisen
 

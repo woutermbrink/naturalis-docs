@@ -1,7 +1,7 @@
 ---
 title: "Netwerkkabels"
 date: 2018-05-23T14:33:29+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving
@@ -33,7 +33,7 @@ Hieronder worden de technische eisen toegelicht.
 
 Netwerkkabels zijn leverbaar in afgeschermde en niet-afgeschermde varianten. De
 afscherming is ontworpen om elektromagnetische storingen tegen te gaan, maar kan
-ook extra bescherming bieden tegen hardhandig gebruik.De UTP (Unshielded
+ook extra bescherming bieden tegen hardhandig gebruik. De UTP (Unshielded
 Twisted Pair) kabel is de niet afgeschermde variant. Hiernaast bestaan ook
 kabels met verschillende varianten van bescherming
 
@@ -87,7 +87,7 @@ kabels met verschillende varianten van bescherming
 
 #### Keuze
 
-S/FTP is kwalitatief de beste keus. Er is minder slijtage en een veel kleinere
+S/FTP is kwalitatief de beste keus. Er is minder slijtage en een veel kleinere
 kans op breuken. Bij eerdere tentoonstellingen hebben we gebruik gemaakt van
 U/UTP en U/FTP, maar hierdoor hadden we regelmatig last van storingen. Dezelfde
 ervaringen hadden we in het datacenter. Daarom gebruikt ICT Infra nu standaard
@@ -200,6 +200,5 @@ plekken.
 
 #### Keuze
 
-Snagless.Door te werken met snagless connectors, zit er geen plastic lipje in
+Snagless. Door te werken met snagless connectors, zit er geen plastic lipje in
 de weg bij het monteren/demonteren van devices.
-

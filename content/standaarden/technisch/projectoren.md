@@ -1,7 +1,7 @@
 ---
 title: "Projectoren"
 date: 2018-05-23T14:33:41+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving type component
@@ -241,4 +241,3 @@ Gemotoriseerd
 #### Keuze
 
 Gemotoriseerd
-

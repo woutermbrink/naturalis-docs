@@ -1,7 +1,7 @@
 ---
 title: "Videokabels"
 date: 2018-05-23T14:34:46+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving type component

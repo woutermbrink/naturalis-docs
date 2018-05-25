@@ -1,9 +1,8 @@
 ---
 title: "Versterkers"
 date: 2018-05-23T14:34:37+02:00
-draft: true
+draft: false
 ---
-
 
 ## Omschrijving type apparaat
 

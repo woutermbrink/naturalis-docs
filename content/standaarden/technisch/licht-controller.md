@@ -1,7 +1,7 @@
 ---
 title: "Licht Controller"
 date: 2018-05-23T14:33:04+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving
@@ -19,7 +19,7 @@ beschreven.
 ## Technische eisen
 
 1. [Protocol aansturing licht](#protocol-aansturing-licht)
-2. [Programmering](#programmering)
+1. [Programmering](#programmering)
 
 ## Protocol aansturing licht
 

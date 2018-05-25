@@ -1,7 +1,7 @@
 ---
 title: "Monitoren"
 date: 2018-05-23T14:33:17+02:00
-draft: true
+draft: false
 ---
 
 ## Omschrijving type component
@@ -25,7 +25,7 @@ Hieronder worden de technische eisen toegelicht.
 ### Merk
 
 Het merk maakt niet uit zolang deze maar goed en lang leverbaar is. Ook heeft
-het standaardiseren wat betreft merk de voorkeur. 
+het standaardiseren wat betreft merk de voorkeur.
 
 ### Video-in
 
@@ -56,7 +56,7 @@ het standaardiseren wat betreft merk de voorkeur.
 
 HDMI 2.0 of hoger (type A connector), zie [Technische eisen
 videokabels](https://docs.google.com/document/d/1ba3zL2Yn2mWnu49btuHtLRKmO4S7_GJs8KcNHbRhkkM/edit##heading=h.pael25ez7hg)
-voor argumentatie. 
+voor argumentatie.
 
 ### Bediening
 
@@ -102,7 +102,7 @@ hardware.
 
 De klassieke afstandsbediening is niet geschikt omdat de infrarood poort in veel
 gevallen ook niet meer toegankelijk is, wanneer schermen naast elkaar hangen de
-bediening elkaar kan storen en het signaal niet beveiligd is. 
+bediening elkaar kan storen en het signaal niet beveiligd is.
 
 RS232C over koper, al dan niet via Mini D-Sub 9-pins of stereo jack heeft ook
 niet de voorkeur omdat de "player" in dat geval voorzien moet zijn van een Mini
@@ -110,19 +110,18 @@ D-Sub 9-pins com-port of IR stereo uitgang.
 
 De standaard die we willen hanteren is Consumer Electronics Control (CEC). CEC
 is mogelijk over HDMI of UTP middels HDBaseT dat o.a. HDMI en CEC over UTP
-implementeert. 
+implementeert.
 
 Wij hanteren daarom de onderstaande volgorde van voorkeur betreffende de
 standaard:
 
 1. CEC over HDMI
-
-2. CEC over UTP (HDBaseT)
+1. CEC over UTP (HDBaseT)
 
 ### Smart
 
-#### Er zijn sinds een aantal jaar zogeheten Smart TV’s op de markt. Het gaat
-hierbij om een in de monitor geïntegreerde (embedded) computer waarop vaak
+Er zijn sinds een aantal jaar zogeheten Smart TV’s op de markt. Het gaat hierbij
+om een in de monitor geïntegreerde (embedded) computer waarop vaak
 fabrikant-specifieke besturingssystemen (zoals WebOS, Tyzen of Android) en
 bijbehorende software draait. De vraag is of met het oog op beheer dergelijke
 soft- en hardware gewenst is.
@@ -130,7 +129,6 @@ soft- en hardware gewenst is.
 #### Opties
 
 * Monitoren met Smart TV functionaliteit
-
 * Monitoren zonder Smart TV functionaliteit
 
 #### Keuze
@@ -138,7 +136,7 @@ soft- en hardware gewenst is.
 Monitoren met volwaardige Smart TV functionaliteit zijn niet toegestaan. Op deze
 regel mag uitsluitend een uitzondering worden gemaakt wanneer er op basis van
 specifieke functionele wensen alleen monitoren in aanmerking komen die ook Smart
-TV functionaliteit hebben. 
+TV functionaliteit hebben.
 
 De reden voor het niet toestaan van dit type monitoren is in de eerste plaats
 dat smart TV's geen functionaliteit toevoegen waarin niet (goed onderhoudbaar en
@@ -147,4 +145,3 @@ praktijk uit dat de veiligheid van de software van Smart TV’s te wensen
 overlaat, en dat security updates lang op zich laten wachten. De
 onderhoudbaarheid wordt daarnaast ook beperkt doordat de configuratie van Smart
 TV’s niet of lastig is te automatiseren.
-
