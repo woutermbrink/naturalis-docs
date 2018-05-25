@@ -9,6 +9,7 @@ params:
   Subtitle: Documentatie t.b.v. ontwikkeling en beheer tentoonstellingen
   pluralizeListTitles: false
   disableInlineCopyToClipBoard: true
+  themeVariant: naturalis
 permalinks:
   post: /:year/:month/:title/
 theme: "hugo-theme-learn"

@@ -75,7 +75,7 @@ bekijken](https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoiZ3J
 visualiseert de relatie tussen de museum controller, de show controller en de
 diverse componenten:
 
-```mermaid
+{{<mermaid align="left">}}
 graph TD
     A[Users] --> B(Web interface)
     A[Users] --> C(Ansible Tower UI)
@@ -97,7 +97,8 @@ graph TD
     E -->|Activeren stand animatronic| G
     K -->|DMX| L(Showlicht)
     end
-```
+{{< /mermaid >}}
+
 ## Specifieke verdeling verantwoordelijkheden
 
 Concreet is de museum controller verantwoordelijk voor:
