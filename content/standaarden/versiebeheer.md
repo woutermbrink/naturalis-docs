@@ -21,24 +21,23 @@ Of iets een draft versie is of niet is de keuze van en een handmatige handeling 
 ## Hoe
 Door het template van de static site generators Hugo aan te passen kunnen we pagina variabelen tonen. 
 
-* Naam laaste auteur
+
+### Naam laaste auteur
 De variabele kunnen we uitlezen uit het .GifInfo object, deze informatie is afkomstig van GIT.  
 
-[.AuthorName](https://gohugo.io/variables/git/#the-gitinfo-object)
+Variabele: [.AuthorName](https://gohugo.io/variables/git/#the-gitinfo-object)
 
-* Datum laatste wijziging
+### Datum laatste wijziging
 De .Lastmod variabele bevat deze waarde. Deze is afkomstig van het .AuthorDate veld uit het .GitInfo object. 
 
-[.Lastmod](https://gohugo.io/variables/page/#page-variables)
+Variabele: [.Lastmod](https://gohugo.io/variables/page/#page-variables)
 
-* Status
+### Status
 De status geeft een auteur zelf aan in de [front-matter](https://gohugo.io/content-management/front-matter/#front-matter-variables) van een pagina.
-
-
 
 Hierdoor wordt de .Draft variabele true of false gezet. 
 
-[.Draft](https://gohugo.io/variables/page/#page-variables)
+Variabele: [.Draft](https://gohugo.io/variables/page/#page-variables)
 
 
 
