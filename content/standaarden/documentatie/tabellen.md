@@ -10,6 +10,10 @@ draft: true
 * Naturalis definieert structuur
 * Bestanden zijn importeerbaar
 
+{{% tip %}}
+Handig om snel kleine tabellen in Markdown te maken: [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables#)
+{{% /tip %}}
+
 ## Argumentatie
 
 ### Opties
