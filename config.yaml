@@ -10,6 +10,7 @@ params:
   pluralizeListTitles: false
   disableInlineCopyToClipBoard: true
   themeVariant: naturalis
+  enableGitInfo: true
 permalinks:
   post: /:year/:month/:title/
 theme: "hugo-theme-learn"
