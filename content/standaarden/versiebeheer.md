@@ -38,9 +38,7 @@ https://gohugo.io/content-management/front-matter/#front-matter-variables
 
 Hierdoor wordt de .Draft variabele true of false gezet. 
 
-.Draft
-
-https://gohugo.io/variables/page/#page-variables
+[.Draft](https://gohugo.io/variables/page/#page-variables)
 
 
 
