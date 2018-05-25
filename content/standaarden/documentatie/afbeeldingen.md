@@ -10,19 +10,22 @@ Source: [xkcd](https://imgs.xkcd.com/comics/digital_data.png)
 
 ## Standaard
 
-* Photographs and realistic images: interlaced progressive JPG (aka JPEG)
-* Line art, text-heavy images, and images with few colors: PNG
+* Foto's en realistische afbeeldingen: interlaced progressive JPEG (aka JPG)
+* Line art, afbeeldingen met veel tekst en/of weinig kleur: PNG
 
-## Opties
+## Argumentatie
+
+### Opties
+
+Er bestaan ontzettend veel bestandsformaten voor afbeeldingen. Zie
+[Wikipedia](https://en.wikipedia.org/wiki/List_of_file_formats#Graphics) voor
+een overzicht. De meest gebruikte bestandsformaten op het web zijn:
 
 * PNG
 * GIF
 * JPG
 
-And lots and lots more:
-[Wikipedia](https://en.wikipedia.org/wiki/List_of_file_formats#Graphics)
-
-### Which File Format Should You Choose?
+### Afweging
 
 * "GIF format is limited to 256 colors and is a lossless compression file
   format, a common choice for use on the Web. GIF is a good choice for storing
@@ -51,7 +54,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/JPEG#JPEG_compression)
 Verdere uitleg over progressive JPEG:
 [liquidweb.com](https://www.liquidweb.com/kb/what-is-a-progressive-jpeg/)
 
-## Conclusion
+## Conclusie
 
 ![png vs jpg](https://img.labnol.org/di/jpg_vs_png.png)
 
