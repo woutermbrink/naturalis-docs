@@ -32,9 +32,9 @@ De .Lastmod variabele bevat deze waarde. Deze is afkomstig van het .AuthorDate v
 [.Lastmod](https://gohugo.io/variables/page/#page-variables)
 
 * Status
-De status geeft een auteur zelf aan in de front-matter van een pagina.
+De status geeft een auteur zelf aan in de [front-matter](https://gohugo.io/content-management/front-matter/#front-matter-variables) van een pagina.
 
-https://gohugo.io/content-management/front-matter/#front-matter-variables
+
 
 Hierdoor wordt de .Draft variabele true of false gezet. 
 
