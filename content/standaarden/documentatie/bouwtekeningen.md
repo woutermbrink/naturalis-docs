@@ -108,7 +108,7 @@ Er worden twee type projecties onderscheiden vlakke projecties, zoals een platte
 
 Voorbeelden: 
 
-Vlakke projecties
+[Vlakke projecties](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekensystemen#Vlakke_projectie)
 
  * Plattegrond (aka floorplan)
 
@@ -122,11 +122,21 @@ Vlakke projecties
  
  ![Gevelaanzicht](http://wiki.bk.tudelft.nl/mw_bk-wiki/images/f/ff/Gevel-technisch.jpg)
  
- Axonometrische projecties
+ [Axonometrische projecties](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekensystemen#Axonometrische_Projectie)
 
 ![Axonometrische projecties](http://wiki.bk.tudelft.nl/mw_bk-wiki/images/thumb/9/9b/Axo-soorten.jpg/311px-Axo-soorten.jpg)
 
+Een specifieke vorm van een isometrische projectie is de exploded view:
+
+Voorveeld:
+![Exploded view](https://www.lifegate.com/app/uploads/atnf4o.jpg) 
+
 Uitleg: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekensystemen
 
+#### [Layout](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Layout)
+
+Zie: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Layout
 
 ## Conclusie
+
+
