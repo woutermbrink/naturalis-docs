@@ -138,6 +138,37 @@ Uitleg: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekensystemen
 
 Zie: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Layout
 
+### Bestandsformaat
+
+"CAD file formats generally fall into two categories either Native or Neutral (Standard) File format. Native file formats are Proprietary of a particular CAD software maker, to be used with their software.Neutral or Standards were specifically created to encourage interoperability, which helps exchange files between different software programs. Neutral or Standard File format make it easier to exchange files with someone who uses different CAD software, the most successful Native Formats are supported by a variety of software."
+
+Overzicht interessante neutral file formats:
+
+* STEP
+"STEP is the most widely used and most recommended of 3D file Formats. It is an ISO 10303-21 standard, so we know it is in the hands of a reputable standards-making body. Most of the software support STEP importing and exporting."
+
+* X3D
+"X3D is a royalty-free ISO standard XML-based file format for representing 3D computer graphics. It is successor to the VRML. X3D features extensions to VRML (e.g. CAD, Geospatial, Humanoid animation, NURBS etc.), the ability to encode the scene using an XML syntax as well as the Open Inventor-like syntax of VRML97, or binary formatting, and enhanced application programming interfaces (APIs)."
+
+* COLLADA
+"COLLADA (COLLAborative Design Activity) defines an open standard XML schema originally created at Sony Computer Entertainment managed by the nonprofit technology consortium, the Khronos Group, and has been adopted by ISO as a publicly available specification, ISO/PAS 17506."
+
+COLLADA is one of the evolving file format and supported by popular software, it is used in gaming and 3d modelling.
+
+* DXF
+"DXF which stands for Drawing Interchange Format, or Drawing Exchange Format is a pure 2D format and technically should be viewed as a Native format. It is Autocad’s native 2D format. But Autocad is so ubiquitous and so many CAD programs support it that DXF has come to be a pretty universal interchange format for 2D information."
+
+Bron: https://www.asensar.com/article/basics/cad-file-formats-and-standards.html
+
+Veel gebruikt Native File Format 
+
+* DWG
+DWG is het native bestandsformaat van Autodesk’s AutoCAD® software. De onderstaande open source CAD programma's kunnen dit bestandsformaat importeren: 
+
+[FreeCAD](https://www.freecadweb.org/)
+[LibreCAD](https://librecad.org/)
+[QCAD](https://qcad.org/)
+
 ## Conclusie
 
 
