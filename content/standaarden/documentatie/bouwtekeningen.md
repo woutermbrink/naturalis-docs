@@ -18,6 +18,8 @@ draft: true
 
 #### Tekenfasen
 
+De volgende standaard tekenfasen zijn gebruikelijk:
+
 * voorlopig ontwerp (VO)
 * definitief ontwerp (DO)
 * bestek
@@ -28,9 +30,11 @@ Meer info: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekenfasen
 
 #### Tekentechnieken
 
-Conform: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken
+Zie: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken
 
 ##### [Schaal](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken#Schaal)
+
+Een van de onderstaande standaard schalen is gebruikelijk:
 
 1:10000 - 1:5000 - 1:2000	Stedenbouwkundige Tekeningen
 
@@ -76,40 +80,51 @@ Conform NEN-ISO 128-23 (nl)
 
 #### [Bijschriften](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken#Bijschriften)
 
-* Verwijzingssymbolen
+##### Verwijzingssymbolen
+
 "Zoals de naam al zegt, dienen verwijzingssymbolen om ergens naar te verwijzen. De belangrijkste toepassingen hiervan zijn verwijzingen naar doorsneden, details en wijzigingen.
 
-Doorsneden: De plek, waar een doorsnede genomen is, dient in een plattegrond te worden aangegeven. Een gemengde streeplijn door de buitenrand geeft de plek aan en pijlen haaks op deze lijn de kijkrichting. Als de leesbaarheid van de tekening daarom vraagt, mag de lijn ook doorgetrokken worden door de plattegrond. Om de bijbehorende doorsnede terug te kunnen vinden, worden verwijzingssymbolen gebruikt. Hiervoor worden meestal letters gebruikt, bijvoorbeeld AA’ , maar cijfers zijn ook mogelijk.
+* Doorsneden
 
-Details: Hetzelfde geldt voor details: de plek waar een detail zich bevindt, dient in de desbetreffende tekening aangegeven te worden. Dat kan natuurlijk zowel een plattegrond als een doorsnede zijn. De plek wordt aangeduid door een cirkel. Om het bijbehorende detail terug te vinden, worden de cirkels genummerd. Deze nummers komen overeen met de detailnummers.
+"De plek, waar een doorsnede genomen is, dient in een plattegrond te worden aangegeven. Een gemengde streeplijn door de buitenrand geeft de plek aan en pijlen haaks op deze lijn de kijkrichting. Als de leesbaarheid van de tekening daarom vraagt, mag de lijn ook doorgetrokken worden door de plattegrond. Om de bijbehorende doorsnede terug te kunnen vinden, worden verwijzingssymbolen gebruikt. Hiervoor worden meestal letters gebruikt, bijvoorbeeld AA’ , maar cijfers zijn ook mogelijk."
 
-Wijzigingen: In de praktijk kan er gedurende een proces één en ander veranderd worden aan een tekening. Vanuit de originele tekening wordt dan met een wijzigingscode verwezen naar de tekening van de wijziging."
+* Details
 
+"Hetzelfde geldt voor details: de plek waar een detail zich bevindt, dient in de desbetreffende tekening aangegeven te worden. Dat kan natuurlijk zowel een plattegrond als een doorsnede zijn. De plek wordt aangeduid door een cirkel. Om het bijbehorende detail terug te vinden, worden de cirkels genummerd. Deze nummers komen overeen met de detailnummers."
 
-* Titels
+* Wijzigingen
+
+"In de praktijk kan er gedurende een proces één en ander veranderd worden aan een tekening. Vanuit de originele tekening wordt dan met een wijzigingscode verwezen naar de tekening van de wijziging."
+
+##### Titels
+
 "De titel van een afbeelding staat altijd linksonder de tekening, als deze titel alleen betrekking heeft op deze afbeelding. Als een titel over meerdere afbeeldingen gaat, dan staat deze linksboven al deze afbeeldingen. Een titel die de inhoud van het hele blad dekt, mag ook op de identificatiestrook vermeld worden."
 
 Bron: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken
 
 #### Tekensystemen
 
+Er worden twee type projecties onderscheiden vlakke projecties, zoals een plattegrond, doorsnede & gevelaanzicht en axonometrische projecties zoals isometrische projectie, planimetrische projectie, cavelier en cabinet. 
+
+Voorbeelden: 
+
 Vlakke projecties
-  
-  Plattegrond
-  
-  Doorsnede
-  
-  Gevelaanzicht
-  
-Axonometrische Projecties
-  
-  Isometrisch 
-  
-  Planimetrisch
-  
-  Cavelier
-  
-  Cabinet
+
+ * Plattegrond (aka floorplan)
+
+![Plattegrond](http://wiki.bk.tudelft.nl/mw_bk-wiki/images/thumb/1/11/Plattegrond-uitleg.jpg/800px-Plattegrond-uitleg.jpg)
+
+ * Doorsnede (Section)
+
+![Doorsnede](http://wiki.bk.tudelft.nl/mw_bk-wiki/images/thumb/c/c0/Doorsnede-uitleg.jpg/680px-Doorsnede-uitleg.jpg)
+
+ * Gevelaanzicht
+ 
+ ![Gevelaanzicht](http://wiki.bk.tudelft.nl/mw_bk-wiki/images/f/ff/Gevel-technisch.jpg)
+ 
+ Axonometrische projecties
+
+![Axonometrische projecties](http://wiki.bk.tudelft.nl/mw_bk-wiki/images/thumb/9/9b/Axo-soorten.jpg/311px-Axo-soorten.jpg)
 
 Uitleg: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekensystemen
 
