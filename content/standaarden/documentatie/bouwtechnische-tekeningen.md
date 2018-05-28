@@ -1,5 +1,5 @@
 ---
-title: "Bouwtekeningen"
+title: "Bouwtechnische tekeningen"
 date: 2018-05-23T14:32:17+02:00
 draft: true
 ---
@@ -9,7 +9,7 @@ draft: true
 * Vermelding van de tekenfase (VO,DO,bestek, werk of revisie)
 * Schaal aanduiding
 * Conform NEN 114, NEN 128-50, NEN 47 & NEN-ISO 128-23 (nl)
-* Bevat: plattegrond, doorsnede, gevelaanzicht & isometrische projectie
+* Bevat: plattegrond, doorsnede, gevelaanzicht & isometrische projectie in de vorm van exloded view
 * Bestandsformaat: ??????
 
 ## Argumentatie
