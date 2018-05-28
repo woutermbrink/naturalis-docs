@@ -130,6 +130,7 @@ Een specifieke vorm van een isometrische projectie is de exploded view:
 
 Voorveeld:
 ![Exploded view](https://www.lifegate.com/app/uploads/atnf4o.jpg) 
+![Billy](https://cdn-images-1.medium.com/max/1600/1*KmJbC8bdTxvCSQdyxGtxaA.jpeg)
 
 Uitleg: http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekensystemen
 
