@@ -72,7 +72,7 @@ Zie: [Wikipedia: Toestandsdiagram](https://mod-est.tbm.tudelft.nl/wiki/index.php
   
 * bedradingsschema's
   
-![wiring diagram](https://en.wikipedia.org/wiki/Wiring_diagram#/media/File:WPEVStartRunWires.png)
+![wiring diagram](https://upload.wikimedia.org/wikipedia/commons/4/48/WPEVStartRunWires.png)
   
 "A wiring diagram is a simplified conventional pictorial representation of an electrical circuit. It shows the components of the circuit as simplified shapes, and the power and signal connections between the devices."
   
@@ -110,9 +110,7 @@ DWG, FBX of SVG
 
 * samenstellingtekeningen (assemblage/montage, incl. stuklijsten)
 
-![exploded view by leonardo](https://en.wikipedia.org/wiki/Exploded-view_drawing#/media/File:%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%BD%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D0%BE%D0%B5.jpg)
-
-![exploded view gear](https://en.wikipedia.org/wiki/Exploded-view_drawing#/media/File:Gear_pump_exploded.png)
+![exploded view gear](https://upload.wikimedia.org/wikipedia/commons/2/23/Gear_pump_exploded.png)
 
 [Exploded view](https://en.wikipedia.org/wiki/Exploded-view_drawing)
 
