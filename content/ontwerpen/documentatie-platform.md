@@ -1,7 +1,7 @@
 ---
 title: "Documentatie platform"
 date: 2018-05-23T14:52:15+02:00
-draft: true
+draft: false
 ---
 
 ## Achtergrond
