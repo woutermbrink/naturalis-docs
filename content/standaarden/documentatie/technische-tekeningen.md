@@ -72,7 +72,7 @@ Als de basis van het ontwerp eenmaal bekend is wordt het uitgewerkt in:
   
   * bedradingsschema's
   
- ![wiring diagram](https://en.wikipedia.org/wiki/Wiring_diagram#/media/File:WPEVStartRunWires.png)
+![wiring diagram](https://en.wikipedia.org/wiki/Wiring_diagram#/media/File:WPEVStartRunWires.png)
   
 "A wiring diagram is a simplified conventional pictorial representation of an electrical circuit. It shows the components of the circuit as simplified shapes, and the power and signal connections between the devices."
   
