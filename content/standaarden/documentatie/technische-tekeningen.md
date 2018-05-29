@@ -38,39 +38,39 @@ Elektrotechnische tekeningen zijn schematekeningen, met behulp van gestandaardis
 
 Er zijn in de basis twee hoofdgroepen:
 
-* overzichtsschema's
+##### overzichtsschema's
 
 De klant kan inzicht krijgen over wat er voor hem wordt ontworpen via de overzichtsschema's:
 
-  * blokschema's (block diagram)
+* blokschema's (block diagram)
   
 "Een schema waarop op vereenvoudigde wijze (een gedeelte) van de configuratie van een elektrische installatie wordt weergegeven, waarbij eenheden (panelen of besturingseenheden) als blokken worden weergegeven. Zo'n schema wordt ook wel configuratieschema genoemd."
 
-  * grondschema's
+* grondschema's
 
 "Een schema waarbij de leidingen met het aantal aders en symbolen op enkelvoudige manier worden weergegeven. Op zo'n schema wordt vaak (een gedeelte) van de configuratie van een elektrotechnische installatie weergegeven. De functie van een grondschema en een blokschema liggen vaak in elkaars verlengde."
 
-* ontwerpschema's
+##### ontwerpschema's
 
 Als de basis van het ontwerp eenmaal bekend is wordt het uitgewerkt in:
 
-  * logicaschema's
+* logicaschema's
   
-  Zie: [Wikipedia: Logical data model](https://en.wikipedia.org/wiki/Logical_data_model)
+Zie: [Wikipedia: Logical data model](https://en.wikipedia.org/wiki/Logical_data_model)
   
-  * (tijd)volgorde- en toestandsdiagrammen (state transition diagram)
+* (tijd)volgorde- en toestandsdiagrammen (state transition diagram)
   
-  ![toestandsdiagram](https://mod-est.tbm.tudelft.nl/wiki/images/b/bc/ToestandsdiagramSpeelautomaat.png)
+![toestandsdiagram](https://mod-est.tbm.tudelft.nl/wiki/images/b/bc/ToestandsdiagramSpeelautomaat.png)
   
 "Een toestandsdiagram (Engels: state diagram en ook wel state transition diagram) is een netwerkdiagram dat een schematische weergave is van een systeem dat als eindigetoestandsautomaat wordt beschouwd." 
  
- Zie: [Wikipedia: Toestandsdiagram](https://mod-est.tbm.tudelft.nl/wiki/index.php/Toestandsdiagram)
+Zie: [Wikipedia: Toestandsdiagram](https://mod-est.tbm.tudelft.nl/wiki/index.php/Toestandsdiagram)
   
-  * werkingsschema's of stroomkringschema's
+* werkingsschema's of stroomkringschema's
   
 "Een stroomkringschema wordt getekend om een elektrische schakeling beter te begrijpen en om te zien hoeveel draden er bij te pas komen. Men maakt onderscheid tussen schema's voor hoofdstroom (400/230Vac) en stuurstroom (lagere spanningen), zodoende spreekt men ook vaak van hoofdstroomschema en stuurstroomschema."
   
-  * bedradingsschema's
+* bedradingsschema's
   
 ![wiring diagram](https://en.wikipedia.org/wiki/Wiring_diagram#/media/File:WPEVStartRunWires.png)
   
@@ -78,15 +78,15 @@ Als de basis van het ontwerp eenmaal bekend is wordt het uitgewerkt in:
   
 Zie: [Wikipedia: wiring diagram](https://en.wikipedia.org/wiki/Wiring_diagram)
   
-  * leidingsschema's en (topografische) leidingschema's
+* leidingsschema's en (topografische) leidingschema's
   
 "Hierbij worden de leidingen en buizen die worden gebruikt bij de elektrische installatie getekend op de plattegrond van het gebouw waar de installatie zich bevindt. Men kan hier ook kabelvlaggen bijplaatsen. Dan spreekt men van kabellooptekening."
   
-  * printlay-outs 
+* printlay-outs 
   
 ![pcb gerber](http://i2c2p.twibright.com/i2c2p.pcb.output_back_small.png)
   
-  * aansluitschema's
+* aansluitschema's
   
 ![aansluitschema](https://upload.wikimedia.org/wikipedia/commons/f/f4/LOGO_Aansluitschema.jpg)
 
