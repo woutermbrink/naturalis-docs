@@ -82,16 +82,17 @@ https://mermaidjs.github.io/). Hiervoor hebben we een overzicht van eenheden nod
 
 Voobeeld mardown code van een simpele configuratie:
 
-´´´A[Beeldscherm] -->|HDMI| B(NUC)
+´
+A[Beeldscherm] -->|HDMI| B(NUC)
 B -->|Audiokabel|C{Versterker}
 C -->|Speakerkabel| D[Speaker]
 C -->|Speakerkabel| E[Sub woofer]
 C -->|Speakerkabel| F[Speaker]
-´´´
+´
 
 Voorbeel diagram:
 
-![mermaid-live-editor](https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoiZ3JhcGggVERcbkFbQmVlbGRzY2hlcm1dIC0tPnxIRE1JfCBCKE5VQylcbkIgLS0-fEF1ZGlva2FiZWx8Q3tWZXJzdGVya2VyfVxuQyAtLT58U3BlYWtlcmthYmVsfCBEW1NwZWFrZXJdXG5DIC0tPnxTcGVha2Vya2FiZWx8IEVbU3ViIHdvb2Zlcl1cbkMgLS0-fFNwZWFrZXJrYWJlbHwgRltTcGVha2VyXVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
+![mermaid-live-editor](https://github.com/MakeExpose/naturalis-docs/blob/master/content/standaarden/documentatie/mermaid-diagram-20180530161241.svg)
 
 
 Probeer het uit met [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbkFbQmVlbGRzY2hlcm1dIC0tPnxIRE1JfCBCKE5VQylcbkIgLS0-fEF1ZGlva2FiZWx8Q3tWZXJzdGVya2VyfVxuQyAtLT58U3BlYWtlcmthYmVsfCBEW1NwZWFrZXJdXG5DIC0tPnxTcGVha2Vya2FiZWx8IEVbU3ViIHdvb2Zlcl1cbkMgLS0-fFNwZWFrZXJrYWJlbHwgRltTcGVha2VyXVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
