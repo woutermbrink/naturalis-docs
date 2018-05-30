@@ -73,7 +73,7 @@ De klant kan inzicht krijgen over wat er voor hem wordt ontworpen via de overzic
 
 * blokschema's (block diagram / configuratieschema)
   
->"Een schema waarop op vereenvoudigde wijze (een gedeelte) van de configuratie van een elektrische installatie wordt >weergegeven, waarbij eenheden (panelen of besturingseenheden) als blokken worden weergegeven. Zo'n schema wordt ook wel >configuratieschema genoemd."
+>"Een schema waarop op vereenvoudigde wijze (een gedeelte) van de configuratie van een elektrische installatie wordt weergegeven, waarbij eenheden (panelen of besturingseenheden) als blokken worden weergegeven. Zo'n schema wordt ook wel configuratieschema genoemd."
 
 Bestandsformaat:
 
@@ -118,7 +118,7 @@ Bestandsformaat: Markdown (gelijk aan blokkenschema's)
   
 ![toestandsdiagram](https://mod-est.tbm.tudelft.nl/wiki/images/b/bc/ToestandsdiagramSpeelautomaat.png)
   
-"Een toestandsdiagram (Engels: state diagram en ook wel state transition diagram) is een netwerkdiagram dat een schematische weergave is van een systeem dat als eindigetoestandsautomaat wordt beschouwd." 
+>"Een toestandsdiagram (Engels: state diagram en ook wel state transition diagram) is een netwerkdiagram dat een schematische weergave is van een systeem dat als eindigetoestandsautomaat wordt beschouwd." 
  
 Zie: [Wikipedia: Toestandsdiagram](https://mod-est.tbm.tudelft.nl/wiki/index.php/Toestandsdiagram)
 
@@ -126,7 +126,7 @@ Bestandsformaat: Markdown (gelijk aan blokkenschema's)
   
 * werkingsschema's of stroomkringschema's
   
->"Een stroomkringschema wordt getekend om een elektrische schakeling beter te begrijpen en om te zien hoeveel draden er bij >te pas komen. Men maakt onderscheid tussen schema's voor hoofdstroom (400/230Vac) en stuurstroom (lagere spanningen), >zodoende spreekt men ook vaak van hoofdstroomschema en stuurstroomschema."
+>"Een stroomkringschema wordt getekend om een elektrische schakeling beter te begrijpen en om te zien hoeveel draden er bij te pas komen. Men maakt onderscheid tussen schema's voor hoofdstroom (400/230Vac) en stuurstroom (lagere spanningen), zodoende spreekt men ook vaak van hoofdstroomschema en stuurstroomschema."
 
 Bestandsformaat: 
 
@@ -136,7 +136,7 @@ Bijvoorkeur een XML bestand gemaakt met behulp van [draw.io](https://www.draw.io
   
 ![wiring diagram](https://upload.wikimedia.org/wikipedia/commons/4/48/WPEVStartRunWires.png)
   
->"A wiring diagram is a simplified conventional pictorial representation of an electrical circuit. It shows the components >of the circuit as simplified shapes, and the power and signal connections between the devices."
+>"A wiring diagram is a simplified conventional pictorial representation of an electrical circuit. It shows the components of the circuit as simplified shapes, and the power and signal connections between the devices."
   
 Zie: [Wikipedia: wiring diagram](https://en.wikipedia.org/wiki/Wiring_diagram)
 
@@ -146,7 +146,7 @@ Bijvoorkeur een XML bestand gemaakt met behulp van [draw.io](https://www.draw.io
 
 * leidingsschema's en (topografische) leidingschema's
   
->"Hierbij worden de leidingen en buizen die worden gebruikt bij de elektrische installatie getekend op de plattegrond van >het gebouw waar de installatie zich bevindt. Men kan hier ook kabelvlaggen bijplaatsen. Dan spreekt men van >kabellooptekening."
+>"Hierbij worden de leidingen en buizen die worden gebruikt bij de elektrische installatie getekend op de plattegrond van het gebouw waar de installatie zich bevindt. Men kan hier ook kabelvlaggen bijplaatsen. Dan spreekt men van kabellooptekening."
 
 Bestandsformaat: 
 
@@ -156,7 +156,7 @@ Bijvoorkeur een XML bestand gemaakt met behulp van [draw.io](https://www.draw.io
   
 ![pcb gerber](http://i2c2p.twibright.com/i2c2p.pcb.output_back_small.png)
 
->"The Gerber format is an open ASCII vector format for 2D binary images.It is the de facto standard used by printed circuit >board (PCB) industry software to describe the printed circuit board images: copper layers, solder mask, legend, etc."
+>"The Gerber format is an open ASCII vector format for 2D binary images.It is the de facto standard used by printed circuit board (PCB) industry software to describe the printed circuit board images: copper layers, solder mask, legend, etc."
 
 Bron: [Wikipedia: Gerber format](https://en.wikipedia.org/wiki/Gerber_format)
 
@@ -168,7 +168,7 @@ Open Source design software: [Fritzing](http://fritzing.org)
   
 ![aansluitschema](https://upload.wikimedia.org/wikipedia/commons/f/f4/LOGO_Aansluitschema.jpg)
 
->"Een schema waarop te zien is waar welke ader op welke klem wordt aangesloten. Zo'n soort schema wordt ook wel >klemmenstrooktekening of klemmenlijst genoemd."
+>"Een schema waarop te zien is waar welke ader op welke klem wordt aangesloten. Zo'n soort schema wordt ook wel klemmenstrooktekening of klemmenlijst genoemd."
 
 Bron: [Wikipedia: Schema elektriciteit](https://nl.wikipedia.org/wiki/Schema_(elektriciteit))
 
@@ -178,7 +178,7 @@ Bestandsformaat:
 Bijvoorkeur een XML bestand gemaakt met behulp van [draw.io](https://www.draw.io/) of anders het bronbestand en een SVG of PNG. 
 
 {{% tip %}}
->"Het is van eminent belang voor uitbreidingen en het storingzoeken in de gebouwde installatie dat de tekeningen tijdens en >na de bouw worden bijgewerkt. Deze bijgewerkte tekeningen noemt men revisietekeningen, ook wel "as built" tekeningen."
+>"Het is van eminent belang voor uitbreidingen en het storingzoeken in de gebouwde installatie dat de tekeningen tijdens en na de bouw worden bijgewerkt. Deze bijgewerkte tekeningen noemt men revisietekeningen, ook wel "as built" tekeningen."
 
 Bron: [Technisch_tekenen: Elektrotechnisch tekenen](https://nl.wikipedia.org/wiki/Technisch_tekenen#Elektrotechnisch_tekenen)
 {{% /tip %}}
