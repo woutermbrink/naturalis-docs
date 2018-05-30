@@ -43,6 +43,7 @@
 
     body {
       font-size: 17px !important;
+      line-height: 1.7;
       text-rendering: geometricPrecision;
       font-feature-settings: 'ss01'; }
 
@@ -51,6 +52,7 @@
       letter-spacing: 0.01em;
       text-transform: none;
       text-align: left;
+      line-height: 1.1;
       font-weight: normal; }
 
     h2, h3, h4, h5, h6 {
@@ -85,13 +87,37 @@
     p {
       margin: 0.5rem 0 1.7rem 0;}
 
+    li > p {
+      margin: 0.8rem 0 0.5rem 0;
+    }
+
+    ul, ol {
+      margin-top: 0.85rem;
+    }
+
+    th {
+      padding: 0.6rem 0.5rem 0.4rem 0.5rem;
+    }
+
     code {
+      color: #555;
       background: #f6f6f6;
+      border: 1px solid #e6e6e6;
+      border-radius: 4px;
       vertical-align: top;
-      }
+      padding: 0px 2px 0px 2px;
+    }
+
+    pre {
+      margin: 0 0 1.7rem 0;
+    }
 
     .nav > i {
       font-size: 2rem;}
+
+     #sidebar ul li > a {
+       padding: 5px 0 3px 0;
+     }
 
     mark {
       background: #ffed00;
@@ -100,5 +126,29 @@
 
     #header-wrapper {
       text-align: left;
+    }
+
+    div.notices.note p {
+      border-top: 30px solid #009ee0;
+      background: #E7F2FA;
+    }
+
+    div.notices.tip p {
+      border-top: 30px solid #009932;
+      background: #E6F9E6;
+    }
+
+    div.notices.info p {
+      border-top: 30px solid #f29400;
+      background: #FFF2DB;
+    }
+
+    div.notices.warning p {
+      border-top: 30px solid #e3004a;
+      background: #FAE2E2;
+    }
+    div.notices p:first-child:after,
+    div.notices p:first-child:before {
+      top: 3px;
     }
 </style>
