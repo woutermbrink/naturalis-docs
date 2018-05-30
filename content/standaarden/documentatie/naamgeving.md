@@ -207,6 +207,7 @@ behoren tot deze `Infrastructuur`. Deze heeft altijd de naam: `museuminfra`.
 `Functionele eenheden` zijn de klasse objecten in het museum die centraal staan
 bij de afhandeling van incidenten, rapportages over incidenten en documentatie.
 In het museum worden (vooralsnog) de volgende functionele eenheden onderscheiden:
+
 * `Interactive`
 * `Exhibit`
 * `Signage`
@@ -443,6 +444,7 @@ Met `Switches` worden de netwerkswitches bedoeld waarop datapunten worden
 gepatched en waarmee het museum van netwerkconnectiviteit wordt voorzien.
 
 Er zijn drie verschillende typen switches:
+
 * Spine switch: `spine`
 * Leaf switch: `leaf`
 * Out of band switch: `oob`
