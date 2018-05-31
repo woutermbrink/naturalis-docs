@@ -161,9 +161,9 @@ Bijvoorkeur een XML bestand gemaakt met behulp van [draw.io](https://www.draw.io
 
 Bron: [Wikipedia: Gerber format](https://en.wikipedia.org/wiki/Gerber_format)
 
-{{% tip %}}
+{{% notice tip %}}
 Open Source design software: [Fritzing](http://fritzing.org)
-{{% /tip %}}
+{{% /notice %}}
   
 * aansluitschema's
   
@@ -178,8 +178,8 @@ Bestandsformaat:
 
 Bijvoorkeur een XML bestand gemaakt met behulp van [draw.io](https://www.draw.io/) of anders het bronbestand en een SVG of PNG. 
 
-{{% tip %}}
+{{% notice tip %}}
 >"Het is van eminent belang voor uitbreidingen en het storingzoeken in de gebouwde installatie dat de tekeningen tijdens en na de bouw worden bijgewerkt. Deze bijgewerkte tekeningen noemt men revisietekeningen, ook wel "as built" tekeningen."
 
 Bron: [Technisch_tekenen: Elektrotechnisch tekenen](https://nl.wikipedia.org/wiki/Technisch_tekenen#Elektrotechnisch_tekenen)
-{{% /tip %}}
+{{% /notice %}}
