@@ -3,6 +3,17 @@ title: "Technische Tekeningen"
 date: 2018-05-23T14:34:24+02:00
 draft: true
 ---
+## Algemeen
+
+Technische tekeningen zijn onder te verdelen in:
+
+* werktuigbouwkundige tekeningen
+* elektrotechnisch tekeningen of schematekeningen
+* bouwkundige tekeningen
+
+Bouwkundige tekeningen (aka bouwtechnische tekeningen) behandelen we in een andere pagina. 
+
+In het onderstaande document behandelen we de verschillende type tekeningen, schema's en diagrammen en de stellen we vast in welk formaat we deze willen opslaan en tonen. 
 
 ## Standaard
 
@@ -20,20 +31,12 @@ Welke tekeningen, schema's en diagrammen gewenst zijn verschilt per functionele 
 
 * Leidingsschema's en (topografische) leidingschema's: Bronbestand & conversie naar DXF of DWG.
 
-* Ontsluiting: Met behulp van dwg2maptiles of dxf2maptiles genereren we tiles,
+* Weergave DXF of DWG: Met behulp van dwg2maptiles of dxf2maptiles genereren we tiles,
   met behulp van leaflet.js en de plugin leaflet.Fullscreen tonen we deze op de
   documentatie website. Daarnaast bieden we een download link aan naar het
   bronbestand en het DXF / DWG bestand.
 
 ## Opties
-
-Technische tekeningen zijn onder te verdelen in:
-
-* werktuigbouwkundige tekeningen
-* elektrotechnisch tekeningen of schematekeningen
-* bouwkundige tekeningen
-
-Bouwkundige tekeningen (aka bouwtechnische tekeningen) behandelen we in een andere pagina. 
 
 #### Werktuigbouwkundige tekeningen
 
@@ -80,19 +83,29 @@ Bestandsformaat:
 Blokschema's kunnen we op basis van een markdown bestand genereren met behulp van [mermaid.js](
 https://mermaidjs.github.io/). Hiervoor hebben we een overzicht van eenheden nodig en hun onderlinge relaties.
 
-Voobeeld mardown code van een simpele configuratie:
+Voobeeld code in mardown pagina van een simpele configuratie:
 
-´
+```markdown
+{{<mermaid>}}
+graph TD
 A[Beeldscherm] -->|HDMI| B(NUC)
 B -->|Audiokabel|C{Versterker}
 C -->|Speakerkabel| D[Speaker]
 C -->|Speakerkabel| E[Sub woofer]
 C -->|Speakerkabel| F[Speaker]
-´
+{{< /mermaid >}}
+```
 
 Voorbeel diagram:
 
-![mermaid-live-editor](https://github.com/MakeExpose/naturalis-docs/blob/master/content/standaarden/documentatie/mermaid-diagram-20180530161241.svg)
+{{<mermaid>}}
+graph TD
+A[Beeldscherm] -->|HDMI| B(NUC)
+B -->|Audiokabel|C{Versterker}
+C -->|Speakerkabel| D[Speaker]
+C -->|Speakerkabel| E[Sub woofer]
+C -->|Speakerkabel| F[Speaker]
+{{< /mermaid >}}
 
 
 Probeer het uit met [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbkFbQmVlbGRzY2hlcm1dIC0tPnxIRE1JfCBCKE5VQylcbkIgLS0-fEF1ZGlva2FiZWx8Q3tWZXJzdGVya2VyfVxuQyAtLT58U3BlYWtlcmthYmVsfCBEW1NwZWFrZXJdXG5DIC0tPnxTcGVha2Vya2FiZWx8IEVbU3ViIHdvb2Zlcl1cbkMgLS0-fFNwZWFrZXJrYWJlbHwgRltTcGVha2VyXVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
