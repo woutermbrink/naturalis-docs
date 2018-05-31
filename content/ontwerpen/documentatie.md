@@ -1,7 +1,7 @@
 ---
 title: "Documentatie"
 date: 2018-05-29T11:06:00+02:00
-draft: true
+draft: false
 ---
 
 Zoals in [dit document](../documentatie-platform) is toegelicht is gekozen voor
