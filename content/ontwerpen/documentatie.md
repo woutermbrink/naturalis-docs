@@ -93,7 +93,8 @@ Het `_index.md` bestand heeft, zoals [hier nader
 uitgelegd](https://gohugo.io/content-management/organization#index-pages-index-md),
 een specifieke rol in Hugo. Kort gezegd kun je in het `_index.md` bestand
 metadata en inhoud toevoegen die op zogeheten lijstpagina's wordt getoond (Hugo
-maakt een onderscheid tussen [list pages](https://gohugo.io/templates/lists/) en [single pages](https://gohugo.io/templates/single-page-templates/)).
+maakt een onderscheid tussen [list pages](https://gohugo.io/templates/lists/) en
+[single pages](https://gohugo.io/templates/single-page-templates/)).
 
 {{% notice note %}}
 De documentatiepagina van elk onderdeel in het museum is steeds een list page
@@ -204,7 +205,9 @@ git commit -m 'Voeg technische tekening toe'
 ```
 
 Voor het tonen van alle bijlagen op de pagina met de juiste verwijzing voegen we
-in templates een [conditional](https://gohugo.io/templates/introduction/#conditionals) toe, bijvoorbeeld:
+in templates een
+[conditional](https://gohugo.io/templates/introduction/#conditionals) toe,
+bijvoorbeeld:
 
 ```html
 {{ range .Resources }}
@@ -216,12 +219,22 @@ in templates een [conditional](https://gohugo.io/templates/introduction/#conditi
 {{ end }}
 ```
 
-Bestanden die groter zijn dan 5 MB worden in principe op een externe locatie
-opgeslagen. Hiervoor gebruiken we een Team Drive op Google Drive met precies
-dezelfde mappenstructuur als in Git. Bestanden in die mappen krijgen behalve
-een duidelijke naam ook een datum in de titel (YYYY-MM-DD) mee, bijvoorbeeld:
+Voor bestanden die buiten de Git repo worden opgeslagen gebruiken we
+een Team Drive op Google Drive met precies dezelfde mappenstructuur als in Git.
+Bestanden in die mappen krijgen behalve een duidelijke naam ook een datum in de
+titel (YYYY-MM-DD) mee, bijvoorbeeld:
 
 `DO I Love Dino's - 2018-12-03.pdf`
+
+Bij het bepalen of een bestand in de Git repo wordt opgeslagen of op Drive
+gelden de volgende stelregels:
+
+1. Moet het document inline op een documentatiepagina worden getoond? Zo ja, dan
+   wordt deze in Git opgeslagen. Zo nee, dan dient dit bestand te worden
+   opgeslagen in Drive.
+1. Is het bestand groter dan 5 MB en wil je het toch op een documentatiepagina
+   tonen? Zo ja, dan dient een bestand met een lagere kwaliteit dat kleiner is
+   dan 5 MB te worden toegevoegd aan de Git repo.
 
 ### Constant evoluerende documenten
 
