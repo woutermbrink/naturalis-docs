@@ -1,5 +1,5 @@
 ---
-title: "Documentatie Functionele eenheid"
+title: "Functionele eenheid"
 date: 2018-05-23T14:32:32+02:00
 draft: false
 ---
