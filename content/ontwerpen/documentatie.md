@@ -93,7 +93,7 @@ Het `_index.md` bestand heeft, zoals [hier nader
 uitgelegd](https://gohugo.io/content-management/organization#index-pages-index-md),
 een specifieke rol in Hugo. Kort gezegd kun je in het `_index.md` bestand
 metadata en inhoud toevoegen die op zogeheten lijstpagina's wordt getoond (Hugo
-maakt een onderscheid tussen list- en single pages).
+maakt een onderscheid tussen [list pages](https://gohugo.io/templates/lists/) en [single pages](https://gohugo.io/templates/single-page-templates/)).
 
 {{% notice note %}}
 De documentatiepagina van elk onderdeel in het museum is steeds een list page
@@ -204,7 +204,7 @@ git commit -m 'Voeg technische tekening toe'
 ```
 
 Voor het tonen van alle bijlagen op de pagina met de juiste verwijzing voegen we
-in templates een conditional toe, bijvoorbeeld:
+in templates een [conditional](https://gohugo.io/templates/introduction/#conditionals) toe, bijvoorbeeld:
 
 ```html
 {{ range .Resources }}
