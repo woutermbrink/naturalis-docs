@@ -54,6 +54,8 @@ Het overzicht met assets zal door middel van een
 [shortcode](https://gohugo.io/content-management/shortcodes/) op basis van de
 metadata automatisch gegenereerd.
 
+Indien nodig wordt de componenten lijst handmatig aangevuld.
+
 ## Functionele omschrijving
 
 Onder deze kop dient een tekstuele beschrijving van de juiste functionele
