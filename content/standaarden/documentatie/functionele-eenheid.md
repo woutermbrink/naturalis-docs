@@ -79,18 +79,19 @@ volumeknop) worden hier opgesomd en waar nodig van een toelichting voorzien.
 Daarnaast wordt hier (mogelijk op basis van een shortcode) een verwijzing naar
 de configuratie in Ansible toegevoegd.
 
-## Handleidingen
+## Handleidingen en procedures
 
-Een overzicht van gebruikers- en beheerdershandleiding en procedures wordt door
-middel van een [shortcode](https://gohugo.io/content-management/shortcodes/) op
-basis van de metadata automatisch gegenereerd.
+Een overzicht van gebruikers- en beheerdershandleidingen en procedures wordt
+door middel van een
+[shortcode](https://gohugo.io/content-management/shortcodes/) op basis van de
+metadata automatisch gegenereerd.
 
 ## Known issues
 
 Een overzicht van actuele known issues ten aanzien van de functionele eenheid
 met een korte toelichting en waar beschikbaar een workaround.
 
-## Afspraken / contactpersonen
+## Afspraken en verantwoordelijkheden
 
 Een overzicht van:
 

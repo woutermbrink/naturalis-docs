@@ -1,0 +1,9 @@
+<ul>
+{{ range .Page.Resources }}
+  {{ if isset .Params "url" }}
+  <li><a href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></li>
+  {{else}}
+  <li><a href="{{ .RelPermalink }}" target="_blank">{{ .Title }}</a></li>
+  {{ end }}
+{{ end }}
+</ul>

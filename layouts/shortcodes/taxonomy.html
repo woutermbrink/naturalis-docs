@@ -1,0 +1,82 @@
+{{ if eq (.Get 0) "componenten" }}
+  {{ if .Page.Params.componenten }}
+  <p>Deze {{ .Page.Data.Singular }} bestaat uit de volgende componenten:</p>
+  <ul>
+      {{ range .Page.Params.componenten }}
+        <li><a href="/componenten/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+  </ul>
+  {{ end }}
+{{ else if eq (.Get 0) "interactives" }}
+  <ul>
+    {{ if .Page.Params.interactives }}
+      {{ range .Page.Params.interactives }}
+        <li><a href="/interactives/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "exhibits" }}
+  <ul>
+    {{ if .Page.Params.exhibits }}
+      {{ range .Page.Params.exhibits }}
+        <li><a href="/exhibits/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "signages" }}
+  <ul>
+    {{ if .Page.Params.signages }}
+      {{ range .Page.Params.signages }}
+        <li><a href="/signages/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "shows" }}
+  <ul>
+    {{ if .Page.Params.shows }}
+      {{ range .Page.Params.shows }}
+        <li><a href="/shows/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "decors" }}
+  <ul>
+    {{ if .Page.Params.decors }}
+      {{ range .Page.Params.decors }}
+        <li><a href="/decors/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "faciliteiten" }}
+  <ul>
+    {{ if .Page.Params.faciliteiten }}
+      {{ range .Page.Params.faciliteiten }}
+        <li><a href="/faciliteiten/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "tentoonstellingen" }}
+  <ul>
+    {{ if .Page.Params.tentoonstellingen }}
+      {{ range .Page.Params.tentoonstellingen }}
+        <li><a href="/tentoonstellingen/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "experiences" }}
+  <ul>
+    {{ if .Page.Params.experiences }}
+      {{ range .Page.Params.experiences }}
+        <li><a href="/experiences/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ else if eq (.Get 0) "infrastructuren" }}
+  <ul>
+    {{ if .Page.Params.infrastructuren }}
+      {{ range .Page.Params.infrastructuren }}
+        <li><a href="/infrastructuren/{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}
