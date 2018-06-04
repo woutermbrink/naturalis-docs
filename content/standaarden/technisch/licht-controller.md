@@ -37,14 +37,14 @@ protocollen ondersteunen.
 ### Keuze
 
 Licht controllers ondersteunen minimaal de aansturing van lichtspots door middel
-van DMX, Art-Net en sACN.
+van DMX en sACN.
 
 De aan te sturen lichtspots die voor de tentoonstelling zijn geselecteerd kunnen
 allemaal door middel van DMX worden aangestuurd. Door ondersteuning te eisen van
 bovenstaande protocollen zijn we vrij om de distributie van DMX richting de
-spanningsrails direct over UTP als over het datanetwerk (via Art-Net of sACN)
-plaats te laten vinden. Het heeft de voorkeur om voor de distributie van het
-licht in het museum één standaard te gebruiken.
+spanningsrails direct over UTP als over het datanetwerk (via sACN) plaats te
+laten vinden. Het heeft de voorkeur om voor de distributie van het licht in het
+museum één standaard te gebruiken.
 
 ## Programmering
 
