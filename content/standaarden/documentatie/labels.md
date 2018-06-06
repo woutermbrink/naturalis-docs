@@ -41,11 +41,13 @@ de ontwikkeling en opbouw van het museum als volgt:
 * De AV installateur is verantwoordelijk voor het aan de hand van onderstaande
   richtlijnen labelen van alle onderdelen die zij als onderdeel van de opdracht
   aansluiten. In beginsel zijn dat alle componenten (apparaten en kabels) die
-  een direct onderdeel zijn van een tentoonstelling, experience of het
-  auditorium.
+  een direct onderdeel zijn van een tentoonstelling, experience of eventuele
+  andere ruimten in het museum.
 * Het technische team van Naturalis is verantwoordelijk voor het aan de hand van
   onderstaande richtlijnen labelen van alle overige onderdelen. In beginsel zijn
   dat de outlets, wandcontactdozen, patchpunten, switches en servers.
+* Het technische team van Naturalis verleent eerstelijns service op de printers,
+  en escaleert wanneer nodig naar de leverancier.
 * Zowel de AV installateur als het technische team van Naturalis zijn zelf
   verantwoordelijk voor het (op tijd) bestellen van de door hen benodigde labels.
 
