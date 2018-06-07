@@ -38,6 +38,7 @@ Het volgende is van toepassing op doorvoergaten in de vloer en in de meubels:
 * Doorvoergaten in meubels zijn alleen nodig als deze een dichte onderkant heeft. Het mag niet aan de zijkant.
 * De gaten in meubels en gaten in de vloer moeten verticaal recht boven elkaar uitkomen.
 * Er mogen pas gaten in de vloer gemaakt worden als er de definitieve positie bepaald is voor het meubel wat er boven komt.
+* Waar mogelijk betimmering van meubels zo plaatsen dat de tegel met kabeldoorvoer eruit getild kan worden.
 * Als de verticale ruimte tussen de vloer en een meubel groter is dan 50mm (bijv. bij de camper), dan zullen de kabels weggewerkt moeten worden dmv een kabelgoot tussen vloer en onderkant interactive.
 * Doorvoergaten voor losse prikpunten (zonder meubel erboven) moeten aan de zijkant van de tegel worden geplaatst en van een duurzaam materiaal worden gemaakt.
 
