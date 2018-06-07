@@ -27,8 +27,10 @@ Vraag: Waar gaan we dit bijhouden? In de documentatie?
 
 ## Kabeldoorvoer
 
+* [Dit product](https://www.hplsystems.nl/installatieproducten/verhoogde-vloer-systemen/tegeldoorvoer-rvs/3010224-tegeldoorvoer-rvs.htm) zou ideaal zijn als kabeldoorvoer in de vloertegels, omdat het voldoet aan onderstaande voorwaarden. De tegels kunnen dan  waar nodig uitgewisseld worden met tegels waar dit soort doorvoer op bevestigd is.
+
 Het volgende is van toepassing op doorvoergaten in de vloer en in de meubels:
-* [Dit product](https://www.hplsystems.nl/installatieproducten/verhoogde-vloer-systemen/tegeldoorvoer-rvs/3010224-tegeldoorvoer-rvs.htm) zou ideaal zijn als kabeldoorvoer in de vloertegels, omdat het voldoet aan onderstaande voorwaarden.
+
 * De uiteindelijke opening (incl. doorvoer) moet minimaal een diamenter van 40mm hebben, zodat er een schuko-stekker doorheen past.
 * De rand van het gat mag niet scherp zijn, dit zou de kabels kunnen beschadigen. 
 * Omdat de gaten groot zijn, moet er een afdichting gebruikt worden zoals borstels, anders komt er veel stof doorheen. 
@@ -66,7 +68,7 @@ En de volgende voorkeuren:
 * Als de bouwers ze bij de bouw nodig hebben, dan kopen zij ze. Want zij geven er de garantie op.
 
 
-* Socket Type: penaarde (type E)
+* Socket Type: randaarde (type E)
 
 
 * Aantal stopcontacten: 
