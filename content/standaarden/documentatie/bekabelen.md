@@ -27,15 +27,18 @@ Vraag: Waar gaan we dit bijhouden? In de documentatie?
 
 ## Kabeldoorvoer
 
+* [Dit product](https://www.hplsystems.nl/installatieproducten/verhoogde-vloer-systemen/tegeldoorvoer-rvs/3010224-tegeldoorvoer-rvs.htm) zou ideaal zijn als kabeldoorvoer in de vloertegels, omdat het voldoet aan onderstaande voorwaarden. De tegels kunnen dan  waar nodig uitgewisseld worden met tegels waar dit soort doorvoer op bevestigd is.
+
 Het volgende is van toepassing op doorvoergaten in de vloer en in de meubels:
 
-* De uiteindelijke opening (incl. doorvoer) moet minimaal een diamenter van 50mm hebben, zodat er een schuko-stekker doorheen past.
+* De uiteindelijke opening (incl. doorvoer) moet minimaal een diamenter van 40mm hebben, zodat er een schuko-stekker doorheen past.
 * De rand van het gat mag niet scherp zijn, dit zou de kabels kunnen beschadigen. 
 * Omdat de gaten groot zijn, moet er een afdichting gebruikt worden zoals borstels, anders komt er veel stof doorheen. 
 * De gaten mogen uitsluitend op plekken die met de hand te bereiken zijn. 
 * Doorvoergaten in meubels zijn alleen nodig als deze een dichte onderkant heeft. Het mag niet aan de zijkant.
 * De gaten in meubels en gaten in de vloer moeten verticaal recht boven elkaar uitkomen.
 * Er mogen pas gaten in de vloer gemaakt worden als er de definitieve positie bepaald is voor het meubel wat er boven komt.
+* Waar mogelijk betimmering van meubels zo plaatsen dat de tegel met kabeldoorvoer eruit getild kan worden.
 * Als de verticale ruimte tussen de vloer en een meubel groter is dan 50mm (bijv. bij de camper), dan zullen de kabels weggewerkt moeten worden dmv een kabelgoot tussen vloer en onderkant interactive.
 * Doorvoergaten voor losse prikpunten (zonder meubel erboven) moeten aan de zijkant van de tegel worden geplaatst en van een duurzaam materiaal worden gemaakt.
 
@@ -66,7 +69,7 @@ En de volgende voorkeuren:
 * Als de bouwers ze bij de bouw nodig hebben, dan kopen zij ze. Want zij geven er de garantie op.
 
 
-* Socket Type: penaarde (type E)
+* Socket Type: randaarde (type E)
 
 
 * Aantal stopcontacten: 
