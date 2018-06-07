@@ -5,7 +5,7 @@ draft: true
 ---
 
 ## Algemeen
-Een overzicht van welke informatie over componenten we nodig hebben om te importeren in asset management in TopDesk. Aanvullend specificeren we hoe deze data moet worden aangeleverd. 
+Een overzicht van welke informatie over componenten we nodig hebben ten behoeve van configuratie automatisering en om te importeren in ons asset management systeem. Aanvullend specificeren we hoe deze data moet worden aangeleverd. 
 
 ## Variabelen 
 
@@ -16,7 +16,6 @@ De variabele ID wordt door het asset management systeem vastgesteld en hoeft dus
 De naam is de unieke, universele en conform de naamgevingsstandaard vastgestelde naam die zowel in de documentatie, configuratie en asset management wordt gehanteerd. Deze naam stelt ons instaat om de link te leggen tussen docementatie, configuratie en asset.
 
 De overige variablen wijzen voor zich. 
-
 
 ## Component soorten
 
