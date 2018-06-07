@@ -56,7 +56,6 @@ Daarnaast maken onderscheid tussen soorten componenten waarbij we de asset (het 
 * Naam: 
 * Merk: 
 * Model: 
-* Socket: 
 * Serienummer: 
 * Leverancier:
 
@@ -90,9 +89,9 @@ Daarnaast maken onderscheid tussen soorten componenten waarbij we de asset (het 
 #### Stekkerdoos
 * Naam: 
 * Merk: 
-* Model: 
-* Aantal poorten:
-* Lengte:
+* IP-waarde:
+* Aantal stopcontacten:
+* kabellengte:
 * Leverancier:
 
 #### Kabel 
@@ -100,6 +99,7 @@ Daarnaast maken onderscheid tussen soorten componenten waarbij we de asset (het 
 * Type: 
 * Connector: 
 * Lengte:
+* Kabeldikte: 
 * Leverancier:
 
 #### Lichtbron
