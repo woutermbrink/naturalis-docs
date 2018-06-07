@@ -7,12 +7,44 @@ draft: true
 ## Algemeen
 Een overzicht van welke informatie over componenten we nodig hebben om te importeren in asset management in TopDesk. Aanvullend specificeren we hoe deze data moet worden aangeleverd. 
 
-We maken onderscheid tussen verschillende soorten component. Elk component soort heeft specifieke standaard velden.
+## Variabelen 
+
+Hier onder een overzicht van alle component soorten met daaronder de gewenste velden / variabelen.
+
+De variabele ID wordt door het asset management systeem vastgesteld en hoeft dus niet te worden ingevuld. Dit ID wordt de referentie naar de pagina van het desbetreffende object in het assetmanagement systeem op basis waarvan we een link kunnen genereren. 
+
+De naam is de unieke, universele en conform de naamgevingsstandaard vastgestelde naam die zowel in de documentatie, configuratie en asset management wordt gehanteerd. Deze naam stelt ons instaat om de link te leggen tussen docementatie, configuratie en asset.
+
+De overige variablen wijzen voor zich. 
+
 
 ## Component soorten
- 
-### Computer
 
+We maken onderscheid tussen verschillende soorten component. Elk component soort heeft specifieke standaard velden / variabelen.
+
+Daarnaast maken onderscheid tussen soorten componenten waarbij we de asset (het specifieke object) registreren in ons asset management systeem en waarbij we dat niet doen. Wel hebben we deze informatie nodig voor de documentatie, voorraadbeheerheer en bestellingsbeheer. 
+
+### Managed assets
+
+#### Computer
+* ID:
+* Naam: 
+* Merk: 
+* Model: 
+* Serienummer: 
+* MAC: 
+* Leverancier: 
+
+#### Monitor
+* ID:
+* Naam: 
+* Merk: 
+* Model: 
+* Serienummer: 
+* Leverancier:
+
+#### Projector
+* ID:
 * Naam: 
 * Merk: 
 * Model: 
@@ -20,22 +52,17 @@ We maken onderscheid tussen verschillende soorten component. Elk component soort
 * MAC: 
 * Leverancier:
 
-### Monitor
+#### Armatuur
+* ID:
 * Naam: 
 * Merk: 
 * Model: 
+* Socket: 
 * Serienummer: 
 * Leverancier:
 
-### Projector
-* Naam: 
-* Merk: 
-* Model: 
-* Serienummer: 
-* MAC: 
-* Leverancier:
-
-### Lamp
+#### Controller
+* ID:
 * Naam: 
 * Merk: 
 * Model: 
@@ -43,31 +70,25 @@ We maken onderscheid tussen verschillende soorten component. Elk component soort
 * MAC: 
 * Leverancier:
 
-### Controller
-* Naam: 
-* Merk: 
-* Model: 
-* Serienummer: 
-* MAC: 
-* Leverancier:
-
-### Versterker
+#### Versterker
+* ID:
 * Naam: 
 * Merk: 
 * Model: 
 * Serienummer: 
 * Leverancier:
 
-### Speaker
+#### Speaker
+* ID:
 * Naam: 
 * Merk: 
 * Model: 
 * Serienummer: 
 * Leverancier:
 
-______________________
+### Unmanaged assets
 
-### Stekkerdoos
+#### Stekkerdoos
 * Naam: 
 * Merk: 
 * Model: 
@@ -75,21 +96,27 @@ ______________________
 * Lengte:
 * Leverancier:
 
-### Kabel 
-* Naam: 
+#### Kabel 
 * Merk: 
-* Model: 
+* Type: 
 * Connector: 
 * Lengte:
 * Leverancier:
 
-### IO Device 
+#### Lichtbron
+* Merk: 
+* Model: 
+* Socket:
+* Watt:
+* Volt: 
+* Leverancier:
 
-Voorstel: Laten we niet de term knop maar IO Device of Sensor hanteren. Dit om het aantal soorten componenten te beperken. 
-
+#### IODevice 
 * Naam: 
 * Merk: 
 * Model: 
 * Leverancier:
 
-
+## Werkwijze
+Voorstel:
+We leveren een spreadsheet aan met voor elke component een tabblat en met alle verschillende velden. De installateur voegt hier alle informatie aan toe. Op basis van de variabelen Naam & MAC kunnen wij de juiste configuratie toepassen. Denk hierbij aan het toewijzen van ip-adressen en het deployen van software. Wanneer alle informatie compleet is zullen alle managed componenten in het assetmanagement worden ingeladen. 
