@@ -69,6 +69,7 @@ Hier onder per component soort de standaard specificaties.
 
 #### Monitor
 * Video-in: 
+* Bediening:
 * Schermdiagonaal: 
 * Resolutie:  
 * Beeldverhouding:
@@ -79,6 +80,14 @@ Hier onder per component soort de standaard specificaties.
 
 #### Projector
 
+* Levensduur lichtbron: 
+* Type lamp: 
+* Projectie techniek: 
+* Video-in: 
+* Bediening: 
+* Verbinding (Ethernet): 
+* Afmetingen: hoogte x breedte x diepte
+
 #### Armatuur
 * Socket:
 * Stroomaansluiting: 
@@ -87,8 +96,19 @@ Hier onder per component soort de standaard specificaties.
 #### Controller
 
 #### Versterker
+* Versterkerklasse: 
+* Aantal speaker kanalen:
+* RMS vermogen:
+* Broningangen:
+* Speakeraansluitingen:
+* Signaal-ruisverhouding:
+* Impedantie:
+* Beveiligingen:
 
 #### Speaker
+* RMS vermogen:
+* Type connector:
+* Actief of passief:
 
 #### Stekkerdoos
 * IP-waarde:
