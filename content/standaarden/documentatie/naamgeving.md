@@ -73,8 +73,8 @@ De relatie tussen deze objecten is als volgt:
 * Een `Functionele eenheid` hoort altijd bij één `Groep`.
 * Een `Groep` valt ten hoogste onder één andere groep.
 
-Voor elk niveau dienen, afhankelijk van de toepassing, subklassen te worden
-gedefinieerd. In het museum onderscheiden we de volgende subklassen:
+Voor elk niveau dienen, afhankelijk van de toepassing, in beginsel subklassen te
+worden gedefinieerd. In het museum onderscheiden we de volgende subklassen:
 
 * Groepen:
   - `Museum`
@@ -92,7 +92,7 @@ gedefinieerd. In het museum onderscheiden we de volgende subklassen:
 
 * Componenten:
   - `Computer`
-  - `Monitor`
+  - `Beeldscherm`
   - `Projector`
   - `Armatuur`
   - `Controller`
@@ -101,7 +101,10 @@ gedefinieerd. In het museum onderscheiden we de volgende subklassen:
   - `Stekkerdoos`
   - `Kabel`
   - `Lichtbron`
-  - `IODevice`
+  - `Knop`
+
+Componenten die niet in één van deze subklassen vallen, behoren direct tot de
+klasse `Component`.
 
 De relatie tussen deze objecten is als volgt:
 
@@ -326,16 +329,22 @@ De onderstaande soorten (museumspecifieke) `Componenten` worden van een naam
 voorzien, waarbij de soort wordt aangeduid met een drieletterige afkorting:
 
 * Computer: `cmp`
-* Monitor: `mon`
+* Beeldscherm: `bld`
 * Projector: `prj`
 * Armatuur: `arm`
 * Controller: `ctl`
 * Versterker: `amp`
 * Speaker: `spk`
 * Stekkerdoos: `stk`
-* IODevice: `iod`
+* Knop: `knp`
 
-Voorbeeld: `animalkeeper-mon-1`
+Voorbeeld: `animalkeeper-bld-1`
+
+Voor componenten die niet tot één van de bovenstaande soorten (of subklassen)
+behoren, maar die wel van een naam moeten worden voorzien wordt de drieletterige
+afkorting `cpt` gebruikt.
+
+Voorbeeld: `animalkeeper-cpt-3`
 
 ### Overige componenten
 
