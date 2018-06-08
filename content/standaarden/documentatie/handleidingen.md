@@ -10,7 +10,9 @@ draft: true
 [bouwer]
 
 [naam schrijver]
+
 versie [versienummer]
+
 [datum]
 
 ## Inhoud
