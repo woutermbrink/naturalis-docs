@@ -67,7 +67,10 @@ Hier onder per component soort de standaard specificaties.
 
 #### Computer
 
-#### Monitor
+* Stroomverbruik:
+
+#### Beeldscherm
+
 * Video-in: 
 * Bediening:
 * Schermdiagonaal: 
@@ -77,25 +80,36 @@ Hier onder per component soort de standaard specificaties.
 * Kijkhoek: 
 * Afmetingen: hoogte x breedte x diepte
 * Gewicht:
+* Stroomverbruik:
 
 #### Projector
 
 * Levensduur lichtbron: 
 * Type lamp: 
 * Projectie techniek: 
+* ANSI lumen:
+* Resolutie:  
+* Beeldverhouding:
+* Contrastverhouding (statisch):
 * Video-in: 
 * Bediening: 
 * Verbinding (Ethernet): 
 * Afmetingen: hoogte x breedte x diepte
+* Stroomverbruik:
 
 #### Armatuur
+
 * Socket:
 * Stroomaansluiting: 
-* Sturing: 
+* Sturing:
+* Stroomverbruik: 
 
 #### Controller
 
+* Stroomverbruik:
+
 #### Versterker
+
 * Versterkerklasse: 
 * Aantal speaker kanalen:
 * RMS vermogen:
@@ -104,25 +118,30 @@ Hier onder per component soort de standaard specificaties.
 * Signaal-ruisverhouding:
 * Impedantie:
 * Beveiligingen:
+* Stroomverbruik:
 
 #### Speaker
+
 * RMS vermogen:
 * Type connector:
 * Actief of passief:
 
 #### Stekkerdoos
+
 * IP-waarde:
 * Aantal stopcontacten:
 * kabellengte:
-
+* Aansluitvermogen:
 
 #### Kabel 
+
 * Type: 
 * Connector: 
 * Lengte:
 * Kabeldikte: 
 
 #### Lichtbron
+
 * Socket:
 * Watt:
 * Volt: 
@@ -130,7 +149,7 @@ Hier onder per component soort de standaard specificaties.
 
 #### IODevice 
 
-
+* 
 
 ## Configuratie
 
