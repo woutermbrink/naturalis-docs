@@ -1,5 +1,5 @@
 ---
-title: "Asset Informatie"
+title: "Asset informatie"
 date: 2018-06-04T13:27:38+02:00
 draft: true
 ---
@@ -8,12 +8,14 @@ In dit document wordt de informatie gespecificeerd die dient te worden
 aangeleverd over alle technische componenten in het museum. Naturalis heeft deze
 informatie nodig ten behoeve van het configuratie management (waaronder het
 configureren van toegang tot het netwerk), de administratieve registratie
-(asset management) en het genereren van documentatie pagina's op component niveau. 
+(asset management) en het genereren van documentatie pagina's op component
+niveau.
 
 ## Variabelen
 
-We maken onderscheid tussen generieke componenten en specifieke componenten die vallen onder een bepaalde component soort. Van generieke componenten willen we het onderstaande weten.
-
+We maken onderscheid tussen generieke componenten en specifieke componenten die
+vallen onder een bepaalde component soort. Van generieke componenten willen we
+het onderstaande weten.
 
 * Merk:
 * Model:
@@ -40,8 +42,9 @@ De overige variablen wijzen voor zich.
 
 ## Component soorten
 
-We maken naast generieke componenten een onderscheid tussen verschillende soorten component. Elke soort
-component heeft specifieke standaard velden / variabelen.
+We maken naast generieke componenten een onderscheid tussen verschillende
+soorten component. Elke soort component heeft specifieke standaard velden /
+variabelen.
 
 Daarnaast maken we een onderscheid tussen soorten componenten waarbij we de
 asset (het individuele object) registreren in ons asset management systeem en
@@ -60,7 +63,7 @@ documentatie, voorraadbeheerheer en bestellingsbeheer.
 * MAC:
 * Leverancier:
 
-#### Monitor
+#### Beeldscherm
 
 * ID:
 * Naam:
@@ -154,5 +157,22 @@ documentatie, voorraadbeheerheer en bestellingsbeheer.
 
 ## Werkwijze
 
-Er zal een spreadsheet worden aangeleverd aan de installateur / bouwer / leverancier met voor elke component soort een tabblad met alle verschillende velden. De installateur voegt hier alle informatie aan toe. Op basis van de variabelen Naam & MAC kunnen wij de juiste configuratie toepassen. Denk hierbij aan het toewijzen van IP-adressen en het deployen van software. Daarnaast kunnen wij op basis van deze gegevens documentatie pagina's voor alle specifieke componenten worden gegenereerd die daarna kunnen worden aangevuld conform de [standaard component documentatie]({{< relref "component.md" >}}). Wanneer alle informatie compleet is zullen alle managed componenten in het asset management systeem worden ingeladen.
+Bij de aanlevering en registratie van asset informatie wordt de volgende
+werkwijze gehanteerd:
 
+1. Het technisch team van Naturalis levert een spreadsheet aan met voor elke
+   soort component een tabblad met alle relevante velden.
+1. De installateur voegt per asset alle en relevante informatie toe aan de
+   spreadsheet. Idealiter wordt ook de naam van de asset al in deze stap
+   aangeleverd.
+1. Het technisch team verwerkt de asset informatie (excl. naam) in het asset
+   management systeem.
+1. Het technisch team voegt per asset op basis van de naam een host toe, en
+   voert het ID en het MAC-adres toe aan de host-variabelen in Ansible. Op basis
+   hiervan kunnen ondermeer IP-adressen worden toegewezen en software worden
+   geïnstalleerd.
+1. Het technisch team maak voor alle specifieke componenten pagina's in de
+   documentatie aangemaakt.
+1. De AV installateur vult ten slotte de documentatiepagina van elk type
+   component conform de [standaard component documentatie]({{< relref
+   "component.md" >}}) aan.
