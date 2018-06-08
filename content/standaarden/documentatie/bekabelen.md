@@ -100,19 +100,18 @@ We willen de stekkerdozen voorzien van een relais, waardoor de volgende zaken NI
 
 ## Meubel inrichting
 
+Voor zowel het binden als het bevestigen van kabels geldt het volgende:
+
+* Elke kabel moet vervangen kunnen worden.
+* Alle kabels moeten beschermd worden tegen beschadigingen door pletten, verdraaien, trekken, hitte en vloeistoffen.
+
 ### Kabelbinders
 
+* Opgerolde kabels mogen enkel met klitteband worden vastgehouden, geen tape of tie-wraps.
 * Overlengte van kabels moeten weggewerkt worden door deze op te rollen. Als overlengte niet nuttig is, is de voorkeur dat de overlengte eruit gehaald wordt. 
-* Elke kabel apart oprollen, niet alles in één bundel. Als er één vervangen moet worden, hoeft niet alles uit elkaar gehaald te worden. 
-* Opgerolde kabels moeten met klitteband worden vastgemaakt.
-* Kabels die niet opgerold worden, maar worden vastgemaakt met een kabelbevestiging aan een muur of wand, worden vastgemaakt met een tie wrap. 
-* Alle kabels dienen langs één kant worden weggewerkt.
-* Ook voor de bevestiging aan muur of wand geldt: elke soort kabel los van elkaar aan de muur of wand bevestigen.
-* Als kabels over de vloer geleid worden, dan dienen deze in een gootje met een opstaand randje te liggen waardoor de kabels niet geplet kunnen worden.
-
+* Elke kabel dient apart opgerold te worden, niet alles in één bundel, om te voorkoemen dat kabels in de knoop raken. 
 
 ### Kabelbevestiging
 
-* Kabelbevestiging van het soort dat met een schroef vastgemaakt wordt en waaraan de kabels m.b.v. een tie wrap kunnen worden vastgemaakt.
-* Als je dun hout hebt waaraan de kabelbevestiging vastgemaakt moet worden, is een plakbevestiging beter dan vastschroeven.
-* Als er meer dan drie kabels van één soort bevestigd moeten worden, dan gelieve een kabelgoot (plastic) met haakjes te gebruiken.
+* Kabels dienen door kabelgoten te lopen of aan oppervlaktes bevestigd worden zonder de kabel te beschadigen.
+* Gebundelde overlengte van kabels mogen niet op de grond liggen, maar dienen op rol aan een haakje te hangen.
