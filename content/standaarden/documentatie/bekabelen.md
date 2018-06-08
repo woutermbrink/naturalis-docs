@@ -21,7 +21,7 @@ WCD:
 Op basis van het WCD nummer kunnen we configureren of de groep wel of niet moet worden geschakeld en zien wat de impact is als een bepaalde groep wordt geschakeld of uit valt. Ook kan er zo rekening worden gehouden met de maximale groeps belasting. 
 
 Outlet:
-Vraag: Is dit nog nodig aangezien we misschien ip op basis van mac uitdelen en kunnen uitlezen op de switch in welke poort hij zit? 
+We willen weten welk apparaat in welke outlet zit, zodat we gegevens uit kunnen lezen en wijzigingen kunnen maken.
 
 Vraag: Waar gaan we dit bijhouden? In de documentatie? 
 
