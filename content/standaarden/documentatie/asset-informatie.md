@@ -7,10 +7,17 @@ draft: true
 In dit document wordt de informatie gespecificeerd die dient te worden
 aangeleverd over alle technische componenten in het museum. Naturalis heeft deze
 informatie nodig ten behoeve van het configuratie management (waaronder het
-configureren van toegang tot het netwerk) en de administratieve registratie
-(asset management).
+configureren van toegang tot het netwerk), de administratieve registratie
+(asset management) en het genereren van documentatie pagina's op component niveau. 
 
 ## Variabelen
+
+We maken onderscheid tussen generieke componenten en specifieke componenten die vallen onder een bepaalde component soort. Van generieke componenten willen we het onderstaande weten.
+
+
+* Merk:
+* Model:
+* Leverancier:
 
 Hieronder is een overzicht opgenomen van alle informatie die per soort component
 dient te worden aangeleverd.
@@ -33,7 +40,7 @@ De overige variablen wijzen voor zich.
 
 ## Component soorten
 
-We maken een onderscheid tussen verschillende soorten component. Elke soort
+We maken naast generieke componenten een onderscheid tussen verschillende soorten component. Elke soort
 component heeft specifieke standaard velden / variabelen.
 
 Daarnaast maken we een onderscheid tussen soorten componenten waarbij we de
@@ -138,21 +145,14 @@ documentatie, voorraadbeheerheer en bestellingsbeheer.
 * Volt:
 * Leverancier:
 
-#### IODevice
+#### Knop
 
 * Naam:
 * Merk:
 * Model:
 * Leverancier:
 
-<!--
 ## Werkwijze
 
-Voorstel: We leveren een spreadsheet aan met voor elke component een tabblad en
-met alle verschillende velden. De installateur voegt hier alle informatie aan
-toe. Op basis van de variabelen Naam & MAC kunnen wij de juiste configuratie
-toepassen. Denk hierbij aan het toewijzen van IP-adressen en het deployen van
-software. Wanneer alle informatie compleet is zullen alle managed componenten in
-het asset management systeem worden ingeladen.
+Er zal een spreadsheet worden aangeleverd aan de installateur / bouwer / leverancier met voor elke component soort een tabblad met alle verschillende velden. De installateur voegt hier alle informatie aan toe. Op basis van de variabelen Naam & MAC kunnen wij de juiste configuratie toepassen. Denk hierbij aan het toewijzen van IP-adressen en het deployen van software. Daarnaast kunnen wij op basis van deze gegevens documentatie pagina's voor alle specifieke componenten worden gegenereerd die daarna kunnen worden aangevuld conform de [standaard component documentatie]({{< relref "component.md" >}}). Wanneer alle informatie compleet is zullen alle managed componenten in het asset management systeem worden ingeladen.
 
--->
