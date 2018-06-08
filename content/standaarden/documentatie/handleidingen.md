@@ -4,55 +4,41 @@ date: 2018-05-23T14:32:57+02:00
 draft: true
 ---
 
-# Handleiding [functionele eenheid]
-[groep]
+##  Algemene informatie
 
-[bouwer]
+In het onderstaande document geven we aan wat de gewenste document indeling is voor een handleiding en wat we hoe beschreven willen zien. 
 
-[naam schrijver]
+### Inhoud
 
-versie [versienummer]
+## Omschrijving
 
-[datum]
+Om schrijving van wat de lezer kan doen met het volgen van de handleiding.
 
-## Inhoud
+## Benodigdheden
 
-* Registratie
-* Componenten
-* Gereedschap
-* Toegang
-* Werking
-* Testmogelijkheden
-* Technische tekeningen
+Een overzicht van alles wat nodig is voor het uitvoeren van de instructie. 
 
+### Personen
 
-## Registratie
+Hier wordt aangegeven met hoeveel mensen de handeling kan worden verricht. Hou hierbij ook rekening met de ARBO regels die op dit gebied van toepassing zijn. 
 
-Hier wordt mbt deze functionele eenheid aangegeven waar men de volgende gegevens terug kan vinden en mogelijk toe kan voegen:
-* meldingen
-* reparaties
-* wijzigingen
+### Kennis
 
-## Componenten
+Welke voorkennis is nodig voor het uitvoeren van de handelingen en waar is deze te vinden. 
 
-Hier worden de componenten genoemd en aangeven waar deze zich fysiek bevinden. Daarnaast wordt per component genoemd of en waar er spareparts van op voorraad zouden moeten zijn. Tot slot wordt er per component verwezen naar een handleiding ter onderhoud en waar deze te vinden is.
+### Onderdelen
 
-## Gereedschap
+Een overzicht van de onderdelen die nodig zijn bij het uitvoeren van de handelingen indien nodig.
 
-Hier wordt beschreven welk gereedschap benodigd zou zijn om onderhoud te plegen aan de componenten of iets te vervangen.
+### Gereedschap
 
-## Toegang
+Een overzicht van het gereedschap dat nodig is voor het uitvoeren van de instructies. 
 
-Hier wordt met foto's en tekst beschreven op welke manier er toegang te krijgen is om de functionele eenheid te onderhouden, zoals onderhoudsluiken.
+## Instructies
 
-## Werking
+Een tekstuele omschrijving van de verschillende stappen die moeten worden uitgevoerd met een afbeelding ter verduidelijking indien dit een toegevoegde waarde heeft. Waar nodig worden ook de risico's aangegeven zowel voor de personen als eventuele beschadiging van componenten. 
 
-Hier wordt met foto's en tekst stap voor stap beschreven hoe de functionele eenheid eruit zou moeten zien bij normale werking.
+## Tests
 
-## Testmogelijkheden
+Hier wordt aangegeven welke tests er kunnen worden uitgevoerd om te testen of de instucties ook het gewenste resultaat hebben opgeleverd. 
 
-Hier wordt met aangegeven of de functionele eenheid beschikt over testmogelijkheden. Vervolgens wordt er per testmogelijkheid met foto's en tekst beschreven welke stappen ondernomen moeten worden.
-
-## Technische tekeningen
-
-Hier worden de verschillende aangeleverde tekeningen weergegeven. Bij voorkeur een schematisch overzicht van de componenten en een bouwtekening van de casco.
