@@ -162,7 +162,7 @@ werkwijze gehanteerd:
 
 1. Het technisch team van Naturalis levert een spreadsheet aan met voor elke
    soort component een tabblad met alle relevante velden.
-1. De installateur voegt per asset alle en relevante informatie toe aan de
+1. De installateur voegt per asset alle relevante informatie toe aan de
    spreadsheet. Idealiter wordt ook de naam van de asset al in deze stap
    aangeleverd.
 1. Het technisch team verwerkt de asset informatie (excl. naam) in het asset
