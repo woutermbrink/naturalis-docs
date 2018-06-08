@@ -23,7 +23,15 @@ Op basis van het WCD nummer kunnen we configureren of de groep wel of niet moet 
 Outlet:
 We willen weten welk apparaat in welke outlet zit, zodat we gegevens uit kunnen lezen en wijzigingen kunnen maken.
 
-Vraag: Waar gaan we dit bijhouden? In de documentatie? 
+Wij leveren voor elke tentoonstelling een spreadsheet aan. 
+
+Elke spreadsheet heeft twee tabbladen, 1 voor outlet's en 1 voor WCD's.
+
+Elke tabel heeft 3 kolommen. 
+
+1. Naam WCD/outlet: De namen van alle WCD's en outlet's in een tentoonstelling (zaal).   
+2. Naam component: De namen van de aangesloten componenten. Bijvoorbeeld: feestvandedood-stk-01 of feestvandedood-cmp-01 
+3. Status: Hier
 
 ## Kabeldoorvoer
 
