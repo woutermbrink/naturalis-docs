@@ -33,12 +33,12 @@ in het asset management systeem.
 De naam is de unieke, universele en conform de [naamgevingsstandaard]({{< relref
 "naamgeving.md" >}}) vastgestelde naam die zowel in de documentatie,
 configuratie en asset management wordt gehanteerd. Deze naam stelt ons in staat
-om de link te leggen tussen docementatie, configuratie en asset.
+om de link te leggen tussen documentatie, configuratie en asset.
 
 De naam van de leverancier is in het geval van componenten die door de AV
 installateur worden geleverd gelijk aan de naam van de AV installateur.
 
-De overige variablen wijzen voor zich.
+De overige variabelen wijzen voor zich.
 
 ## Component soorten
 
@@ -172,7 +172,7 @@ werkwijze gehanteerd:
    hiervan kunnen ondermeer IP-adressen worden toegewezen en software worden
    geïnstalleerd.
 1. Het technisch team maak voor alle specifieke componenten pagina's in de
-   documentatie aangemaakt.
+   documentatie aan.
 1. De AV installateur vult ten slotte de documentatiepagina van elk type
    component conform de [standaard component documentatie]({{< relref
    "component.md" >}}) aan.
