@@ -35,7 +35,7 @@ Hier wordt mbt deze functionele eenheid aangegeven waar men de volgende gegevens
 
 ## Componenten
 
-Hier worden de componenten genoemd en aangeven waar deze zich fysiek bevinden. Daarnaast wordt per component genoemd of en waar er spareparts van op voorraad zouden moeten zijn.
+Hier worden de componenten genoemd en aangeven waar deze zich fysiek bevinden. Daarnaast wordt per component genoemd of en waar er spareparts van op voorraad zouden moeten zijn. Tot slot wordt er per component verwezen naar een handleiding ter onderhoud en waar deze te vinden is.
 
 ## Gereedschap
 
