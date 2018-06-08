@@ -1,5 +1,5 @@
 ---
-title: "Show Controller"
+title: "Show controller"
 date: 2018-05-23T14:33:46+02:00
 draft: false
 ---

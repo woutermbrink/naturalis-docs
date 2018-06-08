@@ -1,5 +1,5 @@
 ---
-title: "Licht Controller"
+title: "Licht controller"
 date: 2018-05-23T14:33:04+02:00
 draft: false
 ---

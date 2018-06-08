@@ -1,15 +1,15 @@
 ---
-title: "Monitoren"
+title: "Beeldschermen"
 date: 2018-05-23T14:33:17+02:00
 draft: false
 ---
 
 ## Omschrijving type component
 
-Monitoren, ook wel beeldschermen genoemd, zijn er in vele soorten en maten voor
-verschillende doeleinden. De onderstaande eisen gelden voor alle type monitoren
-met uitzondering van de specifieke eisen de we stellen aan touchscreens, deze
-worden elders nader bepaald.
+Beeldschermen, ook wel monitoren genoemd, zijn er in vele soorten en maten voor
+verschillende doeleinden. De onderstaande eisen gelden voor alle type
+beeldschermen met uitzondering van de specifieke eisen de we stellen aan
+touchscreens, deze worden elders nader bepaald.
 
 ## Technische eisen
 
@@ -60,7 +60,7 @@ voor argumentatie.
 
 ### Bediening
 
-Monitoren hebben verschillende instellingen, denk hierbij aan Input Source,
+Beeldschermen hebben verschillende instellingen, denk hierbij aan Input Source,
 Brightness, Contrast, Color Settings, Display Settings, Energy Settings. De
 standaard manier van instellen is in de meeste gevallen een on-screen display
 dat met fysieke knoppen bedient wordt. Naast dat de gebruiksvriendelijkheid vaak
@@ -121,24 +121,24 @@ standaard:
 ### Smart
 
 Er zijn sinds een aantal jaar zogeheten Smart TV’s op de markt. Het gaat hierbij
-om een in de monitor geïntegreerde (embedded) computer waarop vaak
+om een in het beeldscherm geïntegreerde (embedded) computer waarop vaak
 fabrikant-specifieke besturingssystemen (zoals WebOS, Tyzen of Android) en
 bijbehorende software draait. De vraag is of met het oog op beheer dergelijke
 soft- en hardware gewenst is.
 
 #### Opties
 
-* Monitoren met Smart TV functionaliteit
-* Monitoren zonder Smart TV functionaliteit
+* Beeldschermen met Smart TV functionaliteit
+* Beeldschermen zonder Smart TV functionaliteit
 
 #### Keuze
 
-Monitoren met volwaardige Smart TV functionaliteit zijn niet toegestaan. Op deze
+Beeldschermen met volwaardige Smart TV functionaliteit zijn niet toegestaan. Op deze
 regel mag uitsluitend een uitzondering worden gemaakt wanneer er op basis van
-specifieke functionele wensen alleen monitoren in aanmerking komen die ook Smart
+specifieke functionele wensen alleen beeldschermen in aanmerking komen die ook Smart
 TV functionaliteit hebben.
 
-De reden voor het niet toestaan van dit type monitoren is in de eerste plaats
+De reden voor het niet toestaan van dit type beeldschermen is in de eerste plaats
 dat smart TV's geen functionaliteit toevoegen waarin niet (goed onderhoudbaar en
 kwalitatief beter) middels een player kan worden voorzien. Bovendien wijst de
 praktijk uit dat de veiligheid van de software van Smart TV’s te wensen

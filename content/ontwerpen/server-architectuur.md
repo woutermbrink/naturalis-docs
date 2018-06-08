@@ -1,5 +1,5 @@
 ---
-title: "Server Architectuur"
+title: "Server architectuur"
 date: 2018-05-24T10:13:04+02:00
 draft: false
 ---
