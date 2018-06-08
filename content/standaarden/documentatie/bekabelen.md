@@ -39,7 +39,7 @@ Elke tabel heeft drie kolommen:
 1. Naam WCD/outlet: De namen van alle WCD's en outlet's in een tentoonstelling (zaal).
 1. Naam component: De namen van de aangesloten componenten. Bijvoorbeeld:
    `stamboom-stk-01` of `stamboom-cmp-01`
-1. Status: Hier
+1. Status: Hier wordt aangegeven of de gegevens verwerkt zijn.
 
 ## Kabeldoorvoer
 
@@ -111,7 +111,6 @@ En de volgende voorkeuren:
 * Kleur: Onder de vloer bij voorkeur geen zwart maar een duidelijk zichtbare
   kleur. In een interactive geen voorkeur. Voor gebruik bij evenementen enkel
   zwart.
-* Maximale belasting: minimaal 16 A / 3500 W
 
 <!--
 Openstaande vraag:
@@ -152,7 +151,7 @@ Voor zowel het binden als het bevestigen van kabels geldt het volgende:
 ### Plaatsing apparatuur
 
 * Apparatuur dient dusdanig in het meubel te worden bevestigd zodat deze
-  redelijkerwijs beschermd is tegen schade bij onderhoud.
+  redelijkerwijs beschermd is tegen schade bij onderhoud en schoonmaak.
 * Het is niet toegestaan om (actieve) apparatuur te plaatsen onder de
   computervloer.
 
