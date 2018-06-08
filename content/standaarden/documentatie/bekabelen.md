@@ -109,7 +109,7 @@ Voor zowel het binden als het bevestigen van kabels geldt het volgende:
 
 * Opgerolde kabels mogen enkel met klitteband worden vastgehouden, geen tape of tie-wraps.
 * Overlengte van kabels moeten weggewerkt worden door deze op te rollen. Als overlengte niet nuttig is, is de voorkeur dat de overlengte eruit gehaald wordt. 
-* Elke kabel dient apart opgerold te worden, niet alles in één bundel, zodat dat de kabels niet in de knoop raken. 
+* Elke kabel dient apart opgerold te worden, niet alles in één bundel, om te voorkoemen dat kabels in de knoop raken. 
 
 ### Kabelbevestiging
 
