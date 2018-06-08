@@ -90,13 +90,18 @@ gedefinieerd. In het museum onderscheiden we de volgende subklassen:
   - `Show`
   - `Faciliteit`
 
-* Componenten (concept):
-  - `Monitor`
+* Componenten:
   - `Computer`
-  - `Versterker`
+  - `Monitor`
   - `Projector`
-  - `Lamp`
+  - `Armatuur`
+  - `Controller`
+  - `Versterker`
+  - `Speaker`
   - `Stekkerdoos`
+  - `Kabel`
+  - `Lichtbron`
+  - `IODevice`
 
 De relatie tussen deze objecten is als volgt:
 
@@ -292,12 +297,12 @@ Voorbeeld: `scanzuilen`
 ### Museum specifieke componenten
 
 Elke `Functionele eenheid` bestaat uit één of meerdere `Componenten`.
-`Componenten` zijn het laagste type object in de hiërarchie. Omdat zowel bij de
+`Componenten` zijn het 'laagste' type object in de hiërarchie. Omdat zowel bij de
 configuratie van de componenten, als de documentatie en de fysieke aansluiting
 de samenhang met de `Functionele eenheid` belangrijk is, is de naamgeving van
 `Componenten` in het museum (tenzij anders aangegeven) als volgt:
 
-`<naamfunctioneleeenheid>-<drieletterigeafkortingtypecomponent>-<volgnummer>`
+`<naamfunctioneleeenheid>-<drieletterigeafkortingsoortcomponent>-<volgnummer>`
 
 De naam van een `Component` is gedurende de levensloop van het museum niet
 noodzakelijkerwijs gekoppeld aan één specifiek stuk hardware. Wanneer
@@ -314,17 +319,21 @@ Voor de namen van deze `Componenten` gelden de volgende regels:
 * Het deel voor het eerste afbreekteken bestaat uit de naam van de `Functionele
   eenheid` waar het `Component` onderdeel vanuit maakt.
 * Het deel tussen de twee afbreektekens is altijd drie letters lang en bestaat
-  uit één van de hieronder opgesomde afkortingen voor typen `Componenten`.
+  uit één van de hieronder opgesomde afkortingen voor soorten `Componenten`.
 * Het deel na het tweede afbreekteken is een opvolgnummer [0-999].
 
-Welke typen museumspecifieke `Componenten` worden er onderscheiden?
+De onderstaande soorten (museumspecifieke) `Componenten` worden van een naam
+voorzien, waarbij de soort wordt aangeduid met een drieletterige afkorting:
 
-* Monitor: `mon`
 * Computer: `cmp`
-* Versterker: `amp`
+* Monitor: `mon`
 * Projector: `prj`
-* Stekkerdoos: `pwr`
-* Lamp: `lmp`
+* Armatuur: `arm`
+* Controller: `ctl`
+* Versterker: `amp`
+* Speaker: `spk`
+* Stekkerdoos: `stk`
+* IODevice: `iod`
 
 Voorbeeld: `animalkeeper-mon-1`
 
