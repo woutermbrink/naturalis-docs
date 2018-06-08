@@ -45,6 +45,8 @@ Elke tabel heeft drie kolommen:
 
 Het volgende is van toepassing op doorvoergaten in de vloer en in de meubels:
 
+* Het is niet toegestaan om vloertegels weg te laten om kabels door te voeren.
+* Als een vloertegel wordt aangepast dan moet de belastbaarheid op een andere wijze gewaarborgd worden.
 * De uiteindelijke opening (incl. doorvoer) moet minimaal een diamenter van 40mm
   hebben, zodat er een schuko-stekker doorheen past. De rand van het gat mag
   niet scherp zijn, dit zou de kabels kunnen beschadigen.
