@@ -6,7 +6,7 @@ draft: false
 
 De tentoonstellingen en experiences bestaan uit een grote diversiteit aan
 technische componenten. Dit document beschrijft de wijze waarop al die componenten
-worden aangestuurd, en welke systemen waarvoor verantwoordelijk zijn en de
+worden aangestuurd, welke systemen waarvoor verantwoordelijk zijn en de
 uitgangspunten die hieraan ten grondslag liggen.
 
 ## Uitgangspunten
@@ -55,8 +55,8 @@ domotica-systemen.
 De verhouding tussen *museum control* en *show control* is als volgt:
 
 * **Museum controller**: Er is één museum controller voor het gehele museum. De
-  museum controller is verantwoordelijk voor het startklaar zetten van alle componenten in de
-  tentoonstellingen en experiences.
+  museum controller is verantwoordelijk voor het startklaar zetten van alle
+  componenten in de tentoonstellingen en experiences.
 
 * **Show controller**: Per tentoonstelling of experience is er één
   show controller die verantwoordelijk is voor het real time triggeren en
@@ -128,11 +128,12 @@ Deze verdeling van de verantwoordelijkheden betekent dat:
 
 * De show controllers in principe geen spanning schakelen. Alleen wanneer dit
   niet anders kan, bijvoorbeeld wanneer het schakelen van de spanning de
-  enige manier is om een animatronic deze deel te laten nemen aan de 'show', kan
+  enige manier is om een animatronic deel te laten nemen aan de 'show', kan
   hierop een uitzondering worden gemaakt.
 * Het voor de snelle integratie van componenten in de museum infrastructuur
-  noodzakelijk is de administratie van de basisgegevens (denk aan IP-adres, naam
-  en MAC-adres) zo vroeg mogelijk in het proces uit te voeren.
+  noodzakelijk is dat de administratie van de basisgegevens (denk aan IP-adres,
+  naam en MAC-adres) efficient, en het liefst zo vroeg mogelijk in tijdens de
+  ontwikkeling wordt uitgevoerd.
 
 ## Workflow
 
@@ -141,21 +142,21 @@ de verantwoordelijkheden als volgt:
 
 1. Een medewerker van Naturalis drukt via een webinterface op de knop 'Aanzetten
    museum'.
-2. De webinterface geeft een commando richting Ansible Tower dat het museum moet
+1. De webinterface geeft een commando richting Ansible Tower dat het museum moet
    worden aangezet.
-3. Ansible Tower zorgt dat alle apparaten in de juist volgorde worden aangezet,
+1. Ansible Tower zorgt dat alle apparaten in de juist volgorde worden aangezet,
    controleert alle software instellingen en activeert de monitoring. Op dit
    moment staan alle componenten klaar om content af te spelen.
-4. Afhankelijk van de voorkeur kan nu in de webinterface een voorkeursstand
+1. Afhankelijk van de voorkeur kan nu in de webinterface een voorkeursstand
    worden geactiveerd voor elke tentoonstelling in het museum. Dit kan
    bijvoorbeeld een teststand zijn of een reguliere stand.
-5. De webinterface geeft een commando richting Ansible Tower dat een bepaalde
+1. De webinterface geeft een commando richting Ansible Tower dat een bepaalde
    stand in een specifieke tentoonstelling moet worden geactiveerd.
-6. Ansible Tower geeft het commando aan de show controller van de betreffende
+1. Ansible Tower geeft het commando aan de show controller van de betreffende
    tentoonstelling dat die bepaalde stand moet worden geactiveerd en activeert
    waar nodig aanvullende instellingen (denk bijvoorbeeld aan het schakelen van
    het werklicht).
-7. De show controller activeert op tijd in de juiste omstandigheden (het
+1. De show controller activeert op tijd in de juiste omstandigheden (het
    afspelen van de juiste content op) alle componenten zoals geconfigureerd voor
    de betreffende stand.
 
@@ -163,11 +164,11 @@ De workflow bij het afsluiten van het museum is als volgt:
 
 1. Een medewerker van Naturalis drukt via een webinterface op de knop
    'Uitschakelen museum'.
-2. De webinterface geeft een commando richting Ansible Tower dat het museum moet
+1. De webinterface geeft een commando richting Ansible Tower dat het museum moet
    worden uitgezet.
-3. Ansible Tower geeft het commando aan de show controllers van alle
+1. Ansible Tower geeft het commando aan de show controllers van alle
    tentoonstellingen en experiences dat de lopende show moet worden afgerond.
-4. De showcontrollers stoppen de shows.
-5. Ansible Tower schakelt de monitoring uit, zorgt dat alle apparaten in de
+1. De showcontrollers stoppen de shows.
+1. Ansible Tower schakelt de monitoring uit, zorgt dat alle apparaten in de
    juist volgorde worden afgesloten en rekening houdend met evt. afkoelperiodes
    de spanning wordt uitgeschakeld.
