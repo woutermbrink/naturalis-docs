@@ -63,7 +63,33 @@ kabels de vervanging van componenten te vergemakkelijken / versnellen.
 
 #### Opbouw
 
-De opbouw van de tekst op een `Label` die wordt toegepast op een kabel is:
+De opbouw van de tekst op een `Label` is afhankelijk van de volgende situaties:
+
+1. De connector van de kabel past maar op één poort op het apparaat.
+1. De connector van de kabel past op meerdere poorten op het apparaat waarbij
+   het praktisch niet uitmaakt op welke poort de kabel wordt aangesloten (bijv.:
+   een powerkabel aansluiten op één van de poorten in een stekkerdoos).
+1. De connector van de kabel past op meerdere poorten op het apparaat waarbij
+   het in theorie wél uitmaakt op welke poort de kabel wordt aangesloten (bijv.:
+   een videokabel aansluiten op één van de HDMI-poorten van een projector).
+
+In de eerste twee situaties bestaat de tekst op een `Label` uit:
+
+`<naamcomponent>.<naamvariabele>`
+
+Voor de teksten van deze `Labels` gelden de volgende regels:
+
+* Heeft een maximale lengte van 56 karakters
+* Bevat bij het uitschrijven op één regel altijd een punt (`.`). Wanneer de
+  tekst te lang is voor één regel dan wordt de punt vervangen door een linebreak.
+* Het deel voor de punt bestaat uit de naam van het `Component` waar naar wordt
+  verwezen.
+* Het deel na de punt bestaat uit het type poort waarop de kabel dient te worden
+  aangesloten.
+
+Voorbeeld: `stamboom-cmp-1.nic` (De netwerkinterface op een computer van `stamboom`)
+
+In de derde situatie bestaat de tekst uit:
 
 `<naamcomponent>.<naamvariabele>:<waardevariabele>`
 
@@ -75,11 +101,12 @@ Voor de teksten van deze `Labels` gelden de volgende regels:
   vervangen door een linebreak.
 * Het deel voor de punt bestaat uit de naam van het `Component` waar naar wordt
   verwezen.
-* Het deel tussen de punt en de dubbele punt bestaat uit de naam van de
-  variabele.
-* Het deel na de dubbele punt bestaat uit de waarde van de variabele.
+* Het deel tussen de punt en de dubbele punt bestaat uit het type poort waarop
+  de kabel dient te worden aangesloten.
+* Het deel na de dubbele punt bestaat uit een aanduiding van de specifieke poort
+  waarop de kabel dient te worden aangesloten.
 
-Voorbeeld: `animalkeeper-cmp-1.nic:eth0`
+Voorbeeld: `stamboom-prj-1.hdmi:1` (HDMI poort 1 op een projector van `stamboom`)
 
 Voor kabellabels die verwijzen naar de hierboven bedoelde 'overige componenten',
 zoals `Wandcontactdozen` en `Outlets` gelden afwijkende regels:
@@ -90,6 +117,22 @@ zoals `Wandcontactdozen` en `Outlets` gelden afwijkende regels:
 * Het deel na de dubbele punt bestaat uit de naam van het `Component`.
 
 Voorbeeld: `outlet:B2.D24`
+
+Bij het bepalen van de locatie en het aantal labels geldt een onderscheid tussen
+twee situaties:
+
+##### Zichtbaar
+
+In deze situatie is vanaf het ene component zichtbaar naar welk ander component de
+betreffende kabel loopt.
+
+In deze gevallen voldoet het om aan de kant van component A de kabel te voorzien
+van een label dat refereert aan dat component en vice versa bij component B.
+
+##### Niet zichtbaar
+
+In deze situatie is vanaf het ene component NIET zichtbaar naar welk ander
+component de betreffende kabel loopt.
 
 Kabels worden op de volgende plaatsen van labels voorzien:
 
