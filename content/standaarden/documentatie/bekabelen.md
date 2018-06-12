@@ -7,7 +7,7 @@ draft: true
 In dit document worden de uitgangspunten, eisen en wensen beschreven ten aanzien
 van (met name interne) bekabeling in het museum. Dit bestaat uit de onderdelen:
 
-* Aansluiting op de gebouw gebonden installaties zoals netwerk & electra.
+* Aansluiting op de gebouw gebonden installaties zoals netwerk & electra
 * Doorvoeren van kabel door de computervloer
 * Het gebruik van stekkerdozen
 * Meubel inrichting
@@ -46,7 +46,8 @@ Elke tabel heeft drie kolommen:
 Het volgende is van toepassing op doorvoergaten in de vloer en in de meubels:
 
 * Het is niet toegestaan om vloertegels weg te laten om kabels door te voeren.
-* Als een vloertegel wordt aangepast dan moet de belastbaarheid op een andere wijze gewaarborgd worden.
+* Als een vloertegel wordt aangepast dan moet de belastbaarheid op een andere
+  wijze gewaarborgd worden.
 * De uiteindelijke opening (incl. doorvoer) moet minimaal een diamenter van 40mm
   hebben, zodat er een schuko-stekker doorheen past. De rand van het gat mag
   niet scherp zijn, dit zou de kabels kunnen beschadigen.
@@ -73,7 +74,7 @@ doorvoer op bevestigd is.
 
 ## Stekkerdozen
 
-Wat wordt er opgeleverd in het museum:
+In het museumgebouw zijn de volgende voorzieningen aanwezig:
 
 * De zalen zijn voorzien van wandcontactdozen.
 * Op de vloer is een grid aangebracht waarbij er om de drie meter twee
@@ -83,29 +84,31 @@ Wat wordt er opgeleverd in het museum:
 * Vanaf een afstand (in de serverruimte) kunnen de groepen afzonderlijk aan- en
   uitgeschakeld worden.
 
-In de meubels van interactives, exhibits etc. zal gebruikt gemaakt worden van
-stekkerdozen. Daarvoor hebben we de volgende eisen:
+In de meubels van interactives, exhibits etc. zal gebruikt worden gemaakt van
+stekkerdozen. Deze zullen door het technische team van Naturalis worden
+aangesloten.
 
-* Alle stekkerblokken zijn geaard.
-* Een stekkerdoos moet altijd direct op een wandcontactdoos worden aangesloten.
-  Het is nooit toegestaan om een stekkerdoos op een andere stekkerdoos stoppen.
+De spanning in het museum, dus ook die op de stekkerdozen, wordt vanuit de
+museum controller geschakeld. Om de schakeling van de juiste apparatuur te
+garanderen en overbelasting van een groep te voorkomen zorgt Naturalis voor de
+juiste registratie en labeling van de stekkerdozen. De AV installateur is
+verantwoordelijk voor de aanlevering van het benodigde vermogen per functionele
+eenheid.
 
-En de volgende voorkeuren:
+Bij de selectie van stekkerdozen hanteert Naturalis de volgende eisen en wensen:
 
-* Bij voorkeur worden er geen stekkerdozen onder de computervloer aangesloten.
-* De stekkerdoos moet zijn voorzien van schroefgaten aan de randen zodat deze
+* De stekkerdoos is geaard.
+* De stekkerdoos is voorzien van schroefgaten aan de randen zodat deze
   vastgeschroefd kan worden.
 * De stopcontacten in de stekkerdoos moeten schuin staan, zodat je ook meerdere
   haakse stekkers naast elkaar geplaatst kunnen worden.
-* Stopcontacten moeten afschermd zijn door middel van klepjes zodat deze zijn
+* Stopcontacten zijn afschermd door middel van klepjes zodat deze zijn
   afgeschermd van stof. Stofstoppers of kinderslotplaatjes zijn niet toegestaan.
 * Minimaal 16 ampère (niet 10)
 * Stekkerdozen moeten een afschroefbaar snoer hebben, zodat de juiste
   snoerlengte kan worden bevestigd.
 * Socket Type: randaarde (type E)
 * Het aantal stopcontacten per stekkerdoos is minimaal 4.
-* Per stekkerdoos wordt altijd 1 stopcontact leeg gehouden ten behoeve aan
-  onderhoud.
 * De [IP-waarde](https://nl.wikipedia.org/wiki/IP-code)
   van stekkerdozen is minimaal IP44. Indien (bij wijze van uitzondering) een
   stekkerdoos onder de systeemvloer wordt geplaatst dient deze een IP-waarde van
@@ -113,6 +116,15 @@ En de volgende voorkeuren:
 * Kleur: Onder de vloer bij voorkeur geen zwart maar een duidelijk zichtbare
   kleur. In een interactive geen voorkeur. Voor gebruik bij evenementen enkel
   zwart.
+
+Bij het gebruik van stekkerdozen door de AV installateur gelden de volgende
+randvoorwaarden:
+
+* Het is in beginsel niet toegestaan stekkerdozen aan te brengen onder de computervloer.
+* Per stekkerdoos wordt altijd 1 stopcontact leeg gehouden ten behoeve aan
+  onderhoud.
+* Het is nooit toegestaan om een stekkerdoos op een andere stekkerdoos aan te
+  sluiten.
 
 <!--
 Openstaande vraag:
