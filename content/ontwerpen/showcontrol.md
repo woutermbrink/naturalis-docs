@@ -9,47 +9,6 @@ technische componenten. Dit document beschrijft de wijze waarop al die component
 worden aangestuurd, welke systemen waarvoor verantwoordelijk zijn en de
 uitgangspunten die hieraan ten grondslag liggen.
 
-## Uitgangspunten
-
-Traditioneel worden voor de aansturing van technische componenten in musea
-zogeheten show controllers ingezet. Deze show controllers zijn gericht op het
-real time aansturen van componenten, al dan niet op basis van signalen die vanuit
-die componenten naar de show controller worden gestuurd.
-
-Buiten de museumwereld zijn er met name ook in de IT allerlei systemen die
-gericht zijn op het aansturen en beheren van systemen. Enerzijds zijn er
-systemen (denk aan domotica-systemen) die, net als show controllers, live reageren
-op signalen uit het veld. Deze systemen zijn gerelateerd aan de recente
-ontwikkelingen van een Internet of Things (IoT).
-
-Anderzijds zijn er ook systemen die zich focussen op het inrichten en beheren van
-(IT-)systemen. De laatste jaren is onder de noemers *infrastructure as code*,
-*DevOps* en *continuous delivery* de nadruk komen te liggen op het door middel
-van code automatiseren van de aansturing, inrichting en configuratie van
-systemen.
-
-Naturalis beheert een grote hoeveelheid IT services op het gebied van
-biodiversiteit. Het beheren van deze services gebeurt de afgelopen jaren steeds
-meer volgens deze principes. Bij Naturalis heeft dat zich vertaalt naar het
-gebruik van *configuration management systemen* als
-[Puppet](https://puppet.com/) en [Ansible](https://www.ansible.com/), de bouw
-van private clouds op basis van [OpenStack](https://www.openstack.org/) en
-[Kubernetes](https://kubernetes.io/) en het gebruik van containertechnologie als
-[Docker](https://www.docker.com/).
-
-Wat de aansturing van de componenten in het museum betreft vertonen de hier
-genoemde systemen een belangrijke mate van overlap. Traditioneel zijn show
-controllers goed zijn in het real time regelen van shows en experiences maar
-voorzien zij niet in het geautomatiseerd instellen en controleren van software
-configuraties. Veel op beheer gerichte IT systemen zijn aan de andere kant niet
-gemaakt voor het real time inregelen van shows maar juist wel goed in het tweede
-facet.
-
-Het uitgangspunt van de aansturing (show control) van de technische componenten
-in het museum van Naturalis is om de sterke punten van beide type systemen te
-benutten. Om die reden is er vooralsnog geen rol voor de IoT en
-domotica-systemen.
-
 ## Museum control vs. show control
 
 De verhouding tussen *museum control* en *show control* is als volgt:
@@ -175,3 +134,47 @@ De workflow bij het afsluiten van het museum is als volgt:
 1. Ansible Tower schakelt de monitoring uit, zorgt dat alle apparaten in de
    juist volgorde worden afgesloten en rekening houdend met evt. afkoelperiodes
    de spanning wordt uitgeschakeld.
+
+## Achtergrond
+
+Aan bovenstaande verdeling ligt een afweging over de inbedding van show
+controllers in bestaande ICT infrastructuur ten grondslag.
+
+Traditioneel worden voor de volledige aansturing van technische componenten in
+musea show controllers ingezet. Deze show controllers zijn gericht op het real
+time aansturen van componenten, al dan niet op basis van signalen die vanuit die
+componenten naar de show controller worden gestuurd.
+
+Buiten de museumwereld zijn er met name ook in de IT allerlei systemen die
+gericht zijn op het aansturen en beheren van systemen. Enerzijds zijn er
+systemen (denk aan domotica-systemen) die, net als show controllers, live reageren
+op signalen uit het veld. Deze systemen zijn gerelateerd aan de recente
+ontwikkelingen van een Internet of Things (IoT).
+
+Anderzijds zijn er ook systemen die zich focussen op het inrichten en beheren van
+(IT-)systemen. De laatste jaren is onder de noemers *infrastructure as code*,
+*DevOps* en *continuous delivery* de nadruk komen te liggen op het door middel
+van code automatiseren van de aansturing, inrichting en configuratie van
+systemen.
+
+Naturalis beheert een grote hoeveelheid IT services op het gebied van
+biodiversiteit. Het beheren van deze services gebeurt de afgelopen jaren steeds
+meer volgens deze principes. Bij Naturalis heeft dat zich vertaalt naar het
+gebruik van *configuration management systemen* als
+[Puppet](https://puppet.com/) en [Ansible](https://www.ansible.com/), de bouw
+van private clouds op basis van [OpenStack](https://www.openstack.org/) en
+[Kubernetes](https://kubernetes.io/) en het gebruik van containertechnologie als
+[Docker](https://www.docker.com/).
+
+Wat de aansturing van de componenten in het museum betreft vertonen de hier
+genoemde systemen een belangrijke mate van overlap. Traditioneel zijn show
+controllers goed zijn in het real time regelen van shows en experiences maar
+voorzien zij niet in het geautomatiseerd instellen en controleren van software
+configuraties. Veel op beheer gerichte IT systemen zijn aan de andere kant niet
+gemaakt voor het real time inregelen van shows maar juist wel goed in het tweede
+facet.
+
+Het uitgangspunt van de hierboven toegelichte aansturing (show control) van de
+technische componenten in het museum van Naturalis is om die reden gericht op
+het benutten van de sterke punten van beide type systemen. Om die reden is er
+(vooralsnog) een beperkte rol toebedeeld aan specifieke IoT en domotica-systemen.
