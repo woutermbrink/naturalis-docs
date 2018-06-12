@@ -59,7 +59,7 @@ De verhouding tussen *museum control* en *show control* is als volgt:
   tentoonstellingen en experiences.
 
 * **Show controller**: Per tentoonstelling of experience is er één
-  show controller die verantwoordelijk is voor het real time activeren en
+  show controller die verantwoordelijk is voor het real time triggeren en
   controleren van video- en audiocontent, animatronics, interactives en (al dan
   niet via een dedicated lichtcontroller) showlicht.
 
@@ -81,18 +81,18 @@ graph TD
     B --> D(Ansible Tower API)
     C --> D
     end
-    D -->|Activeren stand show tentoonstelling| E(Show control)
+    D -->|Triggeren stand show tentoonstelling| E(Show control)
     D -->|Spanning schakelen| G(Animatronics)
     D -->|Spanning schakelen<br/>Configureren software<br/>Installeren laatste content| F(Computers)
     subgraph Volledig centrale aansturing
     D -->|Spanning schakelen| H(Power relays)
-    D -->|Spanning schakelen<br/>Activeren inputs| I(Projectors)
+    D -->|Spanning schakelen<br/>Triggeren inputs| I(Projectors)
     D -->|DHCP reserveringen<br/>Instellen VLAN's| J(Netwerk)
     end
     subgraph Gedeelde aansturing
-    E -->|Activeren lichtshows| K(Licht controller)
-    E -->|Activeren stand audio/video| F
-    E -->|Activeren stand animatronic| G
+    E -->|Triggeren lichtshows| K(Licht controller)
+    E -->|Triggeren stand audio/video| F
+    E -->|Triggeren stand animatronic| G
     K -->|DMX| L(Showlicht)
     end
 {{< /mermaid >}}
@@ -115,14 +115,14 @@ Concreet is de museum controller verantwoordelijk voor:
 * Schakelen van spanning van alle componenten, waar nodig na afkoeltijd of
   shutdown van apparaat.
 * Schakelen van het werklicht
-* Het activeren van de juiste inputs op monitoren en projectoren
+* Het triggeren van de juiste inputs op monitoren en projectoren
 
 Concreet zijn de show controllers in de betreffende tentoonstelling of
 experience verantwoordelijk voor het op tijd en in de juiste omstandigheden:
 
-* Activeren van lichtshows
+* Triggeren van lichtshows
 * Afspelen van audio- en video content
-* Activeren van animatronics
+* Triggeren van animatronics
 
 Deze verdeling van de verantwoordelijkheden betekent dat:
 
