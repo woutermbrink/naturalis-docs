@@ -61,7 +61,10 @@ De verhouding tussen *museum control* en *show control* is als volgt:
 * **Show controller**: Per tentoonstelling of experience is er één
   show controller die verantwoordelijk is voor het real time triggeren en
   controleren van video- en audiocontent, animatronics, interactives en (al dan
-  niet via een dedicated lichtcontroller) showlicht.
+  niet via een dedicated lichtcontroller) showlicht. Zoals uitgelegd in de
+  beschrijving van de [licht-]({{< relref "licht-controller.md" >}}) en [show
+  controller]({{< relref "show-controller.md" >}}) kan deze functie door één
+  apparaat worden vervuld.
 
 Met het startklaar zetten van de componenten door de museum controller wordt
 specifiek bedoeld dat het component klaar staat om opdrachten te ontvangen van
@@ -113,7 +116,7 @@ Concreet is de museum controller verantwoordelijk voor:
 * Monitoring van alle componenten
 * Aansturing relays voor het schakelen van stroom
 * Schakelen van spanning van alle componenten, waar nodig na afkoeltijd of
-  shutdown van apparaat.
+  shutdown van apparaat
 * Schakelen van het werklicht
 * Het triggeren van de juiste inputs op monitoren en projectoren
 
