@@ -28,6 +28,8 @@ hier](../design/showcontrol.md).
   het om een REST API met JSON response format.
 * Output control: show controller ondersteunt het aansturen van componenten
   d.m.v. HTTP, UDP en TCP.
+* Methoden: minimaal ondersteuning voor cue based en timeline shows, waar nodig
+  ook voor scripting op basis van if/else en variabelen.
 * Besturingssysteem: Linux of een all-in-one oplossing met embedded
   besturingssysteem.
 * Aanpasbaarheid: software voor aanpassen show wordt meegeleverd. Bij voorkeur
@@ -88,12 +90,42 @@ veel output protocollen is daarom gewenst.
 * [Telnet](https://en.wikipedia.org/wiki/Telnet)
 * [DMX](https://en.wikipedia.org/wiki/DMX512)
 * [sACN](https://en.wikipedia.org/wiki/Architecture_for_Control_Networks)
+* [MIDI](https://en.wikipedia.org/wiki/MIDI)
+* [GPIO](https://en.wikipedia.org/wiki/General-purpose_input/output)
 * Nog heel veel
 
 ### Keuze
 
 Show controllers ondersteunen minimaal het aansturen van componenten door middel
-van HTTP gebaseerde protocollen (waaronder REST API's), UDP en TCP.
+van:
+
+* HTTP gebaseerde protocollen (waaronder REST API's)
+* UDP
+* TCP
+* GPIO
+* Serial/RS-232
+* MIDI
+
+## Methoden
+
+Op het vlak van show controllers bestaan er diverse methoden om shows te kunnen
+programmeren.
+
+### Opties
+
+* Cue based shows (presets)
+* Timeline shows (sequences op tijdcode of iets dergelijks)
+* If then else, variabelen en andere scripting mogelijkheden
+* Een combinatie van een of meerdere bovenstaande
+
+### Keuze
+
+De ondersteunde methoden zijn grotendeels afhankelijk van de voor de betreffende
+show gewenste functionaliteit. Als minimum dienen show controllers timeline
+shows en cue based shows te ondersteunen. Waar alleen deze functionaliteit is
+vereist valt de functie van show controller idealiter samen met die van licht
+controller. Bij shows waar scripting functionaliteit is vereist wordt een aparte
+show controller ingezet.
 
 ## Besturingssysteem
 
