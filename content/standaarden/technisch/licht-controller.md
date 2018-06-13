@@ -2,6 +2,7 @@
 title: "Licht controller"
 date: 2018-05-23T14:33:04+02:00
 draft: false
+weight: 20
 ---
 
 Zoals beschreven in de documentatie ten aanzien van de [technische eisen voor
@@ -17,8 +18,8 @@ beschreven.
 ## Technische eisen
 
 * Protocol aansturing licht: minimaal ondersteuning voor DMX en sACN
-* Programmering: voorkeur voor controller die in staat zijn om lichtstanden te
-  importeren of op te nemen.
+* Programmering: voorkeur voor licht controllers die in staat zijn om
+  lichtstanden te importeren of op te nemen.
 
 {{%expand "Toelichting technische eisen" %}}
 
