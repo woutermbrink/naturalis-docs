@@ -12,6 +12,7 @@ Beeldschermen met een touchscreen.
 * Touchscreentechniek: is afhankelijk van toepassing zijn optische, capacitieve
   of surface acoustic wave touchscreens toegestaan.
 * Compatibiliteit met OS: zonder driver, Windows 10 en Linux 3.11 en hoger
+* Duurzaamheid: de hardware is geschikt voor intensief gebruik.
 
 {{%expand "Toelichting technische eisen" %}}
 
@@ -125,5 +126,15 @@ Om langdurige ondersteuning van de touchscreens te garanderen, het beheer te
 vergemakkelijken en het installeren van de monitors niet onnodig lang te laten
 duren, moeten touchscreen monitors zonder de aparte installatie van drivers
 werken op computers met Windows 10 of Linux 3.11 of hoger.
+
+### Duurzaamheid
+
+Touchscreens in musea worden zowel vanwege het aantal bezoekers als vanwege de
+lange openingstijden zeer intensief gebruikt.
+
+#### Keuze
+
+De in het museum toe te passen touchscreens dienen gemaakt te zijn voor zeer
+intensief gebruik.
 
 {{% /expand%}}
