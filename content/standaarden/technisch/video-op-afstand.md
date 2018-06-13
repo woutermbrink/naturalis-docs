@@ -5,10 +5,12 @@ draft: false
 ---
 
 Onze standaard voor video overdracht van een "player" naar een projector of
-monitor is HDMI. HDMI kabels hebben echter een maximum lengte van 15m. (Zie:
-[Wikipedia](https://en.wikipedia.org/wiki/HDMI#Cables)) Er zijn situaties
-waarbij het de voorkeur heeft of noodzakelijk is om de "player" te plaatsen op
-een locatie waarvoor een kabellengte van meer dan 15 meter nodig is. In deze
+monitor is HDMI. Standaard worden players dicht bij projectoren en monitoren
+aangebracht.
+
+In uitzonderlijke situaties kan het echter de voorkeur hebben of noodzakelijk
+zijn om de "player" te plaatsen op een locatie waarvoor een kabellengte van meer
+dan de maximaal door HDMI ondersteunde afstand van 15 meter nodig is. In deze
 gevallen moet er gebruikt gaan worden van een alternatief voor een HDMI kabel.
 Ter verduidelijking, het gaat hier over een alternatief voor de kabel en niet
 over HDMI als High-Definition Multimedia Interface.
