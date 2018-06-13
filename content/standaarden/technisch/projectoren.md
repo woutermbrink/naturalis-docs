@@ -16,8 +16,13 @@ beheerorganisatie tot een minimum beperken.
 * Type lamp: LED of Laser
 * Projectie techniek: DLP of LCoS, who cares?
 * Video in: HDMI 2.0 Premium High Speed of hoger (type A connector) / HDBaseT
-* Bediening: CEC over HDMI / CEC over UTP (HDBaseT) / PJLink over UTP
-* Verbinding (Ethernet): Ja in geval van HDBaseT en/of PJLink
+* Bediening: ondersteuning in volgorde van voorkeur:
+  1. CEC over HDMI
+  1. CEC over UTP (HDBaseT)
+  1. PJLink over UTP
+  1. UDP over UTP
+  1. RS232C
+* Verbinding (Ethernet): Ja, in geval van HDBaseT, PJLink en/of UDP
 * Formaat: standaardisatie waar mogelijk
 * Zoomvergroting en -regeling: gemotoriseerd
 * Scherpstelregeling: gemotoriseerd
@@ -174,6 +179,7 @@ hardware.
 * Infrarood
 * Mini D-Sub 9-pins
 * NMPJ (UTP)
+* UDP (UTP)
 
 #### Keuze
 
@@ -181,15 +187,20 @@ De klassieke afstandsbediening is niet geschikt omdat de infrarood poort in veel
 gevallen ook niet meer toegankelijk is, wanneer schermen naast elkaar hangen de
 bediening elkaar kan storen en het signaal niet beveiligd is.
 
-RS232C over koper, al dan niet via Mini D-Sub 9-pins of stereo jack heeft ook
-niet de voorkeur omdat de "player" in dat geval voorzien moet zijn van een Mini
-D-Sub 9-pins com-port of IR stereo uitgang.
-
 De standaard die we willen hanteren is Consumer Electronics Control (CEC). CEC
 is mogelijk over HDMI of UTP middels HDBaseT dat o.a. HDMI en CEC over UTP
 implementeert.
 
 Wanneer CEC geen optie is, kan er gebruik worden gemaakt van PJLink over UTP.
+
+Er zijn ook projectoren die geen van deze standaarden ondersteunen maar wel via
+het netwerk door middel van UDP kunnen worden aangestuurd. Hoewel niet ideaal
+kan dit in gevallen acceptabel zijn.
+
+Een laatste optie is RS232C over koper, al dan niet via Mini D-Sub 9-pins of
+stereo jack. Deze methode heeft als nadeel dat de "player" moet zijn voorzien
+van een Mini D-Sub 9-pins com-port of IR stereo uitgang. Tegelijkertijd is deze
+methode wel breed beschikbaar en kan dus in gevallen acceptabel zijn.
 
 Wij hanteren daarom de onderstaande volgorde van voorkeur betreffende de
 standaard:
@@ -197,6 +208,8 @@ standaard:
 1. CEC over HDMI
 1. CEC over UTP (HDBaseT)
 1. PJLink over UTP
+1. UDP over UTP
+1. RS232C
 
 ### Verbinding (Ethernet)
 
