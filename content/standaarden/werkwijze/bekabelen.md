@@ -12,6 +12,23 @@ van (met name interne) bekabeling in het museum. Dit bestaat uit de onderdelen:
 * Het gebruik van stekkerdozen
 * Meubel inrichting
 
+## Algemene eisen
+
+Ten aanzien van het gebruik van het gebruik van kabels gelden een aantal
+algemene eisen:
+
+* De toegepaste kabels dienen geschikt te zijn voor het doel waarvoor ze
+  gebruikt worden.
+* De toegepaste kabels dienen van deugdelijke kwaliteit te zijn.
+* Kabels die digitale of analoge signalen vervoeren en voedingskabels, of kabels
+  waartussen overspraak ongewenst is dienen bij montage gescheiden worden
+  gerouteerd.
+* Kabels in de tentoonstellingszalen dienen zo goed mogelijk te worden
+  weggewerkt.
+
+Voor specifieke eisen die worden gesteld aan kabels wordt verwezen naar de
+[technische standaaden]({{< relref "standaarden/technisch/_index.md" >}}).
+
 ## Aansluiting infra
 
 Bij het aansluiten van componenten op een WCD of een netwerk outlet moet het WCD
@@ -40,6 +57,7 @@ Elke tabel heeft drie kolommen:
 1. Naam component: De namen van de aangesloten componenten. Bijvoorbeeld:
    `stamboom-stk-01` of `stamboom-cmp-01`
 1. Status: Hier wordt aangegeven of de gegevens verwerkt zijn.
+
 
 ## Kabeldoorvoer
 
@@ -161,11 +179,4 @@ Voor zowel het binden als het bevestigen van kabels geldt het volgende:
   zonder de kabel te beschadigen.
 * Gebundelde overlengte van kabels mogen niet op de grond liggen, maar dienen op
   rol aan een haakje te hangen.
-
-### Plaatsing apparatuur
-
-* Apparatuur dient dusdanig in het meubel te worden bevestigd zodat deze
-  redelijkerwijs beschermd is tegen schade bij onderhoud en schoonmaak.
-* Het is niet toegestaan om (actieve) apparatuur te plaatsen onder de
-  computervloer.
 
