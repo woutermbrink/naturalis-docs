@@ -19,6 +19,8 @@ touchscreens, deze worden elders nader bepaald.
   1. UDP over UTP
   1. RS232C
 * Smart: Nee
+* Afscherming: beeldschermen die door bezoekers aangeraakt kunnen worden dienen
+  van een glasplaat zijn te voorzien.
 
 {{%expand "Toelichting technische eisen" %}}
 
@@ -157,4 +159,22 @@ overlaat, en dat security updates lang op zich laten wachten. De
 onderhoudbaarheid wordt daarnaast ook beperkt doordat de configuratie van Smart
 TV’s niet of lastig is te automatiseren.
 
+### Afscherming
+
+Met de komst van touchscreens gaan bezoekers van musea er vaak vanuit dat elk
+scherm dat ze zien ook een touchscreen is. Beeldschermen zonder touch zijn vaak
+niet berekend op het veelvuldig aanraken en kunnen daardoor beschadigd raken.
+
+#### Opties
+
+* Alle beeldschermen worden als touchscreen uitgevoerd.
+* Alle beeldschermen worden met een glasplaat uitgevoerd.
+* Alle beeldschermen die aangeraakt kunnen worden door bezoekers worden met een
+  glasplaat uitgevoerd.
+
+#### Keuze
+
+Vanwege kostenoverwegingen wordt als minimale eis gesteld dat alle beeldschermen
+die aangeraakt kunnen worden door bezoekers van een glasplaat moet zijn
+voorzien.
 {{% /expand%}}
