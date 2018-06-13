@@ -10,6 +10,9 @@ draft: false
 * Naturalis definieert structuur
 * Bestanden zijn importeerbaar
 
+De wijze van aanlevering van informatie over assets via een spreadsheet staat
+[in dit document]({{< relref "asset-informatie.md" >}}) opgesomd.
+
 {{% notice tip %}}
 Handig om snel kleine tabellen in Markdown te maken: [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables#)
 {{% /notice %}}
