@@ -9,7 +9,8 @@ Beeldschermen met een touchscreen.
 ## Technische eisen
 
 * Video input: HDMI 2.0 of hoger (type A connector)
-* Touchscreentechniek: voorkeur - optisch of capacitief
+* Touchscreentechniek: is afhankelijk van toepassing zijn optische, capacitieve
+  of surface acoustic wave touchscreens toegestaan.
 * Compatibiliteit met OS: zonder driver, Windows 10 en Linux 3.11 en hoger
 
 {{%expand "Toelichting technische eisen" %}}
@@ -97,15 +98,15 @@ methoden om aanraking en bewegingen te detecteren.
   worden als klikken. Verder is het mogelijk dat de camera’s ontsteld kunnen
   raken.
 
+* Surface acoustic wave
+
 #### Keuze
 
-Vanwege de onbelemmerde beeldkwaliteit en de lage kosten ten opzichte van de
-andere technieken heeft optisch onze voorkeur. Anderzijds zouden de nadelen van
-capacitief beperkt kunnen worden en is die optie ook een mogelijkheid.
-
-De nadelen van resistief, zoals het slijten van het oppervlak en dat het scherm
-ingedrukt moet worden, maken deze optie in vele gevallen ook ongeschikt voor het
-zware gebruik in ons museum.
+De keuze voor type touchscreen is grotendeels afhankelijk van de toepassing. Van
+de bovengenoemde typen zijn alleen resistieve niet toegestaan. De nadelen van
+resistief, zoals het slijten van het oppervlak en dat het scherm ingedrukt moet
+worden, maken deze optie in vele gevallen ook ongeschikt voor het zware gebruik
+in ons museum.
 
 ### Compatibiliteit met OS
 
