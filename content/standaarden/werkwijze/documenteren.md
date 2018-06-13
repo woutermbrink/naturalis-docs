@@ -1,8 +1,10 @@
 ---
-title: "Aanleveren asset informatie"
+title: "Documenteren"
 date: 2018-06-13T11:47:15+02:00
 draft: true
 ---
+
+## Aanleveren asset informatie
 
 Bij de aanlevering en registratie van asset informatie wordt de volgende
 werkwijze gehanteerd:
