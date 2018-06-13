@@ -7,6 +7,10 @@ draft: false
 Een speaker krijgt signaal van een bronapparaat en zorgt voor het produceren van
 geluid.
 
+De keuze voor type speakers is zeer afhankelijk van de toepassing, waarbij met
+name het beoogde volume van belang is. De onderstaande eisen vormen om die reden
+een algemene leidraad.
+
 ## Technische eisen
 
 * RMS vermogen: in verhouding met versterker

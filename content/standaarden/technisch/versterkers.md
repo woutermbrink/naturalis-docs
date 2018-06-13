@@ -10,6 +10,10 @@ passieve PA-speakers nodig hebben. In de tentoonstelling vervullen de
 versterkers deze rol tussen de bron (mediaplayers en mengtafels) en
 luidsprekers.
 
+De keuze voor het type versterker is zeer afhankelijk van de toepassing, waarbij
+met name het beoogde volume van belang is. De onderstaande eisen vormen om die
+reden een algemene leidraad.
+
 ## Technische eisen
 
 * Speaker kanalen: afhankelijk van content
