@@ -25,7 +25,7 @@ hier](../design/showcontrol.md).
 ## Technische eisen
 
 * Input control: de show controller is via HTTP aan te sturen. Bij voorkeur gaat
-  het een REST API met JSON response format.
+  het om een REST API met JSON response format.
 * Output control: show controller ondersteunt het aansturen van componenten
   d.m.v. HTTP, UDP en TCP.
 * Besturingssysteem: Linux of een all-in-one oplossing met embedded
@@ -36,7 +36,8 @@ hier](../design/showcontrol.md).
   voorkeur via het netwerk.
 * Formfactor: hardware gebouwt voor 24/7 operationaliteit en 19 inch
   rackmountable.
-* Updates: software en OS moeten met enige regelmaat geupdated kunnen worden.
+* Updates: software en OS moeten bij voorkeur van updates kunnen worden voorzien
+  met behoud van een werkende configuratie.
 
 {{%expand "Toelichting technische eisen" %}}
 
@@ -182,8 +183,14 @@ show controllers van belang.
 
 ### Keuze
 
-De software van de applicatie én het onderliggende besturingssysteem moet met
-enige regelmaat geupdated kunnen worden op een manier dat de configuratie van de
-show controller blijft werken.
+De op de markt beschikbare show controllers hanteren over het algemeen geen
+strikte update policies waarbij binnen een versie backward compatibility is
+gegarandeerd. Tevens wordt er geen onderscheid gemaakt tussen security updates
+en feature updates.
+
+Tegelijkertijd is het update van software om security redenen wel van belang.
+Het heeft daarom de (sterke) voorkeur dat de software van de show controller én
+het onderliggende besturingssysteem met enige regelmaat geupdated kunnen
+worden op een manier dat de configuratie van de show controller blijft werken.
 
 {{% /expand%}}
