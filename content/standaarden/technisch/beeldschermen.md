@@ -13,7 +13,11 @@ touchscreens, deze worden elders nader bepaald.
 
 * Merk: goed leverbaar & standaardisering waar mogelijk
 * Video-in: HDMI 2.0 of hoger (type A connector)
-* Bediening: CEC over HDMI / CEC over UTP (HDBaseT)
+* Bediening: ondersteuning in volgorde van voorkeur:
+  1. CEC over HDMI
+  1. CEC over UTP (HDBaseT)
+  1. UDP over UTP
+  1. RS232C
 * Smart: Nee
 
 {{%expand "Toelichting technische eisen" %}}
@@ -74,7 +78,7 @@ hardware.
 
 * RS232C over infrarood (klassieke afstandbediening)
 * RS232C (stereo jack)
-* RS232C(Mini D-Sub 9-pins)
+* RS232C (Mini D-Sub 9-pins)
 * CEC* over HDMI
 * CEC HDBaseT (UTP)
 
@@ -104,19 +108,26 @@ De klassieke afstandsbediening is niet geschikt omdat de infrarood poort in veel
 gevallen ook niet meer toegankelijk is, wanneer schermen naast elkaar hangen de
 bediening elkaar kan storen en het signaal niet beveiligd is.
 
-RS232C over koper, al dan niet via Mini D-Sub 9-pins of stereo jack heeft ook
-niet de voorkeur omdat de "player" in dat geval voorzien moet zijn van een Mini
-D-Sub 9-pins com-port of IR stereo uitgang.
-
 De standaard die we willen hanteren is Consumer Electronics Control (CEC). CEC
 is mogelijk over HDMI of UTP middels HDBaseT dat o.a. HDMI en CEC over UTP
 implementeert.
+
+Voor beeldschermen die geen CEC ondersteunen maar wel via het netwerk door
+middel van UDP kunnen worden aangestuurd. Hoewel niet ideaal
+kan dit in gevallen acceptabel zijn.
+
+Een laatste optie is RS232C over koper, al dan niet via Mini D-Sub 9-pins of
+stereo jack. Deze methode heeft als nadeel dat de "player" moet zijn voorzien
+van een Mini D-Sub 9-pins com-port of IR stereo uitgang. Tegelijkertijd is deze
+methode wel breed beschikbaar en kan dus in gevallen acceptabel zijn.
 
 Wij hanteren daarom de onderstaande volgorde van voorkeur betreffende de
 standaard:
 
 1. CEC over HDMI
 1. CEC over UTP (HDBaseT)
+1. UDP over UTP
+1. RS232C
 
 ### Smart
 
