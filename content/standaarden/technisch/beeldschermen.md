@@ -4,10 +4,10 @@ date: 2018-05-23T14:33:17+02:00
 draft: false
 ---
 
-Beeldschermen, ook wel monitoren genoemd, zijn er in vele soorten en maten voor
-verschillende doeleinden. De onderstaande eisen gelden voor alle type
-beeldschermen met uitzondering van de specifieke eisen de we stellen aan
-touchscreens, deze worden elders nader bepaald.
+Beeldschermen, ook wel monitoren genoemd, zijn er in vele soorten en maten en
+zijn er voor uiteenlopende doeleinden. De onderstaande eisen gelden voor alle typen
+beeldschermen met uitzondering van de specifieke eisen die Naturalis stelt aan
+[touchscreens]({{< relref "touchscreens.md" >}}).
 
 ## Technische eisen
 
