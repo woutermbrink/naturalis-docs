@@ -2,12 +2,63 @@
 title: "Documenteren"
 date: 2018-06-13T11:47:15+02:00
 draft: true
+weight: 10
 ---
 
-## Aanleveren asset informatie
+Om het museum na oplevering goed te kunnen beheren is degelijke documentatie van
+groot belang. Onder documentatie worden alle technische en functionele
+omschrijvingen van en informatie over de beheerde onderdelen in het museum
+verstaan.
 
-Bij de aanlevering en registratie van asset informatie wordt de volgende
-werkwijze gehanteerd:
+Bij het maken en aanleveren van documentatie zijn er een aantal partijen
+betrokken:
+
+* Het technische team van Naturalis
+* Externe leveranciers:
+  * De AV installateur
+  * De bouwers van de verschillende tentoonstellingen
+  * Leveranciers van content en software
+  * Leveranciers van licht
+  * Installateurs van licht
+
+Zoals in [dit document]({{< relref "documentatie-platform.md" >}}) is beschreven
+wordt gebruikt gemaakt van een web framework ([Hugo](http://gohugo.io)) voor het
+onderbrengen van de documentatie. De organisatie van de content in dit framework
+staat [hier beschreven]({{< relref "documentatie.md" >}}).
+
+De algemene verdeling van de verantwoordelijkheid bij het documenteren van het
+museum is als volgt:
+
+* Het technische team van Naturalis voert de redactie over de documentatie,
+  stelt standaarden en is vraagbaak. Tevens wordt documentatie die relevant is
+  voor de leveranciers door Naturalis (via deze site) ter beschikking gesteld.
+* Externe leveranciers leveren informatie aan op basis van de [documentatiestandaarden]({{< relref "standaarden/documentatie/_index.md" >}}).
+
+De werkwijze is daarbij afhankelijk van het type documentatie:
+
+* Tekeningen, schema's en andere bestanden worden door leveranciers op een door
+  Naturalis nader te specificeren wijze op Google Drive aangeleverd.
+* Tekstuele beschrijvingen en eenvoudige schema's worden direct op de door
+  Naturalis aan te wijze plaats op de site verwerkt.
+* Na het ontvangen van bijlagen of wijzigingen in de tekst zal Naturalis
+  redactie voeren en de informatie waar nodig op de goede plek zetten.
+
+## Aanleveren documentatie objecten
+
+De documentatie die door leveranciers wordt aangeleverd heeft in beginsel
+betrekking op één van de volgende [typen objecten]({{< relref
+"naamgeving.md#typen-objecten" >}}):
+
+* Groepen: tentoonstellingen of experiences
+* Functionele eenheden: interactives, exhibits etc.
+* Componenten: computers, beeldschermen etc.
+
+Voor al deze typen objecten wordt verwacht dat er documentatie wordt opgeleverd.
+
+## Aanleveren informatie over assets
+
+Bij de aanlevering en registratie van informatie over indivuele assets wordt
+de volgende werkwijze gehanteerd:
 
 1. Het technisch team van Naturalis levert een spreadsheet aan met voor elke
    soort component een tabblad met alle [relevante velden]({{< relref
@@ -26,3 +77,16 @@ werkwijze gehanteerd:
 1. De AV installateur vult ten slotte de documentatiepagina van elk type
    component conform de [standaard component documentatie]({{< relref
    "component.md" >}}) aan.
+
+## Aanleveren informatie over outlets en WCD's
+
+Het technisch team levert voor elke tentoonstelling een spreadsheet aan. Elke
+spreadsheet heeft twee tabbladen, één voor outlets en één voor WCD's.
+
+Elke tabel heeft drie kolommen:
+
+1. Naam WCD/outlet: De namen van alle WCD's en outlet's in een tentoonstelling (zaal).
+1. Naam component: De namen van de aangesloten componenten. Bijvoorbeeld:
+   `stamboom-stk-01` of `stamboom-cmp-01`
+1. Status: Hier wordt aangegeven of de gegevens verwerkt zijn.
+
