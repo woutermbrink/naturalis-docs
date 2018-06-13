@@ -10,7 +10,7 @@ informatie nodig ten behoeve van het configuratie management (waaronder het
 configureren van toegang tot het netwerk), de administratieve registratie
 (asset management) en het genereren van documentatie pagina's op component
 niveau. De werkwijze bij aanlevering staat [in dit document]({{< relref
-"aanleveren-asset-informatie.md" >}}) toegelicht.
+"documenteren.md#aanleveren-asset-informatie" >}}) toegelicht.
 
 ## Variabelen
 
