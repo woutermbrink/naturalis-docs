@@ -4,17 +4,16 @@ date: 2018-05-23T14:33:55+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
-Speakerkabels, niet te verwarren met audiokabels, geven het signaal uit de
-versterker door aan de speaker (ofwel luidspreker). De lengte van deze kabels
-kan enorm variëren.
+Speakerkabels, niet te verwarren met [audiokabels]({{< relref
+"audiokabels.md">}}), geven het signaal uit de versterker door aan de speaker
+(ofwel luidspreker). De lengte van deze kabels kan enorm variëren.
 
 ## Technische eisen
 
 * Kabeldiameter: afhankelijk van lengte en vermogen.
-
 * Type connector: banaanstekker, spades, of speakon.
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -91,3 +90,5 @@ zijn niet toegestaan, omdat deze bij vervanging in de war kunnen komen met de
 XLR audio kabels die veel dunner zijn. Ook belangrijk is dat de speaker
 aansluitingen overeenkomen met de ingangen van de speakers, zodat er geen
 verloopstekkers tussen hoeven.
+
+{{% /expand%}}

@@ -4,11 +4,9 @@ date: 2018-05-23T14:33:41+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
-Projectoren ook wel beamers genoemd komen in het nieuwe museum veelvuldig voor.
-Ook zijn er naar verwachting verschillende modellen nodig al willen we dat
-vanuit de beheerorganisatie tot een minimum beperken.
+Projectoren (of beamers) komen in het nieuwe museum veelvuldig voor. Ook zijn er
+naar verwachting verschillende modellen nodig al willen we dat vanuit de
+beheerorganisatie tot een minimum beperken.
 
 ## Technische eisen
 
@@ -24,6 +22,8 @@ vanuit de beheerorganisatie tot een minimum beperken.
 * Zoomvergroting en -regeling: gemotoriseerd
 * Scherpstelregeling: gemotoriseerd
 * Objectiefverschuiving: gemotoriseerd
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -241,3 +241,5 @@ Gemotoriseerd
 #### Keuze
 
 Gemotoriseerd
+
+{{% /expand%}}

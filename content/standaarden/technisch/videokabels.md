@@ -4,23 +4,16 @@ date: 2018-05-23T14:34:46+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
-Op basis van de technische eisen Monitoren en Projectoren gaan we uit van een
-HDMI kabel.
-
-> "HDMI (High-Definition Multimedia Interface) is a proprietary audio/video
-> interface for transmitting uncompressed video data and compressed or
-> uncompressed digital audio data from an HDMI-compliant source device, such as
-> a display controller, to a compatible computer monitor, video projector,
-> digital television, or digital audio device. HDMI is a digital replacement for
-> analog video standards."
-
-Source: [Wikipedia](https://en.wikipedia.org/wiki/HDMI)
+Met videokabels worden de kabels bedoeld waarmee afspeelbronnen van videocontent
+(bijv. een computer of mediaplayer) wordt verbonden met beeldschermen en
+projectoren.
 
 ## Technische eisen
 
-HDMI 2.0 Premium High Speed HDMI Cable met Ethernet en type A connector.
+* Kabeltype: HDMI 2.0 Premium High Speed HDMI
+* Connector: type A
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -203,3 +196,5 @@ We kiezen in dit geval de meest voorkomende connector:
 > is electrically compatible with single-link DVI-D."
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/HDMI#Connectors)
+
+{{% /expand%}}

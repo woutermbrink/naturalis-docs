@@ -4,8 +4,6 @@ date: 2018-05-23T14:33:46+02:00
 draft: false
 ---
 
-## Omschrijving
-
 Per tentoonstelling of experience is er één show controller. De show controller
 is verantwoordelijk voor het op tijd, in de juiste volgorde en de juiste
 omstandigheden activeren van geluid, licht, en andere AV-onderdelen.
@@ -26,14 +24,21 @@ hier](../design/showcontrol.md).
 
 ## Technische eisen
 
-1. [Input control](#input-control)
-1. [Output control](#output-control)
-1. [Besturingssysteem](#besturingssysteem)
-1. [Poorten](#poorten)
-1. [Aanpasbaarheid](#aanpasbaarheid)
-1. [Backup](#backup)
-1. [Formfactor](#formfactor)
-1. [Updates](#updates)
+* Input control: de show controller is via HTTP aan te sturen. Bij voorkeur gaat
+  het een REST API met JSON response format.
+* Output control: show controller ondersteunt het aansturen van componenten
+  d.m.v. HTTP, UDP en TCP.
+* Besturingssysteem: Linux of een all-in-one oplossing met embedded
+  besturingssysteem.
+* Aanpasbaarheid: software voor aanpassen show wordt meegeleverd. Bij voorkeur
+  configuratie via web interface.
+* Backup: alle instellingen moeten via een backup gerestored kunnen worden, bij
+  voorkeur via het netwerk.
+* Formfactor: hardware gebouwt voor 24/7 operationaliteit en 19 inch
+  rackmountable.
+* Updates: software en OS moeten met enige regelmaat geupdated kunnen worden.
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Input control
 
@@ -180,3 +185,5 @@ show controllers van belang.
 De software van de applicatie én het onderliggende besturingssysteem moet met
 enige regelmaat geupdated kunnen worden op een manier dat de configuratie van de
 show controller blijft werken.
+
+{{% /expand%}}

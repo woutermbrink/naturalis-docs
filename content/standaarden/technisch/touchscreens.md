@@ -4,15 +4,15 @@ date: 2018-05-23T14:34:33+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
-Monitoren met een touchscreen.
+Beeldschermen met een touchscreen.
 
 ## Technische eisen
 
 * Video input: HDMI 2.0 of hoger (type A connector)
 * Touchscreentechniek: voorkeur - optisch of capacitief
 * Compatibiliteit met OS: zonder driver, Windows 10 en Linux 3.11 en hoger
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -124,3 +124,5 @@ Om langdurige ondersteuning van de touchscreens te garanderen, het beheer te
 vergemakkelijken en het installeren van de monitors niet onnodig lang te laten
 duren, moeten touchscreen monitors zonder de aparte installatie van drivers
 werken op computers met Windows 10 of Linux 3.11 of hoger.
+
+{{% /expand%}}

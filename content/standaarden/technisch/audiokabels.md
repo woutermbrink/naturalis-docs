@@ -4,17 +4,16 @@ date: 2018-05-23T14:32:11+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
 Audiokabels, niet te verwarren met speakerkabel, geven het signaal van de bron
 (mediaplayer of mengtafel) door aan de versterker. De lengte van deze kabels is
 volledig afhankelijk van de afstand tussen het bronapparaat en de versterker.
 
 ## Technische eisen
 
-* Type signaal: voorkeur - digitaal
-
+* Type signaal: voorkeur gaat uit naar digitaal
 * Type connector: Toslink, USB, RCA, XLR, TRS Jackplug 6,3mm
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -120,3 +119,5 @@ gebruikt wordt.
 
 Bij een mengtafel is vooral het gebalanceerde signaal gewenst, dus zijn enkel de
 XLR of TRS Jackplug 6,3mm toegestaan.
+
+{{% /expand%}}

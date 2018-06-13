@@ -4,8 +4,6 @@ date: 2018-05-23T14:33:04+02:00
 draft: false
 ---
 
-## Omschrijving
-
 Zoals beschreven in de documentatie ten aanzien van de [technische eisen voor
 show controllers](show-controller.md) is er per tentoonstelling of experience
 altijd één licht controller. In tentoonstellingen met weinig technische
@@ -18,8 +16,11 @@ beschreven.
 
 ## Technische eisen
 
-1. [Protocol aansturing licht](#protocol-aansturing-licht)
-1. [Programmering](#programmering)
+* Protocol aansturing licht: minimaal ondersteuning voor DMX en sACN
+* Programmering: voorkeur voor controller die in staat zijn om lichtstanden te
+  importeren of op te nemen.
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Protocol aansturing licht
 
@@ -72,3 +73,5 @@ onafhankelijkheid.
 
 Voorwaarde is hierbij wel dat de opgenomen lichtstanden relatief eenvoudig op
 detail kunnen worden bijgesteld.
+
+{{% /expand%}}

@@ -4,8 +4,6 @@ date: 2018-05-23T14:34:51+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
 Onze standaard voor video overdracht van een "player" naar een projector of
 monitor is HDMI. HDMI kabels hebben echter een maximum lengte van 15m. (Zie:
 [Wikipedia](https://en.wikipedia.org/wiki/HDMI#Cables)) Er zijn situaties
@@ -21,6 +19,8 @@ over HDMI als High-Definition Multimedia Interface.
 * Extender hardware: aparte hardware met HDMI 2.0 (type A) ingang en rackmountable
 * Receiver hardware: *native* ondersteuning op projectoren
 * Control signal: minimaal CEC compliant
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -186,3 +186,5 @@ CEC als standaard geldt voor reguliere videokabel hanteren we dit ook als
 uitgangspunt bij video op afstand.
 
 Alle HDBaseT apparatuur is CEC compliant.
+
+{{% /expand%}}

@@ -4,8 +4,6 @@ date: 2018-05-23T14:33:17+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
 Beeldschermen, ook wel monitoren genoemd, zijn er in vele soorten en maten voor
 verschillende doeleinden. De onderstaande eisen gelden voor alle type
 beeldschermen met uitzondering van de specifieke eisen de we stellen aan
@@ -17,6 +15,8 @@ touchscreens, deze worden elders nader bepaald.
 * Video-in: HDMI 2.0 of hoger (type A connector)
 * Bediening: CEC over HDMI / CEC over UTP (HDBaseT)
 * Smart: Nee
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -145,3 +145,5 @@ praktijk uit dat de veiligheid van de software van Smart TV’s te wensen
 overlaat, en dat security updates lang op zich laten wachten. De
 onderhoudbaarheid wordt daarnaast ook beperkt doordat de configuratie van Smart
 TV’s niet of lastig is te automatiseren.
+
+{{% /expand%}}

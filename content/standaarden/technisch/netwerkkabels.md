@@ -4,26 +4,21 @@ date: 2018-05-23T14:33:29+02:00
 draft: false
 ---
 
-## Omschrijving
-
-Deze technische eisen gaat over de netwerkkabel die tussen (data)outlets en
-devices met een netwerkinterface komt te lopen. Hierbij valt te denken aan
-interactives, beamers, show controllers, bezoekers-tellers, kassa’s, telefoons,
-etc.
+Deze technische eisen hebben betrekking op de netwerkkabel die tussen
+(data)outlets en devices met een netwerkinterface komt te lopen. Hierbij valt te
+denken aan interactives, beamers, show controllers, bezoekers-tellers, kassa’s,
+telefoons, etc.
 
 ## Technische eisen
 
 * Afscherming: S/FTP
-
 * Dikte aders: AWG 23 of AWG 24
-
 * Materiaal van kern: Massieve kern, 100% koper
-
 * Categorie snelheid: Cat 6a
-
 * Mantel: Halogeenvrij
-
 * Connector: Snagless
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -202,3 +197,5 @@ plekken.
 
 Snagless. Door te werken met snagless connectors, zit er geen plastic lipje in
 de weg bij het monteren/demonteren van devices.
+
+{{% /expand%}}

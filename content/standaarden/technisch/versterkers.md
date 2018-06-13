@@ -4,8 +4,6 @@ date: 2018-05-23T14:34:37+02:00
 draft: false
 ---
 
-## Omschrijving type apparaat
-
 Versterkers produceren zelf geen geluid, maar versterken het signaal voor je
 luidsprekers. Ze moeten voortdurend het vermogen leveren dat bijvoorbeeld je
 passieve PA-speakers nodig hebben. In de tentoonstelling vervullen de
@@ -14,15 +12,17 @@ luidsprekers.
 
 ## Technische eisen
 
-* Versterkerklassen - voorkeur: klasse D
-* Speaker kanalen - afhankelijk van content
-* RMS vermogen - in verhouding met speakers
-* Broningangen - players: Toslink/USB/RCA, mengtafel: XLR/TRS Jackplug 6,3mm
-* Speakeraansluitingen - banaanstekker, spades, of speakon
-* Signaal-ruisverhouding - minimaal 60dB
-* Impedantie - minimaal 4 Ohm
-* Beveiligingen - kortsluiting en thermisch
-* Plaatsing - niet op de grond
+* Versterkerklassen: voorkeur: klasse D
+* Speaker kanalen: afhankelijk van content
+* RMS vermogen: in verhouding met speakers
+* Broningangen: players - Toslink/USB/RCA, mengtafel - XLR/TRS Jackplug 6,3mm
+* Speakeraansluitingen: banaanstekker, spades, of speakon
+* Signaal-ruisverhouding: minimaal 60dB
+* Impedantie: minimaal 4 Ohm
+* Beveiligingen: kortsluiting en thermisch
+* Plaatsing: niet op de grond
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -529,3 +529,5 @@ teveel stof op te zuigen.
 De versterker (hoe klein dan ook) mag niet op de grond liggen. Bij voorkeur
 zitten de grotere versterkers gemonteerd in een 19 inch rack en zijn de kleinere
 op een demontabele manier opgehangen.
+
+{{% /expand%}}

@@ -4,16 +4,16 @@ date: 2018-05-23T14:34:13+02:00
 draft: false
 ---
 
-## Omschrijving type component
-
 Een speaker krijgt signaal van een bronapparaat en zorgt voor het produceren van
 geluid.
 
 ## Technische eisen
 
-* RMS vermogen - in verhouding met versterker
-* Type connector - banaanstekker, spades, of speakon
-* Actief of passief - passief
+* RMS vermogen: in verhouding met versterker
+* Type connector: banaanstekker, spades, of speakon
+* Actief of passief: passief
+
+{{%expand "Toelichting technische eisen" %}}
 
 ## Toelichting technische eisen
 
@@ -96,3 +96,5 @@ Actief óf passief.
 
 Voor beheer- en vervangbaarheid is het niet toegestaan actieve speakers in te
 zetten.
+
+{{% /expand%}}
