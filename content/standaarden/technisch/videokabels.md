@@ -10,7 +10,8 @@ projectoren.
 
 ## Technische eisen
 
-* Kabeltype: HDMI 2.0 Premium High Speed HDMI
+* Kabeltype: HDMI 2.0 Premium High Speed HDMI, waar nodig met ondersteuning voor
+  Ethernet.
 * Connector: type A
 
 {{%expand "Toelichting technische eisen" %}}
