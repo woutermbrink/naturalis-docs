@@ -12,7 +12,6 @@ luidsprekers.
 
 ## Technische eisen
 
-* Versterkerklassen: voorkeur: klasse D
 * Speaker kanalen: afhankelijk van content
 * RMS vermogen: in verhouding met speakers
 * Broningangen: players - Toslink/USB/RCA, mengtafel - XLR/TRS Jackplug 6,3mm
@@ -21,6 +20,7 @@ luidsprekers.
 * Impedantie: minimaal 4 Ohm
 * Beveiligingen: kortsluiting en thermisch
 * Plaatsing: niet op de grond
+* Versterkerklassen: niet bepalend (met lichte voorkeur voor klasse D)
 
 {{%expand "Toelichting technische eisen" %}}
 
@@ -28,190 +28,6 @@ luidsprekers.
 
 Hieronder worden de technische eisen toegelicht.
 
-### Versterkerklassen
-
-[Versterkerklassen](https://www.hifi.nl/artikel/1860/Versterkerklassen.html)
-
-[College versterkers klassen](https://www.popschoolmaastricht.nl/college_versterkers_klassen.php)
-
-[hififreaks.nl](http://www.hififreaks.nl/index.php?topic=2404.0)
-
-In welke klasse een eindversterker wordt ingedeeld (amplifier class) wordt
-bepaald door de constructie van de uitgangstrap ervan. De classificatie is
-gebaseerd op het deel van de tijd dat de uitgangscomponenten (buizen of
-transistors) actief zijn gedurende een volledige cyclus (van 0 naar + naar 0
-naar - en weer naar 0) van het signaal. Ook wel in termen van bias (=ruststroom,
-het stroomverbruik zonder signaal). We gaan bij deze bespreking uit van
-zogenaamde balanseindtrappen, daarbij hebben de positieve en de negatieve
-signaalhelft ieder hun eigen versterkingscomponent (buis of transistor). Vrijwel
-alle audio vermogensversterkers hebben deze constructie.
-
-#### Opties
-
-<table>
-  <tr>
-    <td></td>
-    <td>Toepassing</td>
-    <td>Stroomverbruik</td>
-    <td>Rendement</td>
-    <td>Vervorming</td>
-  </tr>
-  <tr>
-    <td>A</td>
-    <td>kleine vermogens (0-50W)</td>
-    <td>hoog</td>
-    <td>laag</td>
-    <td>laag</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>batterij-gevoede apparaten</td>
-    <td>laag</td>
-    <td>hoog</td>
-    <td>middelmatig</td>
-  </tr>
-  <tr>
-    <td>AB</td>
-    <td>allerlei</td>
-    <td>middelmatig</td>
-    <td>middelmatig</td>
-    <td>middelmatig</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>allerlei</td>
-    <td>laag</td>
-    <td>hoog</td>
-    <td>laag</td>
-  </tr>
-  <tr>
-    <td>G</td>
-    <td>actieve P.A. boxen/monitors</td>
-    <td>variabel</td>
-    <td>middelhoog</td>
-    <td>middelmatig</td>
-  </tr>
-  <tr>
-    <td>H</td>
-    <td>"</td>
-    <td>variabel</td>
-    <td>middelhoog</td>
-    <td>laag</td>
-  </tr>
-  <tr>
-    <td>T</td>
-    <td>allerlei</td>
-    <td>laag</td>
-    <td>zeer hoog</td>
-    <td>laag</td>
-  </tr>
-</table>
-
-* Klasse A
-
-  In een klasse A eindtrap geleiden beide versterkerhelften continu gedurende de
-  hele signaal cyclus. Er loopt dus een constante ruststroom. Beide
-  uitgangscomponenten zijn dus continu ingeschakeld, geleidend. Dit leidt
-  uiteraard tot een hoog stroomverbruik en een laag rendement, van rond de 20%.
-  Klasse A versterkers zijn dus ook vaak groot, zwaar en worden erg warm.
-  Positieve eigenschap is de lage vervorming. Ze worden vooral gebruikt voor
-  relatief kleine vermogens (tot enkele tientallen Watts) en voor HiFi koptelefoon
-  versterkers en dergelijke.
-
-* Klasse B
-
-  Tegenovergestelde van klasse A. Er is altijd maar één van de uitgangscomponenten
-  (buizen of transistors) geleidend, afhankelijk van de polariteit van het audio
-  signaal, nooit beide tegelijk. De ruststroom is zó ingesteld dat altijd maar één
-  helft van de uitgangstrap geleidend is. Elke helft verwerkt dus maar één helft
-  van de signaalcyclus. Resultaat is een hoog rendement, maar meer vervorming rond
-  het cross-overpunt (waar de ene helft stopt met geleiden en de andere helft
-  begint met geleiden). Pure klasse B ontwerpen worden daarom alleen gebruikt in
-  bijvoorbeeld batterij-gevoede apparaten, waar stroomverbruik een kritische
-  factor is (walkie talkie, draagbare radio). Rendement is rond de 75%.
-
-  ![Blokschema van een klasse B versterker](/images/versterker-klasseb-blokschema.png)
-
-* Klasse AB
-
-  In een klasse AB eindtrap zijn beide uitgangscomponenten tegelijk ingeschakeld
-  op het cross-overpunt, dus niet gedurende de hele cyclus zoals bij klasse A. De
-  ruststroom is wat hoger dan bij klasse B, maar lager dan bij klasse A. Zodoende
-  zijn de helften niet om de beurt uitgeschakeld, maar steeds voldoende in
-  geleiding om een versterking zonder cross-over vervorming mogelijk te maken.
-  Rendement is rond de 50%. Dit is het meest populaire audioversterker
-  ontwerp.
-
-  Klasse AB plus B bevat twee paren uitgangscomponenten: een paar werkt in AB
-  instelling en een in klasse B voor meer rendement.
-
-* Klasse C
-
-  Deze klasse versterkers wordt alleen in de hoogfrequent techniek gebruikt, niet
-  in audio.
-
-* Klasse D
-
-  Klasse D versterkers, ook wel digitale versterkers genoemd, zijn schakelende
-  versterkers (switching amplifiers). De uitgang wordt snel in en uitgeschakeld
-  via pulsbreedtemodulatie (Pulse Width Modulation, PWM), tenminste enkele malen
-  per cyclus. Aangezien de uitgang of compleet aan staat, of compleet uit, wordt
-  er in theorie geen vermogen verspild. Omdat er helaas geen verliesvrije en
-  oneindig snelle schakelaars bestaan, is er toch altijd wel wat verlies.
-  Rendement ligt rond de 90% en hoger. Tegenwoordig kunnen zeer goed klinkende
-  klasse D versterker worden gebouwd. Je vindt ze oa. in hoog vermogen
-  autoradio-versterkers, P.A. eindtrappen, basgitaarversterkers ed. Als ook in de
-  voeding van de versterker gebruik wordt gemaakt van een switching power supply
-  (schakelende voeding) kan de versterker erg licht gebouwd worden omdat er geen
-  zware transformatoren nodig zijn zoals bij klassieke ontwerpen. Ook de
-  warmteproductie is laag, waardoor minder zware koellichamen en ventilators nodig
-  zijn. Rendement kan 85-90% zijn.
-
-  ![image alt text](/images/versterker-klassed-blokschema.png)
-
-* Subklasse T
-
-  Deze versterkers maken gebruik van een TDA7492 schakelende chip. Zo'n chip laat
-  de voeding miljoenen malen per seconden schakelen. Het vermogen wordt vrij
-  direct doorgegeven aan de luidsprekers. Dit is een zeer efficiënt proces,
-  waarbij bijna 90% van de energie ook daadwerkelijk overgebracht wordt naar de
-  luidsprekers.
-
-* Klasse G
-
-  Bij een klasse G versterker wordt de voedingsspanning verhoogd of verlaagd naar
-  gelang de gevraagde uitgangsspanning. Hiervoor zijn verschillende technieken in
-  gebruik:
-
-  * Een klasse AB eindtrap die met een voedingsspanning is verbonden
-  dmv. een schakelende diode of transistor. Het ontwerp is dan zó gemaakt, dat
-  bij een laag signaal de eindtrap is verbonden met een lagere voedingsspanning.
-  Als het signaal groter wordt, wordt die automatisch met een hogere
-  voedingsspanning verbonden.
-
-  * Twee klasse AB eindtrappen, elk verbonden met een verschillende
-  voedingsspanning. De signaalsterkte bepaalt naar welk van de twee eindtrappen
-  het signaal gaat.
-
-  Het gebruik van twee voedingsspanningen verbetert het rendement, zodat de
-  versterker lichter en kleiner kan zijn dan normaal. Klasse G vind je steeds
-  vaker in professionele audio, actieve P.A. boxen, actieve monitors ed. Het
-  rendement van een klasse G versterker ligt tussen dat van een klasse AB en een
-  klasse D in.
-
-* Klasse H
-
-  Klasse H gaat nog een stap verder dan klasse G: hier wordt de hogere
-  voedingsspanning gemoduleerd door het ingangssignaal. Hierdoor volgt de
-  voedingsspanning het ingangssignaal en zorgt zo voor een optimale werking van de
-  eindtrap. Rendement is ongeveer zoals bij klasse G.
-
-#### Keuze
-
-Voorkeur gaat uit naar Klasse D. Vooral door het hoge rendement en lage
-stroomverbruik en warmteontwikkeling in vergelijking met de concurrentie. De
-subklasse T verdient een extra vermelding, omdat de TDA7492 chip zorgt voor een
-nóg hoger rendement.
 
 ### Speaker kanalen
 
@@ -432,8 +248,10 @@ geschakeld zijn, hebben deze maar een weerstand van 2 Ohm.
 
 #### Keuze
 
-Om overhitting te voorkomen moet 4 ohm mogelijk zijn en parallel schakelen
-vermeden worden.
+De impedantie is vooral belangrijk bij grotere versterkers. Voor deze geldt dat,
+bij toepassing van 4 Ohm speakers, de versterker geschikt is voor dit
+weerstandsniveau. Om overhitting te voorkomen dient in deze gevallen parallel
+schakelen eveneens vermeden te worden.
 
 ### Beveiliging
 
@@ -529,5 +347,193 @@ teveel stof op te zuigen.
 De versterker (hoe klein dan ook) mag niet op de grond liggen. Bij voorkeur
 zitten de grotere versterkers gemonteerd in een 19 inch rack en zijn de kleinere
 op een demontabele manier opgehangen.
+
+### Versterkerklassen
+
+[Versterkerklassen](https://www.hifi.nl/artikel/1860/Versterkerklassen.html)
+
+[College versterkers klassen](https://www.popschoolmaastricht.nl/college_versterkers_klassen.php)
+
+[hififreaks.nl](http://www.hififreaks.nl/index.php?topic=2404.0)
+
+In welke klasse een eindversterker wordt ingedeeld (amplifier class) wordt
+bepaald door de constructie van de uitgangstrap ervan. De classificatie is
+gebaseerd op het deel van de tijd dat de uitgangscomponenten (buizen of
+transistors) actief zijn gedurende een volledige cyclus (van 0 naar + naar 0
+naar - en weer naar 0) van het signaal. Ook wel in termen van bias (=ruststroom,
+het stroomverbruik zonder signaal). We gaan bij deze bespreking uit van
+zogenaamde balanseindtrappen, daarbij hebben de positieve en de negatieve
+signaalhelft ieder hun eigen versterkingscomponent (buis of transistor). Vrijwel
+alle audio vermogensversterkers hebben deze constructie.
+
+#### Opties
+
+<table>
+  <tr>
+    <td></td>
+    <td>Toepassing</td>
+    <td>Stroomverbruik</td>
+    <td>Rendement</td>
+    <td>Vervorming</td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>kleine vermogens (0-50W)</td>
+    <td>hoog</td>
+    <td>laag</td>
+    <td>laag</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>batterij-gevoede apparaten</td>
+    <td>laag</td>
+    <td>hoog</td>
+    <td>middelmatig</td>
+  </tr>
+  <tr>
+    <td>AB</td>
+    <td>allerlei</td>
+    <td>middelmatig</td>
+    <td>middelmatig</td>
+    <td>middelmatig</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>allerlei</td>
+    <td>laag</td>
+    <td>hoog</td>
+    <td>laag</td>
+  </tr>
+  <tr>
+    <td>G</td>
+    <td>actieve P.A. boxen/monitors</td>
+    <td>variabel</td>
+    <td>middelhoog</td>
+    <td>middelmatig</td>
+  </tr>
+  <tr>
+    <td>H</td>
+    <td>"</td>
+    <td>variabel</td>
+    <td>middelhoog</td>
+    <td>laag</td>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>allerlei</td>
+    <td>laag</td>
+    <td>zeer hoog</td>
+    <td>laag</td>
+  </tr>
+</table>
+
+* Klasse A
+
+  In een klasse A eindtrap geleiden beide versterkerhelften continu gedurende de
+  hele signaal cyclus. Er loopt dus een constante ruststroom. Beide
+  uitgangscomponenten zijn dus continu ingeschakeld, geleidend. Dit leidt
+  uiteraard tot een hoog stroomverbruik en een laag rendement, van rond de 20%.
+  Klasse A versterkers zijn dus ook vaak groot, zwaar en worden erg warm.
+  Positieve eigenschap is de lage vervorming. Ze worden vooral gebruikt voor
+  relatief kleine vermogens (tot enkele tientallen Watts) en voor HiFi koptelefoon
+  versterkers en dergelijke.
+
+* Klasse B
+
+  Tegenovergestelde van klasse A. Er is altijd maar één van de uitgangscomponenten
+  (buizen of transistors) geleidend, afhankelijk van de polariteit van het audio
+  signaal, nooit beide tegelijk. De ruststroom is zó ingesteld dat altijd maar één
+  helft van de uitgangstrap geleidend is. Elke helft verwerkt dus maar één helft
+  van de signaalcyclus. Resultaat is een hoog rendement, maar meer vervorming rond
+  het cross-overpunt (waar de ene helft stopt met geleiden en de andere helft
+  begint met geleiden). Pure klasse B ontwerpen worden daarom alleen gebruikt in
+  bijvoorbeeld batterij-gevoede apparaten, waar stroomverbruik een kritische
+  factor is (walkie talkie, draagbare radio). Rendement is rond de 75%.
+
+  ![Blokschema van een klasse B versterker](/images/versterker-klasseb-blokschema.png)
+
+* Klasse AB
+
+  In een klasse AB eindtrap zijn beide uitgangscomponenten tegelijk ingeschakeld
+  op het cross-overpunt, dus niet gedurende de hele cyclus zoals bij klasse A. De
+  ruststroom is wat hoger dan bij klasse B, maar lager dan bij klasse A. Zodoende
+  zijn de helften niet om de beurt uitgeschakeld, maar steeds voldoende in
+  geleiding om een versterking zonder cross-over vervorming mogelijk te maken.
+  Rendement is rond de 50%. Dit is het meest populaire audioversterker
+  ontwerp.
+
+  Klasse AB plus B bevat twee paren uitgangscomponenten: een paar werkt in AB
+  instelling en een in klasse B voor meer rendement.
+
+* Klasse C
+
+  Deze klasse versterkers wordt alleen in de hoogfrequent techniek gebruikt, niet
+  in audio.
+
+* Klasse D
+
+  Klasse D versterkers, ook wel digitale versterkers genoemd, zijn schakelende
+  versterkers (switching amplifiers). De uitgang wordt snel in en uitgeschakeld
+  via pulsbreedtemodulatie (Pulse Width Modulation, PWM), tenminste enkele malen
+  per cyclus. Aangezien de uitgang of compleet aan staat, of compleet uit, wordt
+  er in theorie geen vermogen verspild. Omdat er helaas geen verliesvrije en
+  oneindig snelle schakelaars bestaan, is er toch altijd wel wat verlies.
+  Rendement ligt rond de 90% en hoger. Tegenwoordig kunnen zeer goed klinkende
+  klasse D versterker worden gebouwd. Je vindt ze oa. in hoog vermogen
+  autoradio-versterkers, P.A. eindtrappen, basgitaarversterkers ed. Als ook in de
+  voeding van de versterker gebruik wordt gemaakt van een switching power supply
+  (schakelende voeding) kan de versterker erg licht gebouwd worden omdat er geen
+  zware transformatoren nodig zijn zoals bij klassieke ontwerpen. Ook de
+  warmteproductie is laag, waardoor minder zware koellichamen en ventilators nodig
+  zijn. Rendement kan 85-90% zijn.
+
+  ![image alt text](/images/versterker-klassed-blokschema.png)
+
+* Subklasse T
+
+  Deze versterkers maken gebruik van een TDA7492 schakelende chip. Zo'n chip laat
+  de voeding miljoenen malen per seconden schakelen. Het vermogen wordt vrij
+  direct doorgegeven aan de luidsprekers. Dit is een zeer efficiënt proces,
+  waarbij bijna 90% van de energie ook daadwerkelijk overgebracht wordt naar de
+  luidsprekers.
+
+* Klasse G
+
+  Bij een klasse G versterker wordt de voedingsspanning verhoogd of verlaagd naar
+  gelang de gevraagde uitgangsspanning. Hiervoor zijn verschillende technieken in
+  gebruik:
+
+  * Een klasse AB eindtrap die met een voedingsspanning is verbonden
+  dmv. een schakelende diode of transistor. Het ontwerp is dan zó gemaakt, dat
+  bij een laag signaal de eindtrap is verbonden met een lagere voedingsspanning.
+  Als het signaal groter wordt, wordt die automatisch met een hogere
+  voedingsspanning verbonden.
+
+  * Twee klasse AB eindtrappen, elk verbonden met een verschillende
+  voedingsspanning. De signaalsterkte bepaalt naar welk van de twee eindtrappen
+  het signaal gaat.
+
+  Het gebruik van twee voedingsspanningen verbetert het rendement, zodat de
+  versterker lichter en kleiner kan zijn dan normaal. Klasse G vind je steeds
+  vaker in professionele audio, actieve P.A. boxen, actieve monitors ed. Het
+  rendement van een klasse G versterker ligt tussen dat van een klasse AB en een
+  klasse D in.
+
+* Klasse H
+
+  Klasse H gaat nog een stap verder dan klasse G: hier wordt de hogere
+  voedingsspanning gemoduleerd door het ingangssignaal. Hierdoor volgt de
+  voedingsspanning het ingangssignaal en zorgt zo voor een optimale werking van de
+  eindtrap. Rendement is ongeveer zoals bij klasse G.
+
+#### Keuze
+
+Voorkeur gaat uit naar Klasse D. Vooral door het hoge rendement en lage
+stroomverbruik en warmteontwikkeling in vergelijking met de concurrentie. De
+subklasse T verdient een extra vermelding, omdat de TDA7492 chip zorgt voor een
+nóg hoger rendement.
+
+Tegelijkertijd is de klasse versterker ondergeschikt aan functionele en
+budgetaire eisen die gesteld worden aan versterkers.
 
 {{% /expand%}}

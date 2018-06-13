@@ -11,7 +11,7 @@ geluid.
 
 * RMS vermogen: in verhouding met versterker
 * Type connector: banaanstekker, spades, of speakon
-* Actief of passief: passief
+* Actief of passief: beide typen zijn toegestaan
 
 {{%expand "Toelichting technische eisen" %}}
 
@@ -19,7 +19,7 @@ geluid.
 
 Hieronder worden de technische eisen toegelicht.
 
-### 1. RMS vermogen
+### RMS vermogen
 
 De watt-specificaties van luidsprekers geven het vermogen weer waar een
 luidspreker onder bepaalde omstandigheden mee belast kan worden zonder dat hij
@@ -36,7 +36,7 @@ Om een hoog rendement uit de luidspreker te halen kun je de volgende vuistregel
 toepassen: "2x Het RMS vermogen van de luidspreker is het vermogen wat de
 versterker moet kunnen leveren."
 
-### 2. Type connector
+### Type connector
 
 Afhankelijk van de type speakers is een keuze te maken uit:
 
@@ -78,13 +78,14 @@ Afhankelijk van de type speakers is een keuze te maken uit:
 
 #### Keuze
 
-Alles behalve klemaansluitingen of XLR. De blote draden die de klemaansluitingen
-in oxideren namelijk na verloop van tijd. De XLR connectors zijn niet
-toegestaan, omdat deze bij vervanging verward kunnen worden de XLR audiokabels
-die veel dunner zijn. Ook belangrijk is dat de speakeraansluitingen overeenkomen
-met de ingangen van de speakers, zodat er geen verloopstekkers tussen hoeven.
+Alles behalve klemaansluitingen of XLR. De blote draden in het geval van
+klemaansluitingen zijn niet beschermt tegen oxidatie. De XLR connectors
+zijn niet toegestaan, omdat deze bij vervanging verward kunnen worden met XLR
+audiokabels die veel dunner zijn. Ook is belangrijk dat de speakeraansluitingen
+overeenkomen met de ingangen van de speakers, zodat er geen verloopstekkers
+tussen hoeven.
 
-### 3. Actief of passief
+### Actief of passief
 
 Een actieve speaker heeft een versterker ingebouwd.
 
@@ -94,7 +95,11 @@ Actief óf passief.
 
 #### Keuze
 
-Voor beheer- en vervangbaarheid is het niet toegestaan actieve speakers in te
-zetten.
+Voor beheer- en vervangbaarheid hebben passieve en actieve speakers beiden hun
+voor- en nadelen. Beide typen speakers zijn daarom toegestaan.
+
+In het geval van actieve speakers dienen deze op een universeel, liefst vol,
+volume te worden afgesteld zodat de regeling van het volume via de bron kan
+plaatsvinden.
 
 {{% /expand%}}
