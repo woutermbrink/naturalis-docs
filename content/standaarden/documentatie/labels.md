@@ -5,15 +5,14 @@ draft: true
 ---
 
 Een belangrijk onderdeel van de documentatie van het museum bestaat uit de
-labeling van componenten. In dit document staan de algemene uitgangspunten, de
-werkwijze en de concrete richtlijnen op het vlak van labeling uitgelegd.
+labeling van componenten. In dit document staan de algemene uitgangspunten en de
+concrete richtlijnen op het vlak van labeling uitgelegd.
 
 ## Uitgangspunten
 
 In z'n algemeenheid gelden voor de labeling de volgende uitgangspunten:
 
-1. De labels sluiten qua inhoud aan op de standaard [naamgeving]({{< relref "naamgeving.md"
-    >}}).
+1. De labels sluiten qua inhoud aan op de standaard [naamgeving]({{< relref "naamgeving.md" >}}).
 1. Er wordt gebruik gemaakt van professionele, duurzame labels.
 1. Bij het vervangen van een onderdeel dienen slechts een minimale hoeveelheid labels
    vervangen te worden, idealiter alleen de labels van het betreffende onderdeel.
@@ -27,29 +26,6 @@ Het is echter niet altijd praktisch mogelijk of van toegevoegde waarde om al die
 informatie op een label te zetten. Om die reden staan verderop in dit document
 per toepassing de richtlijnen voor zowel de notatie als de fysieke eisen van
 labels gespecificeerd.
-
-## Werkwijze
-
-De werkwijze en verdeling van verantwoordelijkheden bij het labelen is tijdens
-de ontwikkeling en opbouw van het museum als volgt:
-
-* Er wordt gewerkt met één type labelprinter.
-* Het technische team van Naturalis levert aan de AV installateur een
-  professionele labelprinter.
-* Naast de printer levert het technische team van Naturalis ook templates voor
-  het printen van alle benodigde labels.
-* De AV installateur is verantwoordelijk voor het aan de hand van onderstaande
-  richtlijnen labelen van alle onderdelen die zij als onderdeel van de opdracht
-  aansluiten. In beginsel zijn dat alle componenten (apparaten en kabels) die
-  een direct onderdeel zijn van een tentoonstelling, experience of eventuele
-  andere ruimten in het museum.
-* Het technische team van Naturalis is verantwoordelijk voor het aan de hand van
-  onderstaande richtlijnen labelen van alle overige onderdelen. In beginsel zijn
-  dat de outlets, wandcontactdozen, patchpunten, switches en servers.
-* Het technische team van Naturalis verleent eerstelijns service op de printers,
-  en escaleert wanneer nodig naar de leverancier.
-* Zowel de AV installateur als het technische team van Naturalis zijn zelf
-  verantwoordelijk voor het (op tijd) bestellen van de door hen benodigde labels.
 
 ## Richtlijnen
 
