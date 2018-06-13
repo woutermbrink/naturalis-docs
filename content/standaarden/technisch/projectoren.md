@@ -24,9 +24,9 @@ beheerorganisatie tot een minimum beperken.
   1. RS232C
 * Verbinding (Ethernet): Ja, in geval van HDBaseT, PJLink en/of UDP
 * Formaat: standaardisatie waar mogelijk
-* Zoomvergroting en -regeling: gemotoriseerd
-* Scherpstelregeling: gemotoriseerd
-* Objectiefverschuiving: gemotoriseerd
+* Zoomvergroting en -regeling: gemotoriseerd of handmatig met locking
+* Scherpstelregeling: gemotoriseerd of handmatig met locking
+* Objectiefverschuiving: gemotoriseerd of handmatig met locking
 
 {{%expand "Toelichting technische eisen" %}}
 
@@ -227,33 +227,42 @@ ook de ophanging te standaardiseren is.
 
 #### Opties
 
-* Handmatig
+* Handmatig zonder locking
+* Handmatig met locking
 * Gemotoriseerd
 
 #### Keuze
 
-Gemotoriseerd
+Gemotoriseerd is de meest ideale oplossing, maar als dat vanwege andere
+functionele overwegingen niet mogelijk is dan dient de stand door middel van
+fysieke locking vast te zetten zijn.
 
 ### Scherpstelregeling
 
 #### Opties
 
-* Handmatig
+* Handmatig zonder locking
+* Handmatig met locking
 * Gemotoriseerd
 
 #### Keuze
 
-Gemotoriseerd
+Gemotoriseerd is de meest ideale oplossing, maar als dat vanwege andere
+functionele overwegingen niet mogelijk is dan dient de stand door middel van
+fysieke locking vast te zetten zijn.
 
 ### Objectiefverschuiving
 
 #### Opties
 
-* Handmatig
+* Handmatig zonder locking
+* Handmatig met locking
 * Gemotoriseerd
 
 #### Keuze
 
-Gemotoriseerd
+Gemotoriseerd is de meest ideale oplossing, maar als dat vanwege andere
+functionele overwegingen niet mogelijk is dan dient de stand door middel van
+fysieke locking vast te zetten zijn.
 
 {{% /expand%}}
