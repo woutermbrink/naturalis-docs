@@ -14,7 +14,7 @@ beheerorganisatie tot een minimum beperken.
 * Modellen: standaardisatie waar mogelijk
 * Levensduur lichtbron: zo lang mogelijk met een minimum van 18.250 uur
 * Type lamp: LED of Laser
-* Projectie techniek: DLP of LCoS, who cares?
+* Projectie techniek: DLP, LCoS of LCD
 * Video in: HDMI 2.0 Premium High Speed of hoger (type A connector) / HDBaseT
 * Bediening: ondersteuning in volgorde van voorkeur:
   1. CEC over HDMI
@@ -107,13 +107,14 @@ van de totale tentoonstelling. (NOTE:  Deze wordt financieel gehanteerd.)
 
 ### Projectie techniek
 
-LED, Hybrid en LASER beamers maken gebruik van twee verschillende projectie
+LED, Hybrid en LASER beamers maken gebruik van drie verschillende projectie
 technieken.
 
 #### Opties
 
 * DLP
 * LCoS (D-ILA / SXRD)
+* LCD
 
 #### Keuze
 
