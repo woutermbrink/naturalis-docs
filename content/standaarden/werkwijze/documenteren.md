@@ -7,7 +7,7 @@ weight: 10
 
 Om het museum na oplevering goed te kunnen beheren is degelijke documentatie van
 groot belang. Onder documentatie worden alle technische en functionele
-omschrijvingen van en informatie over de beheerde onderdelen in het museum
+omschrijvingen van en beheerinformatie over de onderdelen in het museum
 verstaan.
 
 Bij het maken en aanleveren van documentatie zijn er een aantal partijen
@@ -38,22 +38,22 @@ De werkwijze is daarbij afhankelijk van het type documentatie:
 
 * Tekeningen, schema's en andere bestanden worden door leveranciers op een door
   Naturalis nader te specificeren wijze op Google Drive aangeleverd.
-* Tekstuele beschrijvingen en eenvoudige schema's worden direct op de door
-  Naturalis aan te wijze plaats op de site verwerkt.
+* Tekstuele beschrijvingen, handleidingen en eenvoudige schema's worden direct
+  op de door Naturalis aan te wijze plaats op de site verwerkt.
 * Na het ontvangen van bijlagen of wijzigingen in de tekst zal Naturalis
   redactie voeren en de informatie waar nodig op de goede plek zetten.
 
 ## Aanleveren documentatie objecten
 
 De documentatie die door leveranciers wordt aangeleverd heeft in beginsel
-betrekking op één van de volgende [typen objecten]({{< relref
-"naamgeving.md#typen-objecten" >}}):
+betrekking op één van de onderstaande [typen objecten]({{< relref
+"naamgeving.md#typen-objecten" >}}). De specifieke informatie die voor elk van
+deze objecten wordt verwacht is te raadplegen via de bijbehorende link.
 
-* Groepen: tentoonstellingen of experiences
-* Functionele eenheden: interactives, exhibits etc.
-* Componenten: computers, beeldschermen etc.
+* [Groepen]({{< relref "tentoonstelling.md" >}}): tentoonstellingen of experiences
+* [Functionele eenheden]({{< relref "functionele-eenheid.md" >}}): interactives, exhibits etc.
+* [Componenten]({{< relref "component.md" >}}): computers, beeldschermen etc.
 
-Voor al deze typen objecten wordt verwacht dat er documentatie wordt opgeleverd.
 
 ## Aanleveren informatie over assets
 
