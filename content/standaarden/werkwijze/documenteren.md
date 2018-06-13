@@ -5,13 +5,13 @@ draft: true
 weight: 10
 ---
 
-Om het museum na oplevering goed te kunnen beheren is degelijke documentatie van
-groot belang. Onder documentatie worden alle technische en functionele
-omschrijvingen van en beheerinformatie over de onderdelen in het museum
-verstaan.
+Om het museum na oplevering goed te kunnen beheren acht Naturalis degelijke
+documentatie van groot belang. Onder documentatie worden alle technische en
+functionele omschrijvingen van en beheerinformatie over de onderdelen in het
+museum verstaan.
 
-Bij het maken en aanleveren van documentatie zijn er een aantal partijen
-betrokken:
+Bij het maken, aanleveren en organiseren van de documentatie zijn er een aantal
+partijen betrokken:
 
 * Het technische team van Naturalis
 * Externe leveranciers:
