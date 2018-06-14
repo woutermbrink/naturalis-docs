@@ -15,7 +15,9 @@ Technische tekeningen zijn onder te verdelen in:
 
 In het onderstaande document behandelen we de verschillende type tekeningen,
 schema's en diagrammen en stellen we vast in welk formaat we deze willen
-opslaan en tonen.
+opslaan en tonen als deze onderdeel uitmaken van de documentatie. 
+
+Onder{{< relref "tentoonstelling.md" >}}, {{< relref "functionele-eenheid.md" >}} en {{< relref "component.md" >}} staat omschreven welke tekeningen we minimaal verwachten op de verschillende documentatie niveau's.
 
 ## Standaard
 
