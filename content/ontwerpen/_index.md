@@ -13,5 +13,11 @@ verantwoordelijk voor:
   museum.
 * De realisatie van een museum controller.
 
-De ontwerpen en inrichting van deze systemen staan op deze pagina's
-toegelicht:
+De ontwerpen en inrichting van deze systemen staan op onderstaande pagina's
+toegelicht.
+
+{{% notice note %}}
+Deze documenten geven een indruk van de opzet van de technische
+infrastructuur die door Naturalis wordt gerealiseerd. Voor de AV installateur en
+andere partijen is deze informatie maar van beperkt praktisch belang.
+{{% /notice %}}
