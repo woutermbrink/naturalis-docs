@@ -12,7 +12,7 @@ Speakerkabels, niet te verwarren met [audiokabels]({{< relref
 ## Technische eisen
 
 * Kabeldiameter: afhankelijk van lengte en vermogen.
-* Type connector: banaanstekker, spades, of speakon.
+* Type connector: banaanstekker, spades, speakon of klemaansluiting.
 
 {{%expand "Toelichting technische eisen" %}}
 
@@ -50,46 +50,17 @@ Afhankelijk van de type speakers is een keuze te maken uit:
 
 #### Opties
 
-<table>
-  <tr>
-    <td></td>
-    <td>Voordelen</td>
-    <td>Nadelen</td>
-  </tr>
-  <tr>
-    <td>Blote draad (klemaansluiting)</td>
-    <td>goedkoop</td>
-    <td>oxideren</td>
-  </tr>
-  <tr>
-    <td>Banaanstekker</td>
-    <td>met één hand te (ont-)koppelen</td>
-    <td>minder goede verbinding</td>
-  </tr>
-  <tr>
-    <td>Spades (schroefaansluiting)</td>
-    <td>zeer goede verbinding</td>
-    <td>duur</td>
-  </tr>
-  <tr>
-    <td>XLR</td>
-    <td>stevige plug</td>
-    <td>duur, verwarrend met audiokabels</td>
-  </tr>
-  <tr>
-    <td>Speakon</td>
-    <td>robuust, geen kans op kortsluiting</td>
-    <td>duur</td>
-  </tr>
-</table>
+* Blote draad (klemaansluiting)
+* Banaanstekker
+* Spades (schroefaansluiting)
+* XLR
+* Speakon
 
 #### Keuze
 
-Alle opties behalve de blote draden of XLR. De blote draden die de
-klemaansluitingen in oxideren namelijk na verloop van tijd. De XLR connectors
-zijn niet toegestaan, omdat deze bij vervanging in de war kunnen komen met de
-XLR audio kabels die veel dunner zijn. Ook belangrijk is dat de speaker
-aansluitingen overeenkomen met de ingangen van de speakers, zodat er geen
-verloopstekkers tussen hoeven.
+Alles behalve XLR. De XLR connectors zijn niet toegestaan, omdat deze bij
+vervanging verward kunnen worden met de XLR audiokabels die veel dunner zijn.
+Daarnaast dienen de speakeraansluitingen overeen te komen met de ingangen van de
+speakers, zodat er geen verloopstekkers tussen hoeven.
 
 {{% /expand%}}
