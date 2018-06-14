@@ -28,7 +28,7 @@ vastgesteld. De standaarden in dit document vormen wensen betreffende de
 verschillende type tekeningen, schema's en diagrammen als er sprake van is dat
 deze gemaakt gaan worden.
 
-* Werktuigbouwkundige tekeningen: Bronbestand & DXF, DWG, SVG, of PNG
+* Werktuigbouwkundige tekeningen: Bronbestand & DXF, DWG, SVG, STL, OBJ, BLEND of PNG
 
 * Samenstellingtekeningen liefst als exploded view of axonometrische projectie
 
@@ -85,7 +85,7 @@ tekenen](https://nl.wikipedia.org/wiki/Technisch_tekenen#Werktuigbouwkundig_teke
 
 Bestandsformaat:
 
-Bronbestand & DXF, DWG, SVG, of PNG
+Bronbestand & DXF, DWG, SVG, STL, OBJ, BLEND of PNG
 
 ### Elektrotechnische tekeningen
 
