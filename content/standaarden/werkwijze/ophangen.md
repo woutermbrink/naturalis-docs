@@ -67,14 +67,14 @@ De werkwijze bij het ophangen van apparatuur op hoogte is als volgt:
 
 Voor de ophanging van projectoren en andere zware AV apparatuur aan het plafond
 kan gebruik worden gemaakt van ophangpunten die aan de vakwerkspanten bevestigd
-kunnen worden: ![Ophangpunt](/images/ophangpunt.jpg)
+kunnen worden: ![Ophangpunt](../ophangpunt.jpg)
 
 De spanten bevinden zich in beginsel om de drie meter in elke zaal. Voor alle
 spanten geldt dat de ophangpunten zich moeten bevinden t.p.v. de knooppunten van
 het vakwerk aan de onderzijde. In de zalen mag maximaal één maal 1500 kg op één
 knooppunt in de spant worden opgehangen of 450 kg op meerdere knooppunten:
 
-![Ophangbelasting](/images/ophangbelasting.png)
+![Ophangbelasting](../ophangbelasting.png)
 
 
 

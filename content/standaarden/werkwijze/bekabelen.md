@@ -39,7 +39,7 @@ In het museumgebouw zijn de volgende voorzieningen aanwezig:
   wandcontactdozen en één dataoutlet beschikbaar zijn.
 * Om de drie meter is aan het plafond  een bouwkundige ligger met een open
   structuur aanwezig. Om de 6 meter hangen daar een kabelgoot en spanningsrail
-  tussen: ![Spanningsrail en kabelgoot](/images/spanningsrailenkabelgoot.png)
+  tussen: ![Spanningsrail en kabelgoot](../spanningsrailenkabelgoot.png)
 * De wandcontactdozen worden per 9 paar in één groep geschakeld.
 * Vanaf een afstand (in de serverruimte) kunnen de groepen afzonderlijk aan- en
   uitgeschakeld worden.
