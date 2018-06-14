@@ -2,6 +2,7 @@
 title: "Technische tekeningen"
 date: 2018-05-23T14:34:24+02:00
 draft: false
+weight: 16
 ---
 
 ## Algemeen

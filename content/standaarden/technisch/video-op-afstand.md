@@ -2,6 +2,7 @@
 title: "Video op afstand"
 date: 2018-05-23T14:34:51+02:00
 draft: false
+weight: 80
 ---
 
 Onze standaard voor video overdracht van een "player" naar een projector of

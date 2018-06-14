@@ -2,9 +2,8 @@
 title: "Naamgeving"
 date: 2018-05-23T14:33:22+02:00
 draft: false
+weight: -20
 ---
-
-## Algemeen
 
 De naamconventie in dit document dient de volgende doelen:
 

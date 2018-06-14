@@ -2,6 +2,7 @@
 title: "Beeldschermen"
 date: 2018-05-23T14:33:17+02:00
 draft: false
+weight: 10
 ---
 
 Beeldschermen, ook wel monitoren genoemd, zijn er in vele soorten en maten en

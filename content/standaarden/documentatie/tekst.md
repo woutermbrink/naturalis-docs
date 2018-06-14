@@ -2,6 +2,7 @@
 title: "Tekst"
 date: 2018-05-23T14:34:29+02:00
 draft: false
+weight: 20
 ---
 
 Er is gekozen voor [Markdown](https://www.markdownguide.org/), toelichting op de keuze staat in [dit document](https://github.com/MakeExpose/naturalis-docs/blob/master/content/ontwerpen/documentatie-platform.md).

@@ -2,6 +2,7 @@
 title: "Ophangen"
 date: 2018-06-13T11:57:00+02:00
 draft: true
+weight: 30
 ---
 
 In dit document staan de werkwijze en eisen ten aanzien van de ophanging van AV

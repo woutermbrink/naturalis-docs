@@ -2,6 +2,7 @@
 title: "Labels"
 date: 2018-06-04T14:31:20+02:00
 draft: true
+weight: 5
 ---
 
 Een belangrijk onderdeel van de documentatie van het museum bestaat uit de

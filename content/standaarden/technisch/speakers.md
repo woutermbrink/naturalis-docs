@@ -2,6 +2,7 @@
 title: "Speakers"
 date: 2018-05-23T14:34:13+02:00
 draft: false
+weight: 50
 ---
 
 Een speaker krijgt signaal van een bronapparaat en zorgt voor het produceren van

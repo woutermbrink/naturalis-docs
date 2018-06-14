@@ -2,6 +2,7 @@
 title: "Labelen"
 date: 2018-06-13T13:35:37+02:00
 draft: true
+weight: 20
 ---
 
 De werkwijze en verdeling van verantwoordelijkheden bij het labelen is tijdens

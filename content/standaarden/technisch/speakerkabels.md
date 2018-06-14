@@ -2,6 +2,7 @@
 title: "Speakerkabels"
 date: 2018-05-23T14:33:55+02:00
 draft: false
+weight: 40
 ---
 
 Speakerkabels, niet te verwarren met [audiokabels]({{< relref

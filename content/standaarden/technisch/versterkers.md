@@ -2,6 +2,7 @@
 title: "Versterkers"
 date: 2018-05-23T14:34:37+02:00
 draft: false
+weight: 60
 ---
 
 Versterkers produceren zelf geen geluid, maar versterken het signaal voor je

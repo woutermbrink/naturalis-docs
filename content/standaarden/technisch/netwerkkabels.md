@@ -2,6 +2,7 @@
 title: "Netwerkkabels"
 date: 2018-05-23T14:33:29+02:00
 draft: false
+weight: 25
 ---
 
 Deze technische eisen hebben betrekking op de netwerkkabel die tussen

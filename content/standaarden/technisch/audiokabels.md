@@ -2,6 +2,7 @@
 title: "Audiokabels"
 date: 2018-05-23T14:32:11+02:00
 draft: false
+weight: 5
 ---
 
 Audiokabels, niet te verwarren met speakerkabel, geven het signaal van de bron

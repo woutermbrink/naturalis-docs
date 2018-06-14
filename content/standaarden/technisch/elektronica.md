@@ -2,6 +2,7 @@
 title: "Elektronica"
 date: 2018-06-13T13:46:33+02:00
 draft: true
+weight: 15
 ---
 
 ## Elektronische schakelingen

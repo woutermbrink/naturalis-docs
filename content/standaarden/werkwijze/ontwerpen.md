@@ -2,7 +2,7 @@
 title: "Ontwerpen"
 date: 2018-06-13T14:55:35+02:00
 draft: true
-weight: 0
+weight: -20
 ---
 
 Aan de installatie van AV middelen in de tentoonstellingen gaat een ontwerpfase

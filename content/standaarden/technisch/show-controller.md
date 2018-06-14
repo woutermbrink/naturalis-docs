@@ -2,6 +2,7 @@
 title: "Show controller"
 date: 2018-05-23T14:33:46+02:00
 draft: false
+weight: 35
 ---
 
 Per tentoonstelling of experience is er één show controller. De show controller

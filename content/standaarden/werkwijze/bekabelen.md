@@ -2,6 +2,7 @@
 title: "Bekabelen"
 date: 2018-06-06T11:09:51+02:00
 draft: true
+weight: 40
 ---
 
 In dit document worden de uitgangspunten, eisen en wensen beschreven ten aanzien
@@ -45,19 +46,6 @@ de maximale belasting van een stroomgroep.
 
 Het technisch team van Naturalis moet weten welk apparaat is aangesloten op
 welke outlet, zodat we gegevens uit kunnen lezen en wijzigingen kunnen maken.
-
-### Administratie
-
-Het technisch team levert voor elke tentoonstelling een spreadsheet aan. Elke
-spreadsheet heeft twee tabbladen, één voor outlets en één voor WCD's.
-
-Elke tabel heeft drie kolommen:
-
-1. Naam WCD/outlet: De namen van alle WCD's en outlet's in een tentoonstelling (zaal).
-1. Naam component: De namen van de aangesloten componenten. Bijvoorbeeld:
-   `stamboom-stk-01` of `stamboom-cmp-01`
-1. Status: Hier wordt aangegeven of de gegevens verwerkt zijn.
-
 
 ## Kabeldoorvoer
 

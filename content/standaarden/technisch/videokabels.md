@@ -2,6 +2,7 @@
 title: "Videokabels"
 date: 2018-05-23T14:34:46+02:00
 draft: false
+weight: 70
 ---
 
 Met videokabels worden de kabels bedoeld waarmee afspeelbronnen van videocontent

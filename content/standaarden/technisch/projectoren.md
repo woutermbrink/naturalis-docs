@@ -2,6 +2,7 @@
 title: "Projectoren"
 date: 2018-05-23T14:33:41+02:00
 draft: false
+weight: 30
 ---
 
 Projectoren (of beamers) komen in het nieuwe museum veelvuldig voor. Ook zijn er

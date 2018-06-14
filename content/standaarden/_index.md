@@ -2,6 +2,7 @@
 title: "Standaarden"
 date: 2018-05-23T11:25:00+02:00
 draft: false
+weight: -20
 ---
 
 Met het oog op het beheer van het museum hanteert Naturalis een uitgebreide set

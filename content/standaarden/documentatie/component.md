@@ -2,6 +2,7 @@
 title: "Component"
 date: 2018-05-25T12:50:37+02:00
 draft: true
+weight: -5
 ---
 
 Op basis van de in dit document toegelichte standaardindeling zijn er voor

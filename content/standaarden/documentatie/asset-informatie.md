@@ -2,6 +2,7 @@
 title: "Asset informatie"
 date: 2018-06-04T13:27:38+02:00
 draft: true
+weight: 10
 ---
 
 In dit document wordt de informatie gespecificeerd die dient te worden
