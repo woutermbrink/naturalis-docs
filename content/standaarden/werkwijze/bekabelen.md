@@ -28,7 +28,7 @@ algemene eisen:
   weggewerkt.
 
 Voor specifieke eisen die worden gesteld aan kabels wordt verwezen naar de
-[technische standaaden]({{< relref "standaarden/technisch/_index.md" >}}).
+[technische standaarden]({{< relref "standaarden/technisch/_index.md" >}}).
 
 ## Aansluiting infra
 
@@ -37,15 +37,16 @@ of outlet nummer worden geregistreerd.
 
 ### WCD
 
-Op basis van het WCD nummer kunnen we configureren of de groep wel of niet moet
-worden geschakeld en zien wat de impact is wanneer een bepaalde groep wordt
+Op basis van het WCD nummer kan Naturalis configureren of de groep wel of niet
+moet worden geschakeld en zien wat de impact is wanneer een bepaalde groep wordt
 geschakeld of uit valt. Ook kan er op deze manier rekening worden gehouden met
 de maximale belasting van een stroomgroep.
 
 ### Outlet
 
 Het technisch team van Naturalis moet weten welk apparaat is aangesloten op
-welke outlet, zodat we gegevens uit kunnen lezen en wijzigingen kunnen maken.
+welke outlet, zodat de juiste configuratie van het netwerk en de monitoring kan
+worden toegepast.
 
 ## Kabeldoorvoer
 
