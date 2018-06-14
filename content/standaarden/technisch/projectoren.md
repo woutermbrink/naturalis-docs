@@ -123,7 +123,17 @@ technieken.
 
 #### Keuze
 
-Vanuit beheer hebben we geen voorkeur voor een specifieke projectietechniek.
+Qua beheer hebben LCD en LCOS het nadeel dat de polarisatiefilters een gevoelig
+onderdeel zijn die zo nu en dan vervangen moeten worden. Hiervoor moet de
+videoprojector naar een servicepunt opgestuurd worden.
+
+Nadeel van DLP is het z.g.n. regenboog effect. De drie elementaire kleuren
+worden niet gelijktijdig geprojecteerd hetgeen onder bepaalde omstandigheden
+zichtbaar is.
+
+Bij de selectie van projectoren dient rekening gehouden te worden met deze voor-
+en nadelen. Er is niet bij voorbaat een voorkeur voor een specifieke
+projectietechniek.
 
 ### Video in
 
