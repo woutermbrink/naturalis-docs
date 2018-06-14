@@ -15,7 +15,7 @@ een algemene leidraad.
 ## Technische eisen
 
 * RMS vermogen: in verhouding met versterker
-* Type connector: banaanstekker, spades, of speakon
+* Type connector: banaanstekker, spades, speakon of klemaansluiting.
 * Actief of passief: beide typen zijn toegestaan
 
 {{%expand "Toelichting technische eisen" %}}
