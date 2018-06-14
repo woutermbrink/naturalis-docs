@@ -17,9 +17,10 @@ vanuit de beheerorganisatie tot een minimum beperken.
 * Modellen: Het toe te passen model van de beamer mag zich niet in de laatste
   fase van de Product Life Cycle bevinden. Waar mogelijk wordt zoveel mogelijk
   hetzelfde type projector toegepast.
-* Levensduur lichtbron: Zo lang mogelijk met een minimum van 18.250 uur
 * Type lamp: Waar kleurweergave, lichtopbrengst en budget het toe laten dienen
-  bij voorkeur beamers met LED of Laser bron te worden toegepast.
+  bij voorkeur beamers met LED of Laser bron te worden toegepast. Wanneer
+  vanwege eisen aan kleurweergave en lichtopbrengst LED niet voldoet en Laser qua
+  investering niet binnen het budget past mag worden afgeweken van LED of Laser.
 * Projectie techniek: Projectoren die werken volgens het DLP of LCoS principe
   hebben de voorkeur boven projectoren met LCD techniek.
 * Video in: HDMI 2.0 Premium High Speed of hoger (type A connector) / HDBaseT
