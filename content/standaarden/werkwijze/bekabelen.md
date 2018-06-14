@@ -22,7 +22,7 @@ algemene eisen:
   gebruikt worden.
 * De toegepaste kabels dienen van deugdelijke kwaliteit te zijn.
 * Kabels die digitale of analoge signalen vervoeren en voedingskabels, of kabels
-  waartussen overspraak ongewenst is dienen bij montage gescheiden worden
+  waartussen overspraak ongewenst is dienen bij montage gescheiden te worden
   gerouteerd.
 * Kabels in de tentoonstellingszalen dienen zo goed mogelijk te worden
   weggewerkt.
@@ -30,10 +30,33 @@ algemene eisen:
 Voor specifieke eisen die worden gesteld aan kabels wordt verwezen naar de
 [technische standaarden]({{< relref "standaarden/technisch/_index.md" >}}).
 
+## Gebouwvoorzieningen
+
+In het museumgebouw zijn de volgende voorzieningen aanwezig:
+
+* De zalen zijn voorzien van wandcontactdozen (WCD's) en (data)outlets.
+* Op de vloer is een grid aangebracht waarbij er om de drie meter twee
+  wandcontactdozen en één dataoutlet beschikbaar zijn.
+* Om de drie meter is aan het plafond  een bouwkundige ligger met een open
+  structuur aanwezig. Om de 6 meter hangen daar een kabelgoot en spanningsrail
+  tussen: ![Spanningsrail en kabelgoot](/images/spanningsrailenkabelgoot.png)
+* De wandcontactdozen worden per 9 paar in één groep geschakeld.
+* Vanaf een afstand (in de serverruimte) kunnen de groepen afzonderlijk aan- en
+  uitgeschakeld worden.
+
+Een overzicht van alle zalen en de bijgehorende werktekeningen met WCD's,
+dataoutlets, (werk- en nood)lichtvoorzieningen op zowel de vloer als aan het
+plafond [vind je
+hier](https://docs.google.com/spreadsheets/d/1l6hu_3QlfZqYrP4A1FpMCqkEZDcGi0bdYCpZoE8BR2Q/edit#gid=0)
+(doorgeven Google account vereist).
+
 ## Aansluiting infra
 
 Bij het aansluiten van componenten op een WCD of een netwerk outlet moet het WCD
-of outlet nummer worden geregistreerd.
+of outlet nummer worden geregistreerd. De wijze van registratie staat [hier
+beschreven]({{< relref
+"documenteren.md#aanleveren-informatie-over-outlets-en-wcd-s" >}}).
+
 
 ### WCD
 
@@ -80,16 +103,6 @@ Gewone tegels kunnen waar nodig uitgewisseld worden met tegels waar dit soort
 doorvoer op bevestigd is.
 
 ## Stekkerdozen
-
-In het museumgebouw zijn de volgende voorzieningen aanwezig:
-
-* De zalen zijn voorzien van wandcontactdozen.
-* Op de vloer is een grid aangebracht waarbij er om de drie meter twee
-  wandcontactdozen beschikbaar zijn.
-* Aan het plafond hangen rails met daarin diverse wandcontactdozen.
-* De wandcontactdozen worden per 9 paar in één groep geschakeld.
-* Vanaf een afstand (in de serverruimte) kunnen de groepen afzonderlijk aan- en
-  uitgeschakeld worden.
 
 In de meubels van interactives, exhibits etc. zal gebruikt worden gemaakt van
 stekkerdozen. Deze zullen door het technische team van Naturalis worden
