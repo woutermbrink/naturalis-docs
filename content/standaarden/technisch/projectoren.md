@@ -6,16 +6,22 @@ weight: 30
 ---
 
 Projectoren (of beamers) komen in het nieuwe museum veelvuldig voor. Ook zijn er
-naar verwachting verschillende modellen nodig al willen we dat vanuit de
-beheerorganisatie tot een minimum beperken.
+naar verwachting verschillende modellen nodig. Met het oog op al willen we dat
+vanuit de beheerorganisatie tot een minimum beperken.
 
 ## Technische eisen
 
-* Merk: goed leverbaar en standaardisatie waar mogelijk
-* Modellen: standaardisatie waar mogelijk
-* Levensduur lichtbron: zo lang mogelijk met een minimum van 18.250 uur
-* Type lamp: LED of Laser
-* Projectie techniek: DLP, LCoS of LCD
+* Merk: De toe te passen projectoren dienen van goede kwaliteit te zijn (A
+  merk) en dienen goed in Nederland verkrijgbaar te zijn. Waar mogelijk wordt
+  zoveel mogelijk hetzelfde merk projector toegepast.
+* Modellen: Het toe te passen model van de beamer mag zich niet in de laatste
+  fase van de Product Life Cycle bevinden. Waar mogelijk wordt zoveel mogelijk
+  hetzelfde type projector toegepast.
+* Levensduur lichtbron: Zo lang mogelijk met een minimum van 18.250 uur
+* Type lamp: Waar kleurweergave, lichtopbrengst en budget het toe laten dienen
+  bij voorkeur beamers met LED of Laser bron te worden toegepast.
+* Projectie techniek: Projectoren die werken volgens het DLP of LCoS principe
+  hebben de voorkeur boven projectoren met LCD techniek.
 * Video in: HDMI 2.0 Premium High Speed of hoger (type A connector) / HDBaseT
 * Bediening: ondersteuning in volgorde van voorkeur:
   1. CEC over HDMI
@@ -42,33 +48,8 @@ het standaardiseren wat betreft merk de voorkeur.
 
 ### Modellen
 
-We willen het aantal verschillende modellen beperken.
-
-### Levensduur van lichtbron
-
-De levensduur van de lichtbron is van groot belang. Ten eerste zijn beamerlampen
-duur, het is daarom zaak een afweging te maken die niet alleen gebaseerd is op
-de aanschafwaarde maar ook op basis van de levensduur. Des te meer omdat bij het
-vervangen van lampen de kosten niet alleen zitten in de aanschaf van nieuwe
-lampen maar ook in de personele kosten. Als de beamers op grote hoogte hangen
-zullen hiervoor minimaal twee personen moeten worden ingezet. Daarnaast betekent
-het werken op hoogte dat naar alle waarschijnlijkheid de betreffende zaal
-gesloten zal moeten worden of dat de werkzaamheden buiten reguliere werktijden
-zal moeten plaatsvinden. Ook brengt werken op hoogte arbeidsrisico's met zich
-mee die ten alle tijden geminimaliseerd dienen te worden. Wanneer er sprake is
-van edge blending of bijvoorbeeld videomapping moet naast het vervangen van de
-lamp ook extra tijd worden gerekend voor kalibratie van de beamer en het
-bijstellen van de ophanging.
-
-De levensduur van de lichtbron drukken we uit in branduren.
-
-#### Keuze
-
-In het museum wordt er uitgegaan van een afschrijvingstermijn voor hardware van
-5 jaar, daarom is het verstandig om deze periode ook te hanteren als minimum
-levensduur. Als we uitgaan van 10 uur per dag, 365 dagen per jaar met een
-afschrijvingsperiode van 5 jaar is de gewenste levensduur van een lamp: 18250
-uur
+We willen het aantal verschillende modellen beperken. Daarnaast dient het model
+nog een tijd lang leverbaar te zijn.
 
 ### Type lamp
 
@@ -93,22 +74,44 @@ van UHP door een langere levensduur van de lichtbron.
 
 #### Keuze
 
-Als we uitgaan van een zo hoog mogelijke levensduur van de lichtbron met een
-minimum van 18250 branduren op basis van de argumentatie ten aanzien van de
-levensduur van de lichtbron komen we uit op LED of Laser beamers. Waarbij LED
-beamers goedkoper zijn maar een lagere en in veel gevallen waarschijnlijk te
-lage lichtopbrengst hebben. Laser beamers hebben de het bijkomende voordeel dat
-door het reduceren van de lichtsterkte door het verlagen van het vermogen de
-levensduur kan worden verlengd. In dit geval wordt de afname in lichtsterkte die
-na het verlopen van de levensduur optreed gecompenseerd door het ophogen van het
-vermogen waardoor het verlies aan lichtsterkte wordt gecompenseerd. Bij een
-vermogen van 50% kan de levensduur van de lamp zo worden verdubbelt naar 40.000
-branduren, respectievelijk 10 jaar wat overeenkomt met de afschrijvingsperiode
-van de totale tentoonstelling. (NOTE:  Deze wordt financieel gehanteerd.)
+De levensduur van de lichtbron is van groot belang. Ten eerste zijn beamerlampen
+duur, het is daarom zaak een afweging te maken die niet alleen gebaseerd is op
+de aanschafwaarde maar ook op basis van de levensduur. Des te meer omdat bij het
+vervangen van lampen de kosten niet alleen zitten in de aanschaf van nieuwe
+lampen maar ook in de personele kosten. Als de beamers op grote hoogte hangen
+zullen hiervoor minimaal twee personen moeten worden ingezet. Daarnaast betekent
+het werken op hoogte dat naar alle waarschijnlijkheid de betreffende zaal
+gesloten zal moeten worden of dat de werkzaamheden buiten reguliere werktijden
+zal moeten plaatsvinden. Ook brengt werken op hoogte arbeidsrisico's met zich
+mee die ten alle tijden geminimaliseerd dienen te worden. Wanneer er sprake is
+van edge blending of bijvoorbeeld videomapping moet naast het vervangen van de
+lamp ook extra tijd worden gerekend voor kalibratie van de beamer en het
+bijstellen van de ophanging.
+
+De levensduur van de lichtbron drukken we uit in branduren.
+
+Als we uitgaan van een zo hoog mogelijke levensduur van de lichtbron  op basis
+van de argumentatie ten aanzien van de levensduur van de lichtbron komen we uit
+op LED of Laser beamers.
+
+Waarbij LED beamers goedkoper zijn maar een lagere en in veel gevallen
+waarschijnlijk te lage lichtopbrengst hebben. Laser beamers hebben het
+bijkomende voordeel dat door het reduceren van de lichtsterkte door het
+verlagen van het vermogen de levensduur kan worden verlengd. In dit geval wordt
+de afname in lichtsterkte die na het verlopen van de levensduur optreed
+gecompenseerd door het ophogen van het vermogen waardoor het verlies aan
+lichtsterkte wordt gecompenseerd. Bij een vermogen van 50% kan de levensduur
+van de lamp zo worden verdubbelt naar 40.000 branduren, respectievelijk 10 jaar
+wat overeenkomt met de afschrijvingsperiode van de totale tentoonstelling.
+
+Dit gezegd hebbende, kunnen er situaties zijn waarbij vanwege eisen aan
+kleurweergave en lichtopbrengst LED niet voldoet en Laser qua investering niet
+binnen het budget past. Uitsluitend in die situaties mag worden afgeweken van
+LED of Laser.
 
 ### Projectie techniek
 
-LED, Hybrid en LASER beamers maken gebruik van drie verschillende projectie
+LED, Hybrid en Laser projectoren maken gebruik van drie verschillende projectie
 technieken.
 
 #### Opties
