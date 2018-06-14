@@ -2,7 +2,7 @@ title: "Museum documentatie Naturalis"
 baseURL: http://docs.museum.naturalis.nl
 footnoteReturnLinkContents: ↩
 languageCode: "en-us"
-canonifyURLs: true
+relativeURLs: true
 params:
   AuthorName: Naturalis Biodiversity Center
   SidebarRecentLimit: 5
