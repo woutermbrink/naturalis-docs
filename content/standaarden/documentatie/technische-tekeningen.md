@@ -15,9 +15,12 @@ Technische tekeningen zijn onder te verdelen in:
 
 In het onderstaande document behandelen we de verschillende type tekeningen,
 schema's en diagrammen en stellen we vast in welk formaat we deze willen
-opslaan en tonen als deze onderdeel uitmaken van de documentatie. 
+opslaan en tonen als deze onderdeel uitmaken van de documentatie.
 
-Onder{{< relref "tentoonstelling.md" >}}, {{< relref "functionele-eenheid.md" >}} en {{< relref "component.md" >}} staat omschreven welke tekeningen we minimaal verwachten op de verschillende documentatie niveau's.
+Op de pagina's [tentoonstelling]({{< relref "tentoonstelling.md" >}}),
+[functionele eenheid]({{< relref "functionele-eenheid.md" >}}) en
+[component]({{< relref "component.md" >}}) staat omschreven welke tekeningen we
+minimaal verwachten op de verschillende documentatie niveau's.
 
 ## Standaard
 
@@ -27,7 +30,7 @@ vastgesteld. De standaarden in dit document vormen wensen betreffende de
 verschillende type tekeningen, schema's en diagrammen als er sprake van is dat
 deze gemaakt gaan worden.
 
-### Werktuigbouwkundige tekeningen 
+### Werktuigbouwkundige tekeningen
 
 * Bestandsformaat 3D tekeningen: bronbestand & DXF, DWG, STL, OBJ, of BLEND
 
@@ -55,7 +58,7 @@ deze gemaakt gaan worden.
   tiles, met behulp van leaflet.js en de plugin leaflet.Fullscreen tonen we deze
   op de documentatie website. Daarnaast bieden we een download link aan naar het
   bronbestand en het DXF / DWG bestand.
-  
+
 ### Bouwkundige tekeningen
 
 * Conform: NEN 114, NEN 128-50, NEN 47 & NEN-ISO 128-23 (nl)
@@ -372,7 +375,6 @@ Zie: [Bouwtechnisch_Tekenen:_Tekentechnieken - Lijndikte](http://wiki.bk.tudelft
 ##### Bijschriften
 
 Zie: [Bouwtechnisch_Tekenen:_Tekentechnieken - Bijschriften](http://wiki.bk.tudelft.nl/bk-wiki/Bouwtechnisch_Tekenen:_Tekentechnieken#Bijschriften)
-
 
 ##### Tekensystemen
 
