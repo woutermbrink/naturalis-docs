@@ -11,7 +11,7 @@ params:
   disableInlineCopyToClipBoard: true
   themeVariant: naturalis
   enableGitInfo: true
-  relativeURLs: true
+relativeURLs: true
 permalinks:
   post: /:year/:month/:title/
 theme: "hugo-theme-learn"
