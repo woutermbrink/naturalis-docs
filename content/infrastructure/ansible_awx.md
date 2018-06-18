@@ -61,3 +61,8 @@ Omdat AWX in het datacenter draait en het opdracten moet uitvoeren op machines i
 ansible_ssh_common_args: '-o ProxyCommand="ssh -W %h:%p -q user@jumphost_ip"'
 ```
 
+## Backups
+
+Via de kubernetes deployment worden bijna alle settings al gezet. Deze settings hoeven dan niet gebackupped te worden. Wel moet de database gebackuped worden. Bij de deployment van AWX op k8s zit ook een poc van de backup. 
+
+
