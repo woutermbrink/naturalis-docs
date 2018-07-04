@@ -5,12 +5,10 @@ draft: true
 weight: 20
 ---
 
-[TopDesk API](https://developers.topdesk.com/index.html)
-[Asset Management](https://developers.topdesk.com/explorer/?page=assets&version=1.4.2)
-
 ## Inleiding
 
-De API van TopDesk staat netjes beschreven in de developer documentatie van
+De API van TopDesk staat netjes beschreven in de 
+[developer documentatie](https://developers.topdesk.com/index.html) van
 TopDesk. Om de API te kunnen bedienen heb je een actieve TopDesk gebruikeraccount
 nodig, die expliciet toegang heeft tot de API. De communicatie met de 
 API verloopt via HTTP en de informatie die wordt gestuurd en ontvangen is 
@@ -73,10 +71,10 @@ conn.request("GET", "/tas/api/logout", headers=headers)
 
 ### Lijsten van assets opvragen 
 
-Via de assets management module kan je op vele verschillende manieren
+Via de [asset management module](https://developers.topdesk.com/explorer/?page=assets) kan je op vele verschillende manieren
 lijsten met assets opvragen. Dit gaat via endpoint:
 
-[/tas/api/assetmgmt/assets](https://developers.topdesk.com/explorer/?page=assets&version=1.4.2#/Assets/getAssets)
+[/tas/api/assetmgmt/assets](https://developers.topdesk.com/explorer/?page=assets#/Assets/getAssets)
 
 Je kan op vele manieren lijsten opvragen of filteren. De belangrijkste voor onze
 wensen zijn waarschijnlijk via.
@@ -129,7 +127,7 @@ afhandeling van acties op de assets of parents van assets.
 Om detail gegevens van een asset op te vragen kan je gebruik maken van de
 unieke id en de HTTP-GET endpoint.
 
-[/tas/api/assetmgmt/assets/{assetId}](https://developers.topdesk.com/explorer/?page=assets&version=1.4.2#/Assets/getAssetById)
+[/tas/api/assetmgmt/assets/{assetId}](https://developers.topdesk.com/explorer/?page=assets#/Assets/getAssetById)
 
 Als de asset bestaat, dan krijg je een uitgebreid json antwoord met alles wat
 met dat asset te maken heeft. Het belangrijkste onderdeel is het _data_ blok:
