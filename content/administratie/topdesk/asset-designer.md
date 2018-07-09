@@ -4,11 +4,11 @@ date: 2018-07-04T10:28:54+02:00
 draft: true
 ---
 
-Voor de verschillende groepen, functionele eenheden en componenten moet er asset template worden aangemaakt in topdesk. 
+Voor de verschillende groepen, functionele eenheden en componenten moet er een asset template worden aangemaakt in topdesk. 
 
 Overzicht [type assets](http://docs.museum.naturalis.nl/latest/standaarden/documentatie/naamgeving/#typen-objecten) 
 
-In de template zetten we de vereiste velden op basis van wat staat in [asset-informatie](http://docs.museum.naturalis.nl/latest/standaarden/documentatie/asset-informatie/)
+In de template zetten we de vereiste velden op basis van wat er staat in [asset-informatie](http://docs.museum.naturalis.nl/latest/standaarden/documentatie/asset-informatie/)
 
 ## Asset Designer
 
@@ -21,7 +21,7 @@ Open the Asset Designer
 In the asset template
 
 ### Fieldset
-Om de gewenste velden toe te voegen aan een asset gebruikgen we de Fieldset widget. 
+Om de gewenste velden toe te voegen aan een asset gebruiken we de Fieldset widget. 
 
 * Add widget select Fieldset
 
@@ -42,7 +42,7 @@ In case of new field:
 * Set type to text 
 
 ### General
-De bovenste widget bepaald de naam van de asset. In het geval van een component krijgt deze een default naam met nummer. 
+De bovenste widget bepaalt de naam van de asset. In het geval van een component krijgt deze een default naam met nummer. 
 
 Zodra deze asset een rol krijgt wordt de naam ook de naam van de rol. 
 
