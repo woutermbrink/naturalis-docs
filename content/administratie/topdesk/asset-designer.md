@@ -6,7 +6,7 @@ draft: true
 
 Voor de verschillende groepen, functionele eenheden en componenten moet er asset template worden aangemaakt in topdesk. 
 
-Overzicht [type assets]{http://docs.museum.naturalis.nl/latest/standaarden/documentatie/naamgeving/#typen-objecten} 
+Overzicht [type assets](http://docs.museum.naturalis.nl/latest/standaarden/documentatie/naamgeving/#typen-objecten) 
 
 In de template zetten we de vereiste velden op basis van wat staat in [asset-informatie](http://docs.museum.naturalis.nl/latest/standaarden/documentatie/asset-informatie/)
 
